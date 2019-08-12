@@ -1,0 +1,101 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.pdb
+M:\New folder\Common\bin\Debug\Common.dll
+M:\New folder\Common\bin\Debug\Common.pdb
+M:\New folder\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+M:\New folder\Common\obj\Debug\Common.dll
+M:\New folder\Common\obj\Debug\Common.pdb
+M:\New folder\Common\bin\Debug\AutoMapper.dll
+M:\New folder\Common\bin\Debug\System.ValueTuple.dll
+M:\New folder\Common\bin\Debug\AutoMapper.pdb
+M:\New folder\Common\bin\Debug\AutoMapper.xml
+M:\New folder\Common\bin\Debug\System.ValueTuple.xml
+M:\New folder\Common\obj\Debug\Common.csproj.CopyComplete
+M:\New folder\Common\bin\Debug\Entities.dll
+M:\New folder\Common\bin\Debug\Entities.pdb
+M:\New folder\Common\bin\Debug\Entities.dll.config
+M:\New folder\Common\obj\Debug\Common.csprojAssemblyReference.cache
+M:\Project\server\Common\bin\Debug\Common.dll
+M:\Project\server\Common\bin\Debug\Common.pdb
+M:\Project\server\Common\bin\Debug\AutoMapper.dll
+M:\Project\server\Common\bin\Debug\Entities.dll
+M:\Project\server\Common\bin\Debug\System.ValueTuple.dll
+M:\Project\server\Common\bin\Debug\Entities.pdb
+M:\Project\server\Common\bin\Debug\Entities.dll.config
+M:\Project\server\Common\bin\Debug\AutoMapper.pdb
+M:\Project\server\Common\bin\Debug\AutoMapper.xml
+M:\Project\server\Common\bin\Debug\System.ValueTuple.xml
+M:\Project\server\Common\obj\Debug\Common.csprojAssemblyReference.cache
+M:\Project\server\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+M:\Project\server\Common\obj\Debug\Common.csproj.CopyComplete
+M:\Project\server\Common\obj\Debug\Common.dll
+M:\Project\server\Common\obj\Debug\Common.pdb
+M:\Project\server&client\Common\bin\Debug\Common.dll
+M:\Project\server&client\Common\bin\Debug\Common.pdb
+M:\Project\server&client\Common\bin\Debug\AutoMapper.dll
+M:\Project\server&client\Common\bin\Debug\Entities.dll
+M:\Project\server&client\Common\bin\Debug\System.ValueTuple.dll
+M:\Project\server&client\Common\bin\Debug\Entities.pdb
+M:\Project\server&client\Common\bin\Debug\Entities.dll.config
+M:\Project\server&client\Common\bin\Debug\AutoMapper.pdb
+M:\Project\server&client\Common\bin\Debug\AutoMapper.xml
+M:\Project\server&client\Common\bin\Debug\System.ValueTuple.xml
+M:\Project\server&client\Common\obj\Debug\Common.csprojAssemblyReference.cache
+M:\Project\server&client\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+M:\Project\server&client\Common\obj\Debug\Common.csproj.CopyComplete
+M:\Project\server&client\Common\obj\Debug\Common.dll
+M:\Project\server&client\Common\obj\Debug\Common.pdb
+C:\Users\207618935\Desktop\try\Common\bin\Debug\Common.dll
+C:\Users\207618935\Desktop\try\Common\bin\Debug\Common.pdb
+C:\Users\207618935\Desktop\try\Common\bin\Debug\AutoMapper.dll
+C:\Users\207618935\Desktop\try\Common\bin\Debug\Entities.dll
+C:\Users\207618935\Desktop\try\Common\bin\Debug\System.ValueTuple.dll
+C:\Users\207618935\Desktop\try\Common\bin\Debug\Entities.pdb
+C:\Users\207618935\Desktop\try\Common\bin\Debug\Entities.dll.config
+C:\Users\207618935\Desktop\try\Common\bin\Debug\AutoMapper.pdb
+C:\Users\207618935\Desktop\try\Common\bin\Debug\AutoMapper.xml
+C:\Users\207618935\Desktop\try\Common\bin\Debug\System.ValueTuple.xml
+C:\Users\207618935\Desktop\try\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\207618935\Desktop\try\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\207618935\Desktop\try\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\207618935\Desktop\try\Common\obj\Debug\Common.dll
+C:\Users\207618935\Desktop\try\Common\obj\Debug\Common.pdb
+C:\Users\207618935\project\Common\bin\Debug\Common.dll
+C:\Users\207618935\project\Common\bin\Debug\Common.pdb
+C:\Users\207618935\project\Common\bin\Debug\AutoMapper.dll
+C:\Users\207618935\project\Common\bin\Debug\Entities.dll
+C:\Users\207618935\project\Common\bin\Debug\System.ValueTuple.dll
+C:\Users\207618935\project\Common\bin\Debug\Entities.pdb
+C:\Users\207618935\project\Common\bin\Debug\Entities.dll.config
+C:\Users\207618935\project\Common\bin\Debug\AutoMapper.pdb
+C:\Users\207618935\project\Common\bin\Debug\AutoMapper.xml
+C:\Users\207618935\project\Common\bin\Debug\System.ValueTuple.xml
+C:\Users\207618935\project\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\207618935\project\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\207618935\project\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\207618935\project\Common\obj\Debug\Common.dll
+C:\Users\207618935\project\Common\obj\Debug\Common.pdb
+C:\Users\207618935\server\Common\bin\Debug\Common.dll
+C:\Users\207618935\server\Common\bin\Debug\Common.pdb
+C:\Users\207618935\server\Common\bin\Debug\AutoMapper.dll
+C:\Users\207618935\server\Common\bin\Debug\Entities.dll
+C:\Users\207618935\server\Common\bin\Debug\System.ValueTuple.dll
+C:\Users\207618935\server\Common\bin\Debug\Entities.pdb
+C:\Users\207618935\server\Common\bin\Debug\Entities.dll.config
+C:\Users\207618935\server\Common\bin\Debug\AutoMapper.pdb
+C:\Users\207618935\server\Common\bin\Debug\AutoMapper.xml
+C:\Users\207618935\server\Common\bin\Debug\System.ValueTuple.xml
+C:\Users\207618935\server\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\207618935\server\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\207618935\server\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\207618935\server\Common\obj\Debug\Common.dll
+C:\Users\207618935\server\Common\obj\Debug\Common.pdb

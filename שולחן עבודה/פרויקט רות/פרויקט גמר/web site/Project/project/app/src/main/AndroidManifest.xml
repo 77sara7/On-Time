@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a301265963.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/om"
+        android:label="restaurant"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".table.TablesActivity" />
+        <activity android:name=".newOrder" />
+        <activity android:name=".ReserountMap" />
+        <activity
+            android:name=".orders.OrdersActivity"
+            android:label="@string/title_activity_orders"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>

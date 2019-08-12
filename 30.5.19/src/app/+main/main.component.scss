@@ -1,0 +1,104 @@
+#header {
+    background-color: #1B2B3B;   
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+  }
+
+  
+  
+  #top-logo {
+    margin-top: 20px;
+    margin-left: 45px;
+    float:left;
+    height:150px;
+  }
+  
+  #notifications {
+    color: blue;
+    float: right;
+  }
+  
+  #sidenav, #sidenav-mini {
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    padding-right: 0px;
+    padding-top: 1em;
+    background-color:  #1B2B3B !important;
+    z-index: 98;
+  }
+
+  #header-stripe {
+    background-color: #00A99D;  
+	  background: linear-gradient(to left, #00A99D, #58F0B3, #00A99D);  
+    height: 8px;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    z-index: 97;
+  }
+  
+  #content-body {
+    top: 170px;
+    margin-bottom: 150px;
+    position: absolute;
+    right: 210px;
+  }
+  
+  #sidegutter {
+    width: 340px;
+  }
+  
+  #minigutter {
+    display:none;
+  }
+  
+  /*
+  @media screen and (min-width: 40.063em) {
+  */
+  
+  @media only screen and (max-width: 1000px) {
+  
+    #sidegutter {
+      display: none;
+    }
+  
+    #minigutter {
+      display: block;
+    }
+  
+    #content-body {
+      right: 80px;
+    }
+  
+  }
+  
+  /*
+  @media only screen and (max-width: 40em) {
+  */
+  @media only screen and (max-width: 400px) {
+  
+  
+    #sidegutter {
+      display: none;
+    }
+  
+    #minigutter {
+      display: block;
+    }
+  }
+
+
+  #top-logo:hover {
+    width: 200px;
+    height: 200px;
+ }
+
+ .invalidNameOfParent{
+   background-color: #00A99D;
+ }
+
+

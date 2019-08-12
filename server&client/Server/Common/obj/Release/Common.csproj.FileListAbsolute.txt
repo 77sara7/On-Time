@@ -1,0 +1,15 @@
+C:\Users\207618935\project\Common\bin\Release\Common.dll
+C:\Users\207618935\project\Common\bin\Release\Common.pdb
+C:\Users\207618935\project\Common\bin\Release\AutoMapper.dll
+C:\Users\207618935\project\Common\bin\Release\Entities.dll
+C:\Users\207618935\project\Common\bin\Release\System.ValueTuple.dll
+C:\Users\207618935\project\Common\bin\Release\Entities.pdb
+C:\Users\207618935\project\Common\bin\Release\Entities.dll.config
+C:\Users\207618935\project\Common\bin\Release\AutoMapper.pdb
+C:\Users\207618935\project\Common\bin\Release\AutoMapper.xml
+C:\Users\207618935\project\Common\bin\Release\System.ValueTuple.xml
+C:\Users\207618935\project\Common\obj\Release\Common.csprojAssemblyReference.cache
+C:\Users\207618935\project\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\Users\207618935\project\Common\obj\Release\Common.csproj.CopyComplete
+C:\Users\207618935\project\Common\obj\Release\Common.dll
+C:\Users\207618935\project\Common\obj\Release\Common.pdb

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Ajax.Models.FrequencyDays>
+<fieldset>
+    <legend>Month</legend>
+    <p>
+        @*<input type="number" name="dat" value="1" min="1" max="31" />
+
+        @Html.ActionLink("Create New", "Create")*@
+    </p>
+    <table>
+        <tr>
+
+            <th>
+                day
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+             
+                <td>
+                    @Html.DisplayFor(modelItem => item.day)
+                </td>
+                <td>
+                    @Html.ActionLink("X", "DeleteDay", item)
+                </td>
+            </tr>
+        }
+
+    </table>
+</fieldset>

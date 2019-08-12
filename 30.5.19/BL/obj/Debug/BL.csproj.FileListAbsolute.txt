@@ -1,0 +1,110 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.pdb
+M:\New folder\BL\obj\Debug\BL.csprojAssemblyReference.cache
+M:\New folder\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\New folder\BL\bin\Debug\BL.dll
+M:\New folder\BL\bin\Debug\BL.pdb
+M:\New folder\BL\bin\Debug\Common.dll
+M:\New folder\BL\bin\Debug\DAL.dll
+M:\New folder\BL\bin\Debug\Entities.dll
+M:\New folder\BL\bin\Debug\EntityFramework.dll
+M:\New folder\BL\bin\Debug\AutoMapper.dll
+M:\New folder\BL\bin\Debug\EntityFramework.SqlServer.dll
+M:\New folder\BL\bin\Debug\Common.pdb
+M:\New folder\BL\bin\Debug\DAL.pdb
+M:\New folder\BL\bin\Debug\DAL.dll.config
+M:\New folder\BL\bin\Debug\Entities.pdb
+M:\New folder\BL\bin\Debug\Entities.dll.config
+M:\New folder\BL\bin\Debug\EntityFramework.xml
+M:\New folder\BL\bin\Debug\AutoMapper.pdb
+M:\New folder\BL\bin\Debug\AutoMapper.xml
+M:\New folder\BL\bin\Debug\EntityFramework.SqlServer.xml
+M:\New folder\BL\obj\Debug\BL.csproj.CopyComplete
+M:\New folder\BL\obj\Debug\BL.dll
+M:\New folder\BL\obj\Debug\BL.pdb
+M:\New folder\BL\bin\Debug\System.ValueTuple.dll
+M:\New folder\BL\bin\Debug\System.ValueTuple.xml
+M:\Project\server\BL\bin\Debug\BL.dll
+M:\Project\server\BL\bin\Debug\BL.pdb
+M:\Project\server\BL\bin\Debug\AutoMapper.dll
+M:\Project\server\BL\bin\Debug\Common.dll
+M:\Project\server\BL\bin\Debug\DAL.dll
+M:\Project\server\BL\bin\Debug\Entities.dll
+M:\Project\server\BL\bin\Debug\System.ValueTuple.dll
+M:\Project\server\BL\bin\Debug\EntityFramework.dll
+M:\Project\server\BL\bin\Debug\EntityFramework.SqlServer.dll
+M:\Project\server\BL\bin\Debug\Common.pdb
+M:\Project\server\BL\bin\Debug\DAL.pdb
+M:\Project\server\BL\bin\Debug\DAL.dll.config
+M:\Project\server\BL\bin\Debug\Entities.pdb
+M:\Project\server\BL\bin\Debug\Entities.dll.config
+M:\Project\server\BL\bin\Debug\AutoMapper.pdb
+M:\Project\server\BL\bin\Debug\AutoMapper.xml
+M:\Project\server\BL\bin\Debug\System.ValueTuple.xml
+M:\Project\server\BL\bin\Debug\EntityFramework.xml
+M:\Project\server\BL\bin\Debug\EntityFramework.SqlServer.xml
+M:\Project\server\BL\obj\Debug\BL.csprojAssemblyReference.cache
+M:\Project\server\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\Project\server\BL\obj\Debug\BL.csproj.CopyComplete
+M:\Project\server\BL\obj\Debug\BL.dll
+M:\Project\server\BL\obj\Debug\BL.pdb
+M:\Project\server&client\BL\bin\Debug\BL.dll
+M:\Project\server&client\BL\bin\Debug\BL.pdb
+M:\Project\server&client\BL\bin\Debug\AutoMapper.dll
+M:\Project\server&client\BL\bin\Debug\Common.dll
+M:\Project\server&client\BL\bin\Debug\DAL.dll
+M:\Project\server&client\BL\bin\Debug\Entities.dll
+M:\Project\server&client\BL\bin\Debug\System.ValueTuple.dll
+M:\Project\server&client\BL\bin\Debug\EntityFramework.dll
+M:\Project\server&client\BL\bin\Debug\EntityFramework.SqlServer.dll
+M:\Project\server&client\BL\bin\Debug\Common.pdb
+M:\Project\server&client\BL\bin\Debug\DAL.pdb
+M:\Project\server&client\BL\bin\Debug\DAL.dll.config
+M:\Project\server&client\BL\bin\Debug\Entities.pdb
+M:\Project\server&client\BL\bin\Debug\Entities.dll.config
+M:\Project\server&client\BL\bin\Debug\AutoMapper.pdb
+M:\Project\server&client\BL\bin\Debug\AutoMapper.xml
+M:\Project\server&client\BL\bin\Debug\System.ValueTuple.xml
+M:\Project\server&client\BL\bin\Debug\EntityFramework.xml
+M:\Project\server&client\BL\bin\Debug\EntityFramework.SqlServer.xml
+M:\Project\server&client\BL\obj\Debug\BL.csprojAssemblyReference.cache
+M:\Project\server&client\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\Project\server&client\BL\obj\Debug\BL.csproj.CopyComplete
+M:\Project\server&client\BL\obj\Debug\BL.dll
+M:\Project\server&client\BL\obj\Debug\BL.pdb

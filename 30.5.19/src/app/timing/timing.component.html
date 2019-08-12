@@ -1,0 +1,33 @@
+<div>
+<div class="time">
+<span>Every:</span>
+<select [(ngModel)]="timing.frequency_id" ngModel (ngModelChange)="ChangeFrequency($event)">
+    <option disabled selected value>בחר </option>
+    <option *ngFor="let key of keys" [value]="key" name="frequency_id">{{frequency[key]}}</option>
+</select>
+</div>
+<div *ngIf="frequencyIdChoose==5" class="time">
+<span>Day:</span>
+<select [(ngModel)]="timing.day" name="day">
+    <option *ngFor="let key of keys" [value]="key">{{days[key]}}</option>
+</select>
+</div>
+<div *ngIf="frequencyIdChoose==4" class="time">
+<span>Time:</span>
+<select [(ngModel)]="timing.hour" name="hour">
+    <option *ngFor="let h of hours,let i = index" [value]="i">{{h}}</option>
+</select>
+</div>
+<div *ngIf="frequencyIdChoose==6" class="time">
+<span>day in month:</span>
+<input class="input" type="date" [(ngModel)]="timing.day_in_month" name="day_in_month">
+</div>
+<div class="time">
+<span>Date From:</span>
+<p-calendar [(ngModel)]="timing.date_from" showButtonBar="true" name="dateFrom"></p-calendar>
+</div>
+<div class="time">
+<span>Date To:</span>
+<p-calendar [(ngModel)]="timing.date_to" showButtonBar="true" name="dateTo"></p-calendar>
+</div>
+</div>

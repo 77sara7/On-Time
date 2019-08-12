@@ -1,0 +1,31 @@
+.time{
+    display: grid;
+    grid-template-columns: " 10fr 10fr 1fr 10fr 1fr 10fr 1fr 10fr 1fr 10fr 10fr ";
+    grid-template-areas:". name  .  date_from . date_to .frequency_id . if ."
+   
+   }
+   p-calendar{
+       /* border: 1px solid rgba(0, 0, 0, 0.15) !important;*/
+       border-radius: 5px !important; 
+       border-right: 1px solid rgba(0, 0, 0, 0.15) !important;
+   }
+   .name{
+       grid-area: name;
+   }
+   .frequency_id{
+       grid-area: frequency_id;
+   }
+   .if{
+       grid-area: if;
+   }
+   
+   .date_from{
+       grid-area: date_from;
+   }
+   
+   .date_to{
+       grid-area: date_to;
+   }
+   /* .start-monitoring{
+       margin: 10px;
+   } */

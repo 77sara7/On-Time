@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Frequency">
+          <Key>
+            <PropertyRef Name="frequency_id" />
+          </Key>
+          <Property Name="frequency_id" Type="int" Nullable="false" />
+          <Property Name="frequency_description" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Request">
+          <Key>
+            <PropertyRef Name="request_id" />
+          </Key>
+          <Property Name="request_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="request_name" Type="nvarchar" MaxLength="30" />
+          <Property Name="date_from" Type="date" Nullable="false" />
+          <Property Name="date_to" Type="date" Nullable="false" />
+          <Property Name="user_id" Type="int" Nullable="false" />
+          <Property Name="day" Type="int" />
+          <Property Name="hour" Type="int" />
+          <Property Name="day_in_month" Type="int" />
+          <Property Name="frequency_id" Type="int" Nullable="false" />
+          <Property Name="file_id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="recording_id" Type="uniqueidentifier" />
+          <Property Name="is_relevant" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="password" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ON_TIME_DB.dbo.v_attached_file' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="v_attached_file">
+          <Key>
+            <PropertyRef Name="stream_id" />
+            <PropertyRef Name="name" />
+            <PropertyRef Name="is_directory" />
+          </Key>
+          <Property Name="file_stream" Type="varbinary(max)" />
+          <Property Name="stream_id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="is_directory" Type="bit" Nullable="false" />
+          <Property Name="unc_path" Type="nvarchar" MaxLength="4000" />
+        </EntityType>
+        <Association Name="FK_Request_Frequency">
+          <End Role="Frequency" Type="Self.Frequency" Multiplicity="1" />
+          <End Role="Request" Type="Self.Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Frequency">
+              <PropertyRef Name="frequency_id" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="frequency_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Request_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Request" Type="Self.Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="attached_file_add" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="file_name" Type="nvarchar" Mode="In" />
+          <Parameter Name="file_data" Type="varbinary(max)" Mode="In" />
+          <Parameter Name="file_id" Type="uniqueidentifier" Mode="InOut" />
+        </Function>
+        <Function Name="attached_file_update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="file_id" Type="uniqueidentifier" Mode="In" />
+          <Parameter Name="file_name" Type="nvarchar" Mode="In" />
+          <Parameter Name="file_data" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="file_add" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="file_name" Type="nvarchar" Mode="In" />
+          <Parameter Name="file_data" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="Frequency" EntityType="Self.Frequency" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Request" EntityType="Self.Request" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="v_attached_file" EntityType="Self.v_attached_file" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [v_attached_file].[file_stream] AS [file_stream], 
+    [v_attached_file].[stream_id] AS [stream_id], 
+    [v_attached_file].[name] AS [name], 
+    [v_attached_file].[is_directory] AS [is_directory], 
+    [v_attached_file].[unc_path] AS [unc_path]
+    FROM [dbo].[v_attached_file] AS [v_attached_file]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_Request_Frequency" Association="Self.FK_Request_Frequency">
+            <End Role="Frequency" EntitySet="Frequency" />
+            <End Role="Request" EntitySet="Request" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Request_Users" Association="Self.FK_Request_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Request" EntitySet="Request" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DBContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Frequencies" EntityType="Model.Frequency" />
+          <EntitySet Name="Requests" EntityType="Model.Request" />
+          <EntitySet Name="Users" EntityType="Model.User" />
+          <AssociationSet Name="FK_Request_Frequency" Association="Model.FK_Request_Frequency">
+            <End Role="Frequency" EntitySet="Frequencies" />
+            <End Role="Request" EntitySet="Requests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Request_Users" Association="Model.FK_Request_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Request" EntitySet="Requests" />
+          </AssociationSet>
+          <EntitySet Name="v_attached_file" EntityType="Model.v_attached_file" />
+          <FunctionImport Name="attached_file_add">
+            <Parameter Name="file_name" Mode="In" Type="String" />
+            <Parameter Name="file_data" Mode="In" Type="Binary" />
+            <Parameter Name="file_id" Mode="InOut" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="attached_file_update">
+            <Parameter Name="file_id" Mode="In" Type="Guid" />
+            <Parameter Name="file_name" Mode="In" Type="String" />
+            <Parameter Name="file_data" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="AddFile">
+            <Parameter Name="file_name" Mode="In" Type="String" />
+            <Parameter Name="file_data" Mode="In" Type="Binary" />
+            <Parameter Name="file_id" Mode="InOut" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="file_add" ReturnType="Collection(Guid)">
+            <Parameter Name="file_name" Mode="In" Type="String" />
+            <Parameter Name="file_data" Mode="In" Type="Binary" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="Frequency">
+          <Key>
+            <PropertyRef Name="frequency_id" />
+          </Key>
+          <Property Name="frequency_id" Type="Int32" Nullable="false" />
+          <Property Name="frequency_description" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Requests" Relationship="Model.FK_Request_Frequency" FromRole="Frequency" ToRole="Request" />
+        </EntityType>
+        <EntityType Name="Request">
+          <Key>
+            <PropertyRef Name="request_id" />
+          </Key>
+          <Property Name="request_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="request_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="date_from" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="date_to" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
+          <Property Name="day" Type="Int32" />
+          <Property Name="hour" Type="Int32" />
+          <Property Name="day_in_month" Type="Int32" />
+          <Property Name="frequency_id" Type="Int32" Nullable="false" />
+          <Property Name="file_id" Type="Guid" Nullable="false" />
+          <Property Name="recording_id" Type="Guid" />
+          <NavigationProperty Name="Frequency" Relationship="Model.FK_Request_Frequency" FromRole="Request" ToRole="Frequency" />
+          <NavigationProperty Name="User" Relationship="Model.FK_Request_Users" FromRole="Request" ToRole="User" />
+          <Property Name="is_relevant" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="mail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Requests" Relationship="Model.FK_Request_Users" FromRole="User" ToRole="Request" />
+        </EntityType>
+        <Association Name="FK_Request_Frequency">
+          <End Type="Model.Frequency" Role="Frequency" Multiplicity="1" />
+          <End Type="Model.Request" Role="Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Frequency">
+              <PropertyRef Name="frequency_id" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="frequency_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Request_Users">
+          <End Type="Model.User" Role="User" Multiplicity="1" />
+          <End Type="Model.Request" Role="Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="v_attached_file">
+          <Key>
+            <PropertyRef Name="stream_id" />
+            <PropertyRef Name="name" />
+            <PropertyRef Name="is_directory" />
+          </Key>
+          <Property Name="file_stream" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="stream_id" Type="Guid" Nullable="false" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="is_directory" Type="Boolean" Nullable="false" />
+          <Property Name="unc_path" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="DBContext">
+          <EntitySetMapping Name="Frequencies">
+            <EntityTypeMapping TypeName="Model.Frequency">
+              <MappingFragment StoreEntitySet="Frequency">
+                <ScalarProperty Name="frequency_description" ColumnName="frequency_description" />
+                <ScalarProperty Name="frequency_id" ColumnName="frequency_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Requests">
+            <EntityTypeMapping TypeName="Model.Request">
+              <MappingFragment StoreEntitySet="Request">
+                <ScalarProperty Name="is_relevant" ColumnName="is_relevant" />
+                <ScalarProperty Name="recording_id" ColumnName="recording_id" />
+                <ScalarProperty Name="file_id" ColumnName="file_id" />
+                <ScalarProperty Name="frequency_id" ColumnName="frequency_id" />
+                <ScalarProperty Name="day_in_month" ColumnName="day_in_month" />
+                <ScalarProperty Name="hour" ColumnName="hour" />
+                <ScalarProperty Name="day" ColumnName="day" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="date_to" ColumnName="date_to" />
+                <ScalarProperty Name="date_from" ColumnName="date_from" />
+                <ScalarProperty Name="request_name" ColumnName="request_name" />
+                <ScalarProperty Name="request_id" ColumnName="request_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="Model.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="v_attached_file">
+            <EntityTypeMapping TypeName="Model.v_attached_file">
+              <MappingFragment StoreEntitySet="v_attached_file">
+                <ScalarProperty Name="unc_path" ColumnName="unc_path" />
+                <ScalarProperty Name="is_directory" ColumnName="is_directory" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="stream_id" ColumnName="stream_id" />
+                <ScalarProperty Name="file_stream" ColumnName="file_stream" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="Model.v_attached_file">
+              <ModificationFunctionMapping>
+                <UpdateFunction FunctionName="Model.Store.attached_file_update" >
+                  <ScalarProperty Name="file_stream" ParameterName="file_data" Version="Current" />
+                  <ScalarProperty Name="name" ParameterName="file_name" Version="Current" />
+                  <ScalarProperty Name="stream_id" ParameterName="file_id" Version="Current" />
+                </UpdateFunction>
+                <DeleteFunction FunctionName="Model.Store.attached_file_update" >
+                  <ScalarProperty Name="file_stream" ParameterName="file_data" />
+                  <ScalarProperty Name="name" ParameterName="file_name" />
+                  <ScalarProperty Name="stream_id" ParameterName="file_id" />
+                </DeleteFunction>
+              </ModificationFunctionMapping>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="attached_file_add" FunctionName="Model.Store.attached_file_add" />
+          <FunctionImportMapping FunctionImportName="attached_file_update" FunctionName="Model.Store.attached_file_update" />
+          <FunctionImportMapping FunctionImportName="AddFile" FunctionName="Model.Store.attached_file_add" />
+          <FunctionImportMapping FunctionImportName="file_add" FunctionName="Model.Store.file_add" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

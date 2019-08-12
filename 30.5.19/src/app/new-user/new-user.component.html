@@ -1,0 +1,51 @@
+<br>
+<form name="form" (ngSubmit)="f.form.valid && AddUser() " #f="ngForm" novalidate> 
+
+    <div style="text-align: center" class="form-group">
+        <span class="ui-float-label">
+         
+                <input type="text" class="form-control" size="30" name="name" placeholder="Name" pInputText [(ngModel)]="userToAdd.name" #name="ngModel" required />
+                <div *ngIf="f.submitted && name.invalid"  class="invalid-feedback" name="dname">
+                        <div *ngIf="name.errors.required">name is required</div>               
+                    </div>
+        </span>
+    </div>
+    <br>
+    <div style="text-align: center" class="form-group">
+        <span class="ui-float-label">
+           
+                <input type="text" class="form-control" size="30" name="email" placeholder="Mail" pInputText [(ngModel)]="userName" #email="ngModel" [ngClass]="{ 'is-invalid': f.submitted && email.invalid }"
+                required email />
+                <div *ngIf="f.submitted && email.invalid"  class="invalid-feedback" name="dmail">
+                        <div *ngIf="email.errors.required">Mail is required</div>
+                        <div *ngIf="!email.errors.required && email.errors.email">Mail is not valid</div>
+                    </div>
+        </span>
+    </div>
+    <br>
+    <div style="text-align: center" class="form-group">
+        <span class="ui-float-label">
+            <input type="password" size="30" placeholder="Password" pInputText [(ngModel)]="password" #passwordForm="ngModel" name="password" required  minlength="4" maxlength="10">
+            <div *ngIf="f.submitted && passwordForm.invalid" class="invalid-feedback" name="a1la">
+                    <div *ngIf="passwordForm.errors.required">Password is required</div>
+                    <div *ngIf="passwordForm.errors.minlength">Password length must containe 3-10 charecters</div>
+                    
+                    
+                </div>
+            <!--<input class="float-input" type="password" size="30" [(ngModel)]="password" />
+         placeholder="סיסמא" 
+        <label for="float-input">סיסמא</label>-->
+
+        </span>
+    </div>
+    <button  style="text-align: center" pButton >Add user</button>
+
+
+<!-- <span>name:</span><input type="text" placeholder="name" [(ngModel)]="userToAdd.name" name="userName">
+<span>mail:</span><input type="text"  placeholder="mail" [(ngModel)]="userToAdd.mail"  name="mail">
+<span>password:</span><input type="password"  placeholder="password" [(ngModel)]="userToAdd.password"  name="password">
+
+<p-button (onClick)="AddUser()" label="AddUser"></p-button> -->
+</form>
+<br>
+<button pButton>Download Extention</button>

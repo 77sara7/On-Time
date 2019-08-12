@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_orders">OrdersActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map">מפת המסעדה</string>
+    <string name="newOrder">הזמנה חדשה</string>
+    <string name="AllOrders">כל ההזמנות</string>
+    <string name="OK">אישור</string>
+    <string name="search">איתור שולחן</string>
+    <string name="all_price">מחיר כולל</string>
+    <string name="nameOrder">הזן שם מזמין</string>
+    <string name="nameProduct">שם מוצר</string>
+    <string name="imageProduct">תמונה</string>
+    <string name="num">מספר מנות</string>
+    <string name="price">מחיר</string>
+    <string name="numPlaces">מספר מקומות</string>
+    <string name="imageTable">תמונה</string>
+    <string name="tOrp">תפוס / פנוי</string>
+    <string name="codeT">קוד שולחן</string>
+    <string name="msg">מצטערים המקום תפוס</string>
+    <string name="msgNumPlaces">מספר המקומות בשולחן קטן מידי</string>
+    <string name="availableT">השולחנות המתאימים:</string>
+    <string name="invitT">ההזמנה בטיפול</string>
+    <string name="coooseChair">בחר מספר סועדים</string>
+    <string name="cooseNum">בחר שולחן</string>
+    <string name="enterName">הכנס שם מזמין</string>
+    <string name="finish">עזבו</string>
+    <string name="atend">הזמנות נאכלות</string>
+</resources>

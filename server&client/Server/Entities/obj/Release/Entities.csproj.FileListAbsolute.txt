@@ -1,0 +1,17 @@
+C:\Users\207618935\project\Entities\bin\Release\Entities.dll.config
+C:\Users\207618935\project\Entities\bin\Release\Entities.dll
+C:\Users\207618935\project\Entities\bin\Release\Entities.pdb
+C:\Users\207618935\project\Entities\bin\Release\AutoMapper.dll
+C:\Users\207618935\project\Entities\bin\Release\EntityFramework.dll
+C:\Users\207618935\project\Entities\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\207618935\project\Entities\bin\Release\System.ValueTuple.dll
+C:\Users\207618935\project\Entities\bin\Release\AutoMapper.pdb
+C:\Users\207618935\project\Entities\bin\Release\AutoMapper.xml
+C:\Users\207618935\project\Entities\bin\Release\EntityFramework.xml
+C:\Users\207618935\project\Entities\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\207618935\project\Entities\bin\Release\System.ValueTuple.xml
+C:\Users\207618935\project\Entities\obj\Release\Entities.csprojAssemblyReference.cache
+C:\Users\207618935\project\Entities\obj\Release\Entities.csproj.CoreCompileInputs.cache
+C:\Users\207618935\project\Entities\obj\Release\Entities.csproj.CopyComplete
+C:\Users\207618935\project\Entities\obj\Release\Entities.dll
+C:\Users\207618935\project\Entities\obj\Release\Entities.pdb

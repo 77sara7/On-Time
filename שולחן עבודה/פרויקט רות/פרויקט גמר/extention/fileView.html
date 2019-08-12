@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>iMacros</title>
+    <link rel="stylesheet" type="text/css"
+          href="skin/common.css" />
+    <link rel="stylesheet" type="text/css"
+          href="skin/treeView.css" />
+    <link rel="stylesheet"
+          href="vendor/jstree/themes/default/style.css" />
+    <script src="vendor/jQuery/jquery-2.2.1.min.js"></script>
+    <script src="vendor/jstree/jstree.min.js"></script>
+    <script src="fileView.js"></script>
+    <script src="utils.js"></script>
+    <script src="AsyncFileIO.js"></script>
+
+  </head>
+  <body treetype="files" hidden>
+    <div id="no-file-io-message" hidden="true">
+      <p>
+        Nothing to see here yet :-(
+      </p>
+      <p>
+        The new Chrome version no longer allows extensions to access the
+        file system. So by default iMacros stores the macros inside
+        bookmarks.
+      </p>
+      <p>
+        If you want to read and write macros as text files from/to your
+        hard drive, please download
+        the <strong><span id="afio-installer-link" class="a-link">
+          ontime for Chrome File Access Installer
+        </span></strong>.
+      </p>
+      <p>
+        The file access module is a small Windows, Mac, and Linux application
+        that allows ontime Chrome to save files and share them with
+        its <span id="imacros-ie-link" class="a-link">
+                ontime Internet Explorer</span> and
+        <span id="imacros-firefox-link" class="a-link">ontime Firefox</span>
+        siblings.
+      </p>
+    </div>
+    <div id="loading_message" hidden="true">
+      Scanning directory...
+    </div>
+    
+    <ul id="jstree" class="tree-menu">
+    </ul>
+
+    <div id="imacros-bookmark-div" style="display:none">
+      <textarea id="imacros-macro-container"></textarea>
+    </div>
+  </body>
+
+</html>

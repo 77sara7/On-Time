@@ -1,0 +1,37 @@
+LICENSE AGREEMENT 
+
+Use of iMacros (hereinafter "SOFTWARE") is contingent on your agreement to the following terms:
+
+1. FREEWARE LICENSE
+
+The iMacros for Internet Explorer, iMacros for Firefox and iMacros for Chrome Freeware Editions are free for individual and commercial use.
+
+2. LIMITATION OF LIABILITY 
+IN NO EVENT WILL IPSWITCH, INC. BE LIABLE TO ANY PARTY (a) FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR INFORMATION, AND THE LIKE), OR ANY OTHER DAMAGES ARISING IN ANY WAY OUT OF THE AVAILABILITY, USE, RELIANCE ON, OR INABILITY TO USE THE SOFTWARE, THE IPSWITCH, INC. SERVICES AND INFORMATION, VARIOUS DIRECTORIES AND LISTINGS OR ANY OTHER 'INFORMATION', EVEN IF IPSWITCH, INC. SHALL HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT,TORT, OR OTHERWISE; OR (b) FOR ANY CLAIM ATTRIBUTABLE TO ERRORS, OMISSIONS, OR OTHER INACCURACIES IN, OR DESTRUCTIVE PROPERTIES OF ANY INFORMATION. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR THE LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, IN SUCH STATES OR JURISDICTIONS, IPSWITCH, INC. LIABILITY SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW.
+
+
+3. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IPSWITCH, INC. FURTHER DISCLAIMS ALL WARRANTIES, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.  THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE PRODUCT AND DOCUMENTATION REMAINS WITH RECIPIENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL IPSWITCH, INC. BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF THIS AGREEMENT OR THE USE OF OR INABILITY TO USE THE PRODUCT, EVEN IF IPSWITCH, INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+
+4. HIGH RISK ACTIVITIES 
+The Software is not fault-tolerant and is not designed or intended for use in hazardous environments requiring fail-safe performance, including without limitation, in the operation of nuclear facilities, aircraft navigation or communication systems, air traffic control, weapons systems, direct life-support machines, or any other application in which the failure of the Software could lead directly to death, personal injury, or severe physical or property damage (collectively, "High Risk Activities"). IPSWITCH, INC. expressly disclaims any express or implied warranty of fitness for High Risk Activities.
+ 
+
+5. SCOPE OF GRANT
+You may not reverse engineer, decompile or disassemble the SOFTWARE. IPSWITCH, INC. shall retain title and all ownership rights to the SOFTWARE.
+
+
+6. COPYRIGHT
+This SOFTWARE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.
+
+
+7. MAINTENANCE
+IPSWITCH, INC. is not obligated to provide maintenance or updates for the SOFTWARE. However, any maintenance or updates provided by IPSWITCH, INC. shall be covered by this Agreement.
+
+
+8. DISTRIBUTION
+The SOFTWARE may be freely distributed provided that it is not modified and the original archive remains intact with all accompanying files and provided that no fee is charged (except for any reasonable fees necessary to cover costs of distribution media). Should a fee be charged or any of the distribution package need to be modified you must contact IPSWITCH, INC. for explicit written permission.
+
+9. GENERAL
+This License Agreement shall be construed, interpreted and governed by the laws of Germany without regard to conflicts of law provisions thereof. The exclusive forum for any disputes arising out of or relating to this License Agreement shall be an appropriate court sitting in Germany. This License Agreement shall constitute the entire Agreement between the parties hereto. Any waiver or modification of this License Agreement shall only be effective if it is in writing and signed by both parties hereto. If any part of this License Agreement is found invalid or unenforceable by a court of competent jurisdiction, the remainder of this License Agreement shall be interpreted so as to reasonably effect the intention of the parties. 

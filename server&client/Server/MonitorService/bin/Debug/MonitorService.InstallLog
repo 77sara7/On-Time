@@ -1,0 +1,1729 @@
+﻿Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing assembly 'C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Uninstalling assembly 'C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Desktop\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Warning: The source MonitorService is not registered on the local machine.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Warning: The source MonitorService is not registered on the local machine.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Warning: The source MonitorService is not registered on the local machine.
+Service MonitorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Warning: The source MonitorService is not registered on the local machine.
+Service MonitorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Creating EventLog source MonitorService in log Application...
+Rolling back assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Restoring event log to previous state for source MonitorService.
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\project\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.
+Installing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Installing service MonitorService...
+Service MonitorService has been successfully installed.
+Creating EventLog source MonitorService in log Application...
+Committing assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Uninstalling assembly 'C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.InstallLog
+   assemblypath = C:\Users\207618935\Server\MonitorService\bin\Debug\MonitorService.exe
+Removing EventLog source MonitorService.
+Service MonitorService is being removed from the system...
+Service MonitorService was successfully removed from the system.
+Attempt to stop service MonitorService.

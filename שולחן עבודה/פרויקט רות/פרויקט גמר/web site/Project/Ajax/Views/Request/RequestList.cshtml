@@ -1,0 +1,53 @@
+﻿@model IList<Ajax.Models.Request>
+
+@{
+    ViewBag.Title = "Records";
+}
+
+<h2>Records</h2>
+@Html.ActionLink("New", "CreateRequest")
+
+
+
+@using (Html.BeginForm())
+{
+
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Details</th>
+            <th></th>
+        </tr>
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            DateTime d =(DateTime) Model[i].date;
+            <tr >
+                <td>
+                    @Html.DisplayFor(modelItem => Model[i].requestId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model[i].name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => d.Day)/ @Html.DisplayFor(modelItem => d.Month)/@Html.DisplayFor(modelItem => d.Year)
+                </td>
+                <td>
+                    @Ajax.ActionLink("Details", "EditRequest",  Model[i], new AjaxOptions { UpdateTargetId = "details", InsertionMode = InsertionMode.Replace, HttpMethod = "Post" })
+                </td>
+                <td>
+                    @Html.ActionLink("X", "Delete", Model[i])
+                </td>
+
+            </tr>
+        }
+    </table>
+            <div id="details"></div>
+
+
+
+}
+
+@section Scripts { @Scripts.Render("~/bundles/jqueryval") }

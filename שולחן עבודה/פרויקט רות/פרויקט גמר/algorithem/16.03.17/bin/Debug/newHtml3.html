@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .wrapper {
+            width: 1000px;
+            margin: 0px auto;
+        }
+
+        .InnerTag {
+            margin: 0.5px;
+            display: inline-block;
+            padding: 6px;
+        }
+
+        .Icon {
+            width: 10%;
+            height: 10%;
+            display: inline;
+        }
+
+        .side {
+            width: 80%;
+        }
+
+        .smallNumber {
+            width: 30%;
+        }
+
+        .smallTitle {
+            background-color: #ffc000;
+            padding: 2%;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <br />
+    <div style="background-color:#548235">
+        <div class="wrapper">
+            <img src="logo.png" height="150" />
+
+        </div>
+    </div><br />
+    <br />
+
+    <div class="wrapper">
+
+        <div id="d1" style="float: left;border-style:solid; width:25%;">
+            <div class="smallTitle">
+                <div>new site</div>
+            </div>
+            <br />
+            <div class="InnerTag">
+                <span>id:</span><input id="Text1" type="text" /><br />
+                <span>name:</span><input id="Text1" type="text" /><br />
+                <span>timing:</span>
+
+                <div>
+                    <input id="Radio1" type="radio" name="timing" /><span>days:</span><input id="Text1" type="number" /><br />
+                    <input id="Radio2" type="radio" name="timing" /><span>weeks</span><input id="Text1" type="number" /><br />
+                    <input id="Radio3" type="radio" name="timing" /><span>on change</span><br />
+                </div>
+                <input id="Button1" type="button" value="new" /><br />
+                <br />
+
+            </div>
+        </div>
+        <div id="d2" class="InnerTag" style="float:right;background-color:#ffc000; width:65%;height:180px">
+
+
+        </div>
+        <br />
+        <div style="clear:both">
+            <br />
+            <div id="d3" class="InnerTag">
+                <table cellpadding="7" width="650">
+                    <tr>
+                        <td>1</td>
+                        <td>www.amazon.com</td>
+                        <td>יומי</td>
+
+                        <td><img src="pic/pic.JPG" class="Icon" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>www.amazon.com</td>
+                        <td>יומי</td>
+
+                        <td><img src="pic/pic.JPG" class="Icon" /></td>
+
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>www.amazon.com</td>
+                        <td>יומי</td>
+
+                        <td><img src="pic/pic.JPG" class="Icon" /></td>
+
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>www.amazon.com</td>
+                        <td>יומי</td>
+
+                        <td><img src="pic/pic.JPG" class="Icon" /></td>
+
+
+                    </tr>
+                </table>
+            </div>
+            <div style="float:right; width:25%; border-style:solid">
+                <div class="smallTitle">
+                    <div>edit site</div>
+                </div>
+                <br />
+                <div id="d1" class="InnerTag">
+
+                    <span>id:</span><br /><input id="Text1" type="text" class="side" /><br />
+                    <span>name:</span><br /><input id="Text1" type="text" class="side" /><br />
+                    <span>timing:</span>
+
+                    <div>
+                        <input id="Radio1" type="radio" name="timing" /><span>days:</span><input id="Text1" type="number" class="smallNumber" /><br />
+                        <input id="Radio2" type="radio" name="timing" /><span>weeks</span><input id="Text1" type="number" class="smallNumber" /><br />
+                        <input id="Radio3" type="radio" name="timing" /><span>on change</span><br />
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

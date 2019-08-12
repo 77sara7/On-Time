@@ -1,0 +1,129 @@
+﻿@model Ajax.Models.UserAPayment
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+<form action="@Url.Action("NewUser")">
+    <fieldset>
+        <legend>User</legend>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.User.userId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.User.userId)
+            @Html.ValidationMessageFor(model => model.User.userId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.User.firstName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.User.firstName)
+            @Html.ValidationMessageFor(model => model.User.firstName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.User.lastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.User.lastName)
+            @Html.ValidationMessageFor(model => model.User.lastName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.User.password)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.User.password)
+            @Html.ValidationMessageFor(model => model.User.password)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.User.phone)
+        </div>
+
+        <div class="editor-field">
+            @Html.EditorFor(model => model.User.phone)
+            @Html.ValidationMessageFor(model => model.User.phone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.User.mail)
+        </div>
+
+        <div class="editor-field">
+            @Html.EditorFor(model => model.User.mail)
+            @Html.ValidationMessageFor(model => model.User.mail)
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>PaymentDetails</legend>
+        <div class="editor-label" hidden>
+            @Html.LabelFor(model => model.payment.userId)
+        </div>
+        <div class="editor-field" hidden>
+            @Html.EditorFor(model => model.payment.userId)
+            @Html.ValidationMessageFor(model => model.payment.userId)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreditCompenyId, "CreditCompenyId")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("CreditCompenyId", string.Empty)
+            @Html.ValidationMessageFor(model => model.CreditCompenyId)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.payment.ownerName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.payment.ownerName)
+            @Html.ValidationMessageFor(model => model.payment.ownerName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.payment.numCredit)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.payment.numCredit)
+            @Html.ValidationMessageFor(model => model.payment.numCredit)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.payment.validDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.payment.validDate)
+            @Html.ValidationMessageFor(model => model.payment.validDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.payment.cvc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.payment.cvc)
+            @Html.ValidationMessageFor(model => model.payment.cvc)
+        </div>
+
+       
+    </fieldset><p>
+    <input type="submit" value="Next" formmethod="post" />
+</p>
+</form>
+
+
+
+   
+  
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,48 @@
+<div class="ui-rtl" dir="rtl">
+  <div id="header">
+    <div>
+      <img src="" id="top-logo" />
+      <div>
+        <p-button *ngIf="serviceLogin.userName!=null" class="ui-button-danger" (onClick)="serviceLogin.signOut()" label="Sign Out" icon="fa fa-sign-out"
+          iconPos="right">
+        </p-button>
+      </div>
+    </div>
+    <div id="notifications">
+    </div>
+  </div>
+
+  <div class="ui-g ui-g-nopad" id="header-stripe">
+  </div>
+
+  <div class="ui-g ui-g-nopad" id="gutter">
+
+    <div class="ui-g-2 ui-g-nopad" id="sidegutter">
+
+      <div id="sidenav">
+
+        <p-menu #bigMenu [model]="menuItems"></p-menu>
+
+      </div>
+
+    </div>
+
+    <div class="ui-g-2 ui-g-nopad" id="minigutter">
+
+      <div id="sidenav-mini">
+
+        <p-menu #smallMenu [model]="miniMenuItems"></p-menu>
+
+      </div>
+
+    </div>
+
+    <div id="content-body" class="ui-g-10 ui-g-nopad">
+
+      <router-outlet>
+      </router-outlet>
+
+    </div>
+  </div>
+
+</div>

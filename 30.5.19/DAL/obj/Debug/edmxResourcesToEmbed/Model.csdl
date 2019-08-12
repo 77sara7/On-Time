@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Frequencies" EntityType="Model.Frequency" />
+    <EntitySet Name="Requests" EntityType="Model.Request" />
+    <EntitySet Name="Users" EntityType="Model.User" />
+    <AssociationSet Name="FK_Request_Frequency" Association="Model.FK_Request_Frequency">
+      <End Role="Frequency" EntitySet="Frequencies" />
+      <End Role="Request" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_Users" Association="Model.FK_Request_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Request" EntitySet="Requests" />
+    </AssociationSet>
+    <EntitySet Name="v_attached_file" EntityType="Model.v_attached_file" />
+    <FunctionImport Name="attached_file_add">
+      <Parameter Name="file_name" Mode="In" Type="String" />
+      <Parameter Name="file_data" Mode="In" Type="Binary" />
+      <Parameter Name="file_id" Mode="InOut" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="attached_file_update">
+      <Parameter Name="file_id" Mode="In" Type="Guid" />
+      <Parameter Name="file_name" Mode="In" Type="String" />
+      <Parameter Name="file_data" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="AddFile">
+      <Parameter Name="file_name" Mode="In" Type="String" />
+      <Parameter Name="file_data" Mode="In" Type="Binary" />
+      <Parameter Name="file_id" Mode="InOut" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="file_add" ReturnType="Collection(Guid)">
+      <Parameter Name="file_name" Mode="In" Type="String" />
+      <Parameter Name="file_data" Mode="In" Type="Binary" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Frequency">
+    <Key>
+      <PropertyRef Name="frequency_id" />
+    </Key>
+    <Property Name="frequency_id" Type="Int32" Nullable="false" />
+    <Property Name="frequency_description" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Requests" Relationship="Model.FK_Request_Frequency" FromRole="Frequency" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="request_id" />
+    </Key>
+    <Property Name="request_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="request_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="date_from" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="date_to" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="day" Type="Int32" />
+    <Property Name="hour" Type="Int32" />
+    <Property Name="day_in_month" Type="Int32" />
+    <Property Name="frequency_id" Type="Int32" Nullable="false" />
+    <Property Name="file_id" Type="Guid" Nullable="false" />
+    <Property Name="recording_id" Type="Guid" />
+    <NavigationProperty Name="Frequency" Relationship="Model.FK_Request_Frequency" FromRole="Request" ToRole="Frequency" />
+    <NavigationProperty Name="User" Relationship="Model.FK_Request_Users" FromRole="Request" ToRole="User" />
+    <Property Name="is_relevant" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="mail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Requests" Relationship="Model.FK_Request_Users" FromRole="User" ToRole="Request" />
+  </EntityType>
+  <Association Name="FK_Request_Frequency">
+    <End Type="Model.Frequency" Role="Frequency" Multiplicity="1" />
+    <End Type="Model.Request" Role="Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frequency">
+        <PropertyRef Name="frequency_id" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="frequency_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_Users">
+    <End Type="Model.User" Role="User" Multiplicity="1" />
+    <End Type="Model.Request" Role="Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="v_attached_file">
+    <Key>
+      <PropertyRef Name="stream_id" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="is_directory" />
+    </Key>
+    <Property Name="file_stream" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="stream_id" Type="Guid" Nullable="false" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="is_directory" Type="Boolean" Nullable="false" />
+    <Property Name="unc_path" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

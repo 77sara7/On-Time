@@ -1,0 +1,703 @@
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Ajax.dll.config
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Ajax.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Ajax.pdb
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Antlr3.Runtime.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\EntityFramework.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Microsoft.Web.Infrastructure.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Newtonsoft.Json.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.Mvc.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.Optimization.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.Providers.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.Razor.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.WebPages.Deployment.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.WebPages.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.WebPages.Razor.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\WebGrease.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\EntityFramework.xml
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\Newtonsoft.Json.xml
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.Mvc.xml
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.Razor.xml
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.WebPages.xml
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.WebPages.Deployment.xml
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\bin\System.Web.WebPages.Razor.xml
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\obj\Debug\Ajax.dll
+G:\Rachely\Rachely'sDocuments\חומרי לימוד לקורסים\ASP MVC\2016\Ajax\Ajax\obj\Debug\Ajax.pdb
+F:\MVC\Ajax\Ajax\bin\Ajax.dll.config
+F:\MVC\Ajax\Ajax\bin\Ajax.dll
+F:\MVC\Ajax\Ajax\bin\Ajax.pdb
+F:\MVC\Ajax\Ajax\bin\Antlr3.Runtime.dll
+F:\MVC\Ajax\Ajax\bin\EntityFramework.dll
+F:\MVC\Ajax\Ajax\bin\Microsoft.Web.Infrastructure.dll
+F:\MVC\Ajax\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\MVC\Ajax\Ajax\bin\Newtonsoft.Json.dll
+F:\MVC\Ajax\Ajax\bin\System.Web.Mvc.dll
+F:\MVC\Ajax\Ajax\bin\System.Web.Optimization.dll
+F:\MVC\Ajax\Ajax\bin\System.Web.Providers.dll
+F:\MVC\Ajax\Ajax\bin\System.Web.Razor.dll
+F:\MVC\Ajax\Ajax\bin\System.Web.WebPages.Deployment.dll
+F:\MVC\Ajax\Ajax\bin\System.Web.WebPages.dll
+F:\MVC\Ajax\Ajax\bin\System.Web.WebPages.Razor.dll
+F:\MVC\Ajax\Ajax\bin\WebGrease.dll
+F:\MVC\Ajax\Ajax\bin\EntityFramework.xml
+F:\MVC\Ajax\Ajax\bin\Newtonsoft.Json.xml
+F:\MVC\Ajax\Ajax\bin\System.Web.Mvc.xml
+F:\MVC\Ajax\Ajax\bin\System.Web.Razor.xml
+F:\MVC\Ajax\Ajax\bin\System.Web.WebPages.xml
+F:\MVC\Ajax\Ajax\bin\System.Web.WebPages.Deployment.xml
+F:\MVC\Ajax\Ajax\bin\System.Web.WebPages.Razor.xml
+F:\MVC\Ajax\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+F:\MVC\Ajax\Ajax\obj\Debug\Ajax.dll
+F:\MVC\Ajax\Ajax\obj\Debug\Ajax.pdb
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\obj\Debug\Ajax.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\obj\Debug\Ajax.pdb
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Ajax.dll.config
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Ajax.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Ajax.pdb
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Antlr3.Runtime.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\EntityFramework.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Microsoft.Web.Infrastructure.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Newtonsoft.Json.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Net.Http.Formatting.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Http.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Http.WebHost.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Mvc.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Optimization.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Providers.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Razor.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.WebPages.Deployment.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.WebPages.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.WebPages.Razor.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\WebGrease.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\EntityFramework.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\Newtonsoft.Json.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Net.Http.Formatting.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Http.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Http.WebHost.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Mvc.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.Razor.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.WebPages.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.WebPages.Deployment.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Ajax\Ajax\bin\System.Web.WebPages.Razor.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Ajax.dll.config
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Ajax.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Ajax.pdb
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Antlr3.Runtime.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\EntityFramework.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Microsoft.Web.Infrastructure.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Newtonsoft.Json.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Net.Http.Formatting.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Http.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Http.WebHost.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Mvc.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Optimization.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Providers.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Razor.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.WebPages.Deployment.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.WebPages.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.WebPages.Razor.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\WebGrease.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\EntityFramework.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\Newtonsoft.Json.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Net.Http.Formatting.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Http.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Http.WebHost.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Mvc.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.Razor.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.WebPages.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.WebPages.Deployment.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\bin\System.Web.WebPages.Razor.xml
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\obj\Debug\Ajax.dll
+K:\גולדמינץ\תשעז\Web_3\ASP.MVC\Lesson9_AjaxByJquery\Ajax\obj\Debug\Ajax.pdb
+M:\handsaim\MVC\Project\Ajax\bin\Ajax.dll.config
+M:\handsaim\MVC\Project\Ajax\bin\Ajax.dll
+M:\handsaim\MVC\Project\Ajax\bin\Ajax.pdb
+M:\handsaim\MVC\Project\Ajax\bin\Antlr3.Runtime.dll
+M:\handsaim\MVC\Project\Ajax\bin\EntityFramework.dll
+M:\handsaim\MVC\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+M:\handsaim\MVC\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+M:\handsaim\MVC\Project\Ajax\bin\Newtonsoft.Json.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Net.Http.Formatting.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Http.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Http.WebHost.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Mvc.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Optimization.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Providers.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Razor.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.WebPages.dll
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+M:\handsaim\MVC\Project\Ajax\bin\WebGrease.dll
+M:\handsaim\MVC\Project\Ajax\bin\EntityFramework.xml
+M:\handsaim\MVC\Project\Ajax\bin\Newtonsoft.Json.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Net.Http.Formatting.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Http.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Http.WebHost.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Mvc.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.Razor.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.WebPages.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+M:\handsaim\MVC\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+M:\handsaim\MVC\Project\Ajax\obj\Debug\Ajax.dll
+M:\handsaim\MVC\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\208824433\Desktop\Project\Ajax\bin\Ajax.dll.config
+C:\Users\208824433\Desktop\Project\Ajax\bin\Ajax.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\Ajax.pdb
+C:\Users\208824433\Desktop\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\EntityFramework.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\WebGrease.dll
+C:\Users\208824433\Desktop\Project\Ajax\bin\EntityFramework.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\208824433\Desktop\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\208824433\Desktop\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\208824433\Desktop\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\208824433\Desktop\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+M:\handsaim\MVC\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\א\Desktop\project\Ajax\bin\Ajax.dll.config
+C:\Users\א\Desktop\project\Ajax\bin\Ajax.dll
+C:\Users\א\Desktop\project\Ajax\bin\Ajax.pdb
+C:\Users\א\Desktop\project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\א\Desktop\project\Ajax\bin\EntityFramework.dll
+C:\Users\א\Desktop\project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\א\Desktop\project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\א\Desktop\project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Providers.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Razor.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\א\Desktop\project\Ajax\bin\WebGrease.dll
+C:\Users\א\Desktop\project\Ajax\bin\EntityFramework.xml
+C:\Users\א\Desktop\project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Razor.xml
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\א\Desktop\project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\א\Desktop\project\Ajax\obj\Debug\Ajax.dll
+C:\Users\א\Desktop\project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\א\Desktop\project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Http.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\א\Desktop\project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Http.xml
+C:\Users\א\Desktop\project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Ajax.dll.config
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Ajax.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Ajax.pdb
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\EntityFramework.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Http.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Providers.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Razor.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\WebGrease.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\EntityFramework.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Http.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.Razor.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\obj\Debug\Ajax.dll
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\208782987\Desktop\29.01.17\project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Ajax.dll.config
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Ajax.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Ajax.pdb
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\EntityFramework.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Http.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Providers.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Razor.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\WebGrease.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\EntityFramework.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Http.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.Razor.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\obj\Debug\Ajax.dll
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\208782987\Desktop\30.01.17\29.01.17\project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\208782987\Desktop\project\Ajax\bin\Ajax.dll.config
+C:\Users\208782987\Desktop\project\Ajax\bin\Ajax.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\Ajax.pdb
+C:\Users\208782987\Desktop\project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\EntityFramework.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Http.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Providers.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Razor.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\WebGrease.dll
+C:\Users\208782987\Desktop\project\Ajax\bin\EntityFramework.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Http.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.Razor.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\208782987\Desktop\project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\208782987\Desktop\project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\208782987\Desktop\project\Ajax\obj\Debug\Ajax.dll
+C:\Users\208782987\Desktop\project\Ajax\obj\Debug\Ajax.pdb
+J:\הנדסת תוכנה\Project\Ajax\bin\Ajax.dll.config
+J:\הנדסת תוכנה\Project\Ajax\bin\Ajax.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\Ajax.pdb
+J:\הנדסת תוכנה\Project\Ajax\bin\Antlr3.Runtime.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\EntityFramework.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\Newtonsoft.Json.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Net.Http.Formatting.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Http.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Http.WebHost.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Mvc.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Optimization.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Providers.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Razor.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.WebPages.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\WebGrease.dll
+J:\הנדסת תוכנה\Project\Ajax\bin\EntityFramework.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\Newtonsoft.Json.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Net.Http.Formatting.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Http.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Http.WebHost.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Mvc.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.Razor.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.WebPages.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+J:\הנדסת תוכנה\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+J:\הנדסת תוכנה\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+J:\הנדסת תוכנה\Project\Ajax\obj\Debug\Ajax.dll
+J:\הנדסת תוכנה\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\dawnload1\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\dawnload1\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\dawnload1\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\New folder\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\New folder\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\New folder\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\08.05\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\08.05\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\08.05\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\delmetoday\Project\Ajax\obj\Debug\Ajax.pdb
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Ajax.dll.config
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Ajax.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Ajax.pdb
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Antlr3.Runtime.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\EntityFramework.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Ionic.Zip.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Newtonsoft.Json.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Net.Http.Formatting.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Http.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Http.WebHost.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Mvc.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Optimization.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Providers.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Razor.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.WebPages.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\WebGrease.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\EntityFramework.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\Newtonsoft.Json.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Net.Http.Formatting.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Http.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Http.WebHost.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Mvc.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.Razor.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.WebPages.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\obj\Debug\Ajax.dll
+J:\הנדסת תוכנה\delmetoday\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\8.5\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\8.5\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\8.5\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\11.5\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\11.5\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\11.5\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\15.5\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\15.5\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\15.5\Project\Ajax\obj\Debug\Ajax.pdb
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Ajax.dll.config
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Ajax.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Ajax.pdb
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Antlr3.Runtime.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\EntityFramework.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Ionic.Zip.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Newtonsoft.Json.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Net.Http.Formatting.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Http.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Http.WebHost.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Mvc.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Optimization.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Providers.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Razor.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\WebGrease.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\EntityFramework.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\Newtonsoft.Json.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Net.Http.Formatting.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Http.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Http.WebHost.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Mvc.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.Razor.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\obj\Debug\Ajax.dll
+C:\Users\318343407\Desktop\סופי\15.5\Project\Ajax\obj\Debug\Ajax.pdb
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Ajax.dll.config
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Ajax.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Ajax.pdb
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Antlr3.Runtime.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\EntityFramework.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Ionic.Zip.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Microsoft.Web.Infrastructure.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Newtonsoft.Json.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Net.Http.Formatting.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Http.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Http.WebHost.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Mvc.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Optimization.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Providers.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Razor.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Deployment.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Razor.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\WebGrease.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\EntityFramework.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\Newtonsoft.Json.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Net.Http.Formatting.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Http.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Http.WebHost.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Mvc.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.Razor.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Deployment.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\bin\System.Web.WebPages.Razor.xml
+M:\aaפרויקט\סופי\15.5\Project\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+M:\aaפרויקט\סופי\15.5\Project\Ajax\obj\Debug\Ajax.dll
+M:\aaפרויקט\סופי\15.5\Project\Ajax\obj\Debug\Ajax.pdb

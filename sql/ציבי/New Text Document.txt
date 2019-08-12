@@ -1,0 +1,44 @@
+המפתח הראשי הוא ה [path_locator]
+
+הסוג של הקובץ ב C# הוא byte[]
+
+וזה מה שיש ב view
+
+cid:image001.png@01D4D28B.91933DA0
+
+stream_id זה מפתח uniq מהסוג Guid
+Object: dbo.v_attached_file
+
+ 
+
+Column       | Type
+
+-------------------------------
+
+stream_id    | uniqueidentifier
+
+file_stream  | varbinary(max)
+
+name         | nvarchar(255)
+
+is_directory | bit
+
+unc_path     | nvarchar(4000)
+
+  File_stream זה הקובץ
+
+Name זה שם הקובץ
+
+כשאתם מוסיפות לטבלה מכניסים ככה את הערכים:
+
+חדשstream_id  זה פונקציה שמגרילה newFile.stream_id = Guid.NewGuid(); 
+
+אתם עושות add ל View ואז הוא ניגש לפונקציה ומוסיף לטבלת הקבצים
+
+ 
+
+אני מקווה שהבנתם, זה יצא קצת בלאגן
+
+אתם כמובן יכולות לשאול מה שלא הבנתם...
+
+ 

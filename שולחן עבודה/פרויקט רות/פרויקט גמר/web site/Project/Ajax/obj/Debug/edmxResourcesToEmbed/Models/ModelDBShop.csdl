@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bead">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Category_Id" Type="Int32" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Radius" Type="Double" />
+    <NavigationProperty Name="Category" Relationship="Self.FK__Bead__Category_I__5165187F" FromRole="Bead" ToRole="Category" />
+    <NavigationProperty Name="Purchase_Details" Relationship="Self.FK__Purchase___Bead___5441852A" FromRole="Bead" ToRole="Purchase_Details" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bead" Relationship="Self.FK__Bead__Category_I__5165187F" FromRole="Category" ToRole="Bead" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Purchase" Relationship="Self.FK__Purchase__Custom__52593CB8" FromRole="Customer" ToRole="Purchase" />
+  </EntityType>
+  <EntityType Name="Purchase">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Customer_Id" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Sum" Type="Double" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Purchase__Custom__52593CB8" FromRole="Purchase" ToRole="Customer" />
+    <NavigationProperty Name="Purchase_Details" Relationship="Self.FK__Purchase___Purch__534D60F1" FromRole="Purchase" ToRole="Purchase_Details" />
+  </EntityType>
+  <EntityType Name="Purchase_Details">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Purchase_Id" Type="Int32" />
+    <Property Name="Bead_Id" Type="Int32" />
+    <Property Name="Amount" Type="Int32" />
+    <Property Name="Unit_Price" Type="Double" />
+    <NavigationProperty Name="Bead" Relationship="Self.FK__Purchase___Bead___5441852A" FromRole="Purchase_Details" ToRole="Bead" />
+    <NavigationProperty Name="Purchase" Relationship="Self.FK__Purchase___Purch__534D60F1" FromRole="Purchase_Details" ToRole="Purchase" />
+  </EntityType>
+  <Association Name="FK__Bead__Category_I__5165187F">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Bead" Type="Self.Bead" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bead">
+        <PropertyRef Name="Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Purchase___Bead___5441852A">
+    <End Role="Bead" Type="Self.Bead" Multiplicity="0..1" />
+    <End Role="Purchase_Details" Type="Self.Purchase_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bead">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Purchase_Details">
+        <PropertyRef Name="Bead_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Purchase__Custom__52593CB8">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Purchase" Type="Self.Purchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Purchase">
+        <PropertyRef Name="Customer_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Purchase___Purch__534D60F1">
+    <End Role="Purchase" Type="Self.Purchase" Multiplicity="0..1" />
+    <End Role="Purchase_Details" Type="Self.Purchase_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Purchase">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Purchase_Details">
+        <PropertyRef Name="Purchase_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bead" EntityType="Self.Bead" />
+    <EntitySet Name="Category" EntityType="Self.Category" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" />
+    <EntitySet Name="Purchase" EntityType="Self.Purchase" />
+    <EntitySet Name="Purchase_Details" EntityType="Self.Purchase_Details" />
+    <AssociationSet Name="FK__Bead__Category_I__5165187F" Association="Self.FK__Bead__Category_I__5165187F">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Bead" EntitySet="Bead" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Purchase___Bead___5441852A" Association="Self.FK__Purchase___Bead___5441852A">
+      <End Role="Bead" EntitySet="Bead" />
+      <End Role="Purchase_Details" EntitySet="Purchase_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Purchase__Custom__52593CB8" Association="Self.FK__Purchase__Custom__52593CB8">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Purchase" EntitySet="Purchase" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Purchase___Purch__534D60F1" Association="Self.FK__Purchase___Purch__534D60F1">
+      <End Role="Purchase" EntitySet="Purchase" />
+      <End Role="Purchase_Details" EntitySet="Purchase_Details" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

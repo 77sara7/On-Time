@@ -1,0 +1,21 @@
+
+Object: dbo.v_attached_file
+
+ 
+
+Column       | Type
+
+-------------------------------
+
+stream_id    | uniqueidentifier
+
+file_stream  | varbinary(max)
+
+name         | nvarchar(255)
+
+is_directory | bit
+
+unc_path     | nvarchar(4000)
+
+
+ALTER TABLE `votes` ADD UNIQUE `unique_index`(`user`, `email`, `address`);

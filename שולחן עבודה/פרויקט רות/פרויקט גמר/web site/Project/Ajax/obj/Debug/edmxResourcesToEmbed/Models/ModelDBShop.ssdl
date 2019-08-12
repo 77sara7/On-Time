@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bead">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Category_Id" Type="int" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Radius" Type="float" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Purchase">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Customer_Id" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Sum" Type="float" />
+  </EntityType>
+  <EntityType Name="Purchase_Details">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Purchase_Id" Type="int" />
+    <Property Name="Bead_Id" Type="int" />
+    <Property Name="Amount" Type="int" />
+    <Property Name="Unit_Price" Type="float" />
+  </EntityType>
+  <Association Name="FK__Bead__Category_I__5165187F">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Bead" Type="Self.Bead" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bead">
+        <PropertyRef Name="Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Purchase___Bead___5441852A">
+    <End Role="Bead" Type="Self.Bead" Multiplicity="0..1" />
+    <End Role="Purchase_Details" Type="Self.Purchase_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bead">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Purchase_Details">
+        <PropertyRef Name="Bead_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Purchase___Purch__534D60F1">
+    <End Role="Purchase" Type="Self.Purchase" Multiplicity="0..1" />
+    <End Role="Purchase_Details" Type="Self.Purchase_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Purchase">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Purchase_Details">
+        <PropertyRef Name="Purchase_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Purchase__Custom__52593CB8">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Purchase" Type="Self.Purchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Purchase">
+        <PropertyRef Name="Customer_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseModelStoreContainer">
+    <EntitySet Name="Bead" EntityType="Self.Bead" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Purchase" EntityType="Self.Purchase" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Purchase_Details" EntityType="Self.Purchase_Details" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Bead__Category_I__5165187F" Association="Self.FK__Bead__Category_I__5165187F">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Bead" EntitySet="Bead" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Purchase___Bead___5441852A" Association="Self.FK__Purchase___Bead___5441852A">
+      <End Role="Bead" EntitySet="Bead" />
+      <End Role="Purchase_Details" EntitySet="Purchase_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Purchase___Purch__534D60F1" Association="Self.FK__Purchase___Purch__534D60F1">
+      <End Role="Purchase" EntitySet="Purchase" />
+      <End Role="Purchase_Details" EntitySet="Purchase_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Purchase__Custom__52593CB8" Association="Self.FK__Purchase__Custom__52593CB8">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Purchase" EntitySet="Purchase" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

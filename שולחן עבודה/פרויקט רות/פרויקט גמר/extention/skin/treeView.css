@@ -1,0 +1,31 @@
+/*
+(c) Copyright 2009 iOpus Software GmbH - http://www.iopus.com
+*/
+
+#loading_message {
+    margin: 10px;
+    font-family: Verdana, Arial, sans-serif;
+}
+  
+body[treetype="bookmarks"] {
+    padding: 2px;
+    margin: 0px;
+    /*background-color: #ffffdc;*/
+}
+
+body[treetype="files"] {
+    padding: 2px;
+    margin: 0px;
+    /*background-color: #ffffff;*/
+}
+
+#no-file-io-message {
+    text-align: justify;
+    padding: 2px;
+    font-family: Arial;
+    font-size: 1em;
+}
+
+.tree-menu{
+    /*-webkit-padding-start: 0px !important;*/
+}

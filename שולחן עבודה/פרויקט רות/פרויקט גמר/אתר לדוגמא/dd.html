@@ -1,0 +1,758 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<style>
+A:link
+{
+    BORDER-RIGHT: none;
+    BORDER-TOP: none;
+    BORDER-LEFT: none;
+    COLOR: #01478a;
+    BORDER-BOTTOM: none;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    BORDER-RIGHT: none;
+    BORDER-TOP: none;
+    BORDER-LEFT: none;
+    COLOR: #01478a;
+    BORDER-BOTTOM: none;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    BORDER-RIGHT: none;
+    BORDER-TOP: none;
+    BORDER-LEFT: none;
+    COLOR: #01478a;
+    BORDER-BOTTOM: none;
+    TEXT-DECORATION: none
+}
+#tdBorder
+{
+	border:solid 1px #eae9e4
+}
+.tdBorder
+{
+	border:solid 1px #eae9e4
+}
+
+#tdBgBorder
+{
+	border:solid 1px #eae9e4
+}
+#tdBottomBorder
+{
+	border:solid 1px #eae9e4
+}
+.sky_bg
+{
+    BACKGROUND-COLOR: #e6f0f7
+}
+
+.brown_bg
+{
+    BACKGROUND-COLOR: #eae9e4
+}
+
+.regularText
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: normal;
+	COLOR: #000000
+}
+
+.boldText
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+	COLOR: #000000
+}
+
+.blueTitle
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 18px;
+	FONT-WEIGHT: bold;
+	COLOR: #01478a
+}
+
+.blueText
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: normal;
+	COLOR: #01478a
+}
+
+.tableTitleText
+{
+	font-family: arial;
+	font-size: 12px;
+	color: #01478a;
+	font-weight:bold
+}
+
+.field
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-WEIGHT: normal;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px;
+	FONT-WEIGHT: normal;
+	COLOR: #000000
+}
+
+.firsttableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+.firsttableline_small
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+.secondtableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f5f5f5;
+}
+
+.thirdtableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #eeeeee;
+}
+
+.thirdtableline_small
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #eeeeee;
+}
+
+.bluetableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bbd4e4;
+}
+
+.bluetableline_small
+{
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    color:#01478A;
+    BACKGROUND-COLOR: #bbd4e4;
+}
+
+.CalcTotal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+    BORDER-LEFT-COLOR: #0099ff;
+    BORDER-BOTTOM-COLOR: #0099ff;
+    COLOR: #ffffff;
+    BORDER-TOP-COLOR: #0099ff;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #004b8c;
+    BORDER-RIGHT-COLOR: #0099ff
+}
+.errorMsg
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: red;
+    FONT-FAMILY: arial
+}
+.formText
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Arial
+}
+.formObj
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: white;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #004080;
+}
+.calclabel2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #003399;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7;
+}
+.calcheadline3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+	vertical-align : text-top;
+}
+.calclabel3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7;
+}
+.buttomline2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #004080;
+}
+.tableFooterLine
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: black;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #e6f0f7
+}
+.calcheadline2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    COLOR: #01478a;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #eae9e4;
+}
+.tableheadline1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #c6c5c5
+}
+.darkTableline3
+{
+   FONT-SIZE: 10pt;
+   COLOR: #000000;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   BACKGROUND-COLOR: #FFFBF0;
+}
+.calclabel
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #003399;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffdb
+}
+.calcbackground2
+{
+   FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7;
+}
+.buttomline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #C8AA00;
+}
+.calcheadline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #C8AA00;
+}
+
+.bodybg
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #ffffff;
+}
+
+.MenuText
+{
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+	COLOR: Black;
+}
+.popframe
+{
+	 BACKGROUND-COLOR: #e8cf73
+}
+.white
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #ffffff
+}
+.popheadline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #0230a0;
+	BORDER-BOTTOM: 3px solid #C8AA00;
+}
+.popbackground
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7
+}
+.poplabel
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7
+}
+.tableheadline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #01478a;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bbd4e4
+}
+.darkTableline
+{
+     FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f5f5f5
+}
+.darkTableline2
+{
+   FONT-SIZE: 12px;
+   COLOR: #000000;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   BACKGROUND-COLOR: #f5f5f5
+}
+.lightTableline
+{
+   FONT-SIZE: 12px;
+   COLOR: #000000;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   BACKGROUND-COLOR: #ffffff
+}
+.popfooter
+{
+     FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7
+}
+.popfooter2
+{
+     FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #c6c5c5
+}
+.popframe2
+{
+	background-color:#e8cf73;
+}
+.whitecell
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #ffffff
+}
+.compbackgroundzira
+{
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #e6f0f7;
+}
+.BorderTD
+{
+	border:solid 1px #ffffff;
+}
+.sizeTextForm
+{
+	font-size:10pt;
+}
+
+/*  sheari mischar - new style*/
+.mBody
+{
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-SIZE: 12px;
+}
+.grayTableline
+{
+   COLOR: #4F4F4F;
+   BACKGROUND-COLOR: #F6F6F6;
+   height:29px;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-SIZE: 12px;
+}
+.whiteTableline
+{
+   COLOR: #4F4F4F;
+   BACKGROUND-COLOR: #ffffff;
+   height:29px;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-SIZE: 12px;
+}
+.grayTablelineSh
+{
+   BACKGROUND-COLOR: #f2f4f4;
+}
+.whiteTablelineSh
+{
+   
+}
+.grayTablelineH
+{
+   COLOR: #1058ad;
+   font-weight:bold;
+   font-style:normal;
+   BACKGROUND-COLOR: #eff1f3;
+   height:29px;
+   border-left:1px solid #D5DADF;
+   border-right:1px solid #D5DADF;
+	width:150px;
+}
+.whiteTablelineH
+{
+   COLOR: #1058ad;
+   BACKGROUND-COLOR: #f4f8fb;
+   font-weight:bold;
+   height:29px;
+   border-left:1px solid #D5DADF;
+   border-right:1px solid #D5DADF;
+	width:150px;
+}
+.CurNameLink img
+{
+	
+   border:0px solid #000000
+}
+.CurNameLink
+{
+   font-weight:bold;
+   text-decoration:none;
+   color:#1058ad;
+
+}
+.CurNameLink:hover
+{
+   font-weight:bold;
+   text-decoration:none;
+}
+.CurNameLink:visited
+{
+   font-weight:bold;
+   text-decoration:none;
+}
+.tdBorderRight
+{
+   border-right:1px solid #D3DCE2;
+   text-align:center;
+}
+.tdBorderLeft
+{
+   border-left:1px solid #D3DCE2;
+   text-align:center;
+}
+.bottomShadow
+{
+	background-image:url(../images/shadow2.gif);
+	background-repeat:repeat-x;
+}
+.topShadow
+{
+	background-image:url(../images/shadow1.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	height:4px;
+	line-height:4px;
+	border-bottom:1px solid #c4c9ce;
+}
+.header3borderRight
+{
+	border-right:1px solid #D9D9D9;
+	font-size:11px;
+}
+.header3borderLeft
+{
+	border-left:1px solid #D9D9D9;
+}
+.header3
+{
+	border-bottom:1px solid #D9D9D9;
+	color:#273945;
+	height:22px;
+	line-height:22px;
+	background-color:#E5EEF4;
+	font-weight:bold;
+}
+.header22
+{
+	border-bottom:1px solid #D9D9D9;
+	color:#273945;
+	height:24px;
+	line-height:24px;
+	background-color:#EDF3F6;
+   FONT-SIZE: 12px;
+   font-weight:normal;
+}
+.header2
+{
+	border-top:1px solid #D9D9D9;
+	background-color:#F9F9F9;
+	color:#4B5359;
+	height:36px;
+   FONT-SIZE: 12px;
+   font-weight:normal;
+   vertical-align:bottom;
+   padding-bottom:3px;
+	text-align:center;
+}
+.heaWidth
+{
+}
+.header1
+{
+	border:1px solid #D9D9D9;
+	background-color:White;
+	font-size:16;
+	font-weight:bold;
+	color:#1058ad;
+	width:150px;
+	background-image:url(../images/Title_BG.jpg)
+}
+.header1LTR
+{background-image:url(../images/Title_BG_LTR.jpg)}
+.arrow
+{
+	width:20px;
+	height:17px;
+}
+.minusRate
+{
+	color:#8E1313;
+	width:8%;
+}
+.plusRate
+{
+	color:#0B7300;
+	width:8%;
+}
+.alignright
+{
+	text-align:right;
+}
+.alignleft
+{
+	text-align:left;
+}
+.imageCon
+{
+	vertical-align:middle;
+	width:4%;
+}
+.pageTitle
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#646464;
+		height:32px;
+	}
+.mainTbl
+{width:100%;}
+.outBorder
+{ border-left:1px solid #D5DADF;}	
+.outBorderRight
+{ border-right:1px solid #D5DADF;}
+
+.flag{vertical-align:middle;width:24px;height:24px}
+</style>
+<!-- saved from url=(0082)http://www.bankleumi.co.il/vgnprod/ltrade_new_shaar_muskamim_multilang_vgn_HE.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="he">
+
+<link rel="stylesheet" type="text/css" href="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/ltrade_new_CalcStyle.css">
+
+<meta name="NetsparkQuiltingResult" total-length="10375" removed="0" rules-found="w2852,w7520,w4293,w4308,w4309,w3904,w3502,w73">
+<script>
+    function openWindow1(url, name, w, h) {
+        popupWin = window.open(url, name, 'width=' + w + ',height=' + h + ',scrollbars=1,status=0,menubar=1,resizable=1,top=0,left=0,');
+    }
+</script></head>
+
+<body class="mBody" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" dir="rtl" lang="he">
+<table class="mainTbl" border="0" cellspacing="0" cellpadding="2"><tbody><tr><td align="center" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" id="tab1">
+<thead>
+<tr valign="middle" class="">
+<th class="header1 " rowspan="4">שם מטבע</th>
+<th align="center" class="header2 header3borderleft">שערים יציגים</th>
+<th align="center" colspan="7" class="header2 header3borderleft heaWidth">שערי לאומי  לתאריך  19/05/2017 </th>
+</tr>
+<tr><td class="topShadow header3borderleft">&nbsp;</td> <td class="topShadow header3borderleft" colspan="7">&nbsp;</td></tr>
+<tr class="tablehead  ">
+<th align="center" class="header22 header3borderleft">&nbsp;</th>
+<th align="center" colspan="2" class="header22 header3borderleft">העברות והמחאות</th>
+<th align="center" colspan="2" class="header22 header3borderleft">מזומן</th>
+</tr>
+<tr align="right" class="tableheadline2 tableheadline">
+<th align="center" class="header3 header3borderleft">19/05/2017</th>
+<th align="center" class="header3 widthBuy header3borderleft">קניה</th>
+<th align="center" class="header3 widthSent header3borderleft">מכירה</th>
+<th align="center" class="header3 widthBuy header3borderleft">קניה</th>
+<th align="center" class="header3 widthSent header3borderleft">מכירה</th>
+</tr>
+</thead><tbody>
+<tr class="whiteTableline bottomShadow">
+<td align="right" id="" class="whiteTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=1&#39;,&#39;online&#39;,677,600)" title="דולר ארה&quot;ב"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl1.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="דולר ארה&quot;ב" title="דולר ארה&quot;ב"> 
+דולר ארה"ב</a></td>
+<td class="tdBorderleft">3.6230</td>
+<td class="tdBorderleft">3.5579</td>
+<td class="tdBorderleft">3.6240</td>
+<td class="tdBorderleft">3.4972</td>
+<td class="tdBorderleft outBorderleft">3.6739</td>
+</tr><tr class="grayTableline ">
+<td align="right" id="" class="grayTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=49&#39;,&#39;online&#39;,677,600)" title="אירו"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl49.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="אירו" title="אירו"> 
+אירו</a></td>
+<td class="tdBorderleft">4.0015</td>
+<td class="tdBorderleft">3.9664</td>
+<td class="tdBorderleft">4.0401</td>
+<td class="tdBorderleft">3.9181</td>
+<td class="tdBorderleft outBorderleft">4.0963</td>
+</tr><tr class="whiteTableline ">
+<td align="right" id="" class="whiteTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=19&#39;,&#39;online&#39;,677,600)" title="לירה שטרלינג"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl19.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="לירה שטרלינג" title="לירה שטרלינג"> 
+לירה שטרלינג</a></td>
+<td class="tdBorderleft">4.6636</td>
+<td class="tdBorderleft">4.6265</td>
+<td class="tdBorderleft">4.7125</td>
+<td class="tdBorderleft">4.5461</td>
+<td class="tdBorderleft outBorderleft">4.7789</td>
+</tr><tr class="grayTableline ">
+<td align="right" id="" class="grayTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=12&#39;,&#39;online&#39;,677,600)" title="ין יפני 100"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl12.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="ין יפני" title="ין יפני"> 
+ין יפני 100</a></td>
+<td class="tdBorderleft">3.2243</td>
+<td class="tdBorderleft">3.1899</td>
+<td class="tdBorderleft">3.2492</td>
+<td class="tdBorderleft">3.1360</td>
+<td class="tdBorderleft outBorderleft">3.2934</td>
+</tr><tr class="whiteTableline ">
+<td align="right" id="" class="whiteTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=3&#39;,&#39;online&#39;,677,600)" title="פרנק שוויצרי"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl3.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="פרנק שוויצרי" title="פרנק שוויצרי"> 
+פרנק שוויצרי</a></td>
+<td class="tdBorderleft">3.6721</td>
+<td class="tdBorderleft">3.6382</td>
+<td class="tdBorderleft">3.7058</td>
+<td class="tdBorderleft">3.5760</td>
+<td class="tdBorderleft outBorderleft">3.7570</td>
+</tr><tr class="grayTableline ">
+<td align="right" id="" class="grayTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=18&#39;,&#39;online&#39;,677,600)" title="דולר אוסטרלי"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl18.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="דולר אוסטרלי" title="דולר אוסטרלי"> 
+דולר אוסטרלי</a></td>
+<td class="tdBorderleft">2.6729</td>
+<td class="tdBorderleft">2.6497</td>
+<td class="tdBorderleft">2.6990</td>
+<td class="tdBorderleft">2.6058</td>
+<td class="tdBorderleft outBorderleft">2.7348</td>
+</tr><tr class="whiteTableline ">
+<td align="right" id="" class="whiteTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=15&#39;,&#39;online&#39;,677,600)" title="דולר קנדי"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl15.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="דולר קנדי" title="דולר קנדי"> 
+דולר קנדי</a></td>
+<td class="tdBorderleft">2.6439</td>
+<td class="tdBorderleft">2.6188</td>
+<td class="tdBorderleft">2.6675</td>
+<td class="tdBorderleft">2.5754</td>
+<td class="tdBorderleft outBorderleft">2.7055</td>
+</tr><tr class="grayTableline ">
+<td align="right" id="" class="grayTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=13&#39;,&#39;online&#39;,677,600)" title="רנד דרום אפריקני"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl13.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="רנד דרום אפריקני" title="רנד דרום אפריקני"> 
+רנד דרום אפריקני</a></td>
+<td class="tdBorderleft">0.2702</td>
+<td class="tdBorderleft">0.2678</td>
+<td class="tdBorderleft">0.2728</td>
+<td class="tdBorderleft">0.2484</td>
+<td class="tdBorderleft outBorderleft">0.2854</td>
+</tr><tr class="whiteTableline ">
+<td align="right" id="" class="whiteTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=5&#39;,&#39;online&#39;,677,600)" title="כתר שוודי"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl5.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="כתר שוודי" title="כתר שוודי"> 
+כתר שוודי</a></td>
+<td class="tdBorderleft">0.4094</td>
+<td class="tdBorderleft">0.4062</td>
+<td class="tdBorderleft">0.4138</td>
+<td class="tdBorderleft">0.3987</td>
+<td class="tdBorderleft outBorderleft">0.4200</td>
+</tr><tr class="grayTableline ">
+<td align="right" id="" class="grayTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=7&#39;,&#39;online&#39;,677,600)" title="כתר נורווגי"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl7.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="כתר נורווגי" title="כתר נורווגי"> 
+כתר נורווגי</a></td>
+<td class="tdBorderleft">0.4264</td>
+<td class="tdBorderleft">0.4237</td>
+<td class="tdBorderleft">0.4316</td>
+<td class="tdBorderleft">0.4158</td>
+<td class="tdBorderleft outBorderleft">0.4381</td>
+</tr><tr class="whiteTableline ">
+<td align="right" id="" class="whiteTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=10&#39;,&#39;online&#39;,677,600)" title="כתר דני"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl10.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="כתר דני" title="כתר דני"> 
+כתר דני</a></td>
+<td class="tdBorderleft">0.5378</td>
+<td class="tdBorderleft">0.5331</td>
+<td class="tdBorderleft">0.5430</td>
+<td class="tdBorderleft">0.5232</td>
+<td class="tdBorderleft outBorderleft">0.5512</td>
+</tr><tr class="grayTableline ">
+<td align="right" id="" class="grayTablelineH" style="padding-right: 7px;width:143px"> 
+<a class="CurNameLink" href="javascript:openWindow1(&#39;muskamimtab_multilang_vgn_he.asp?siteprefix=ltrade_new_&amp;lang=1&amp;value=1&amp;in_matbea=43&#39;,&#39;online&#39;,677,600)" title="סל המטבעות"><img src="./ltrade_new_shaar_muskamim_multilang_vgn_HE_files/fl43.gif" class="flag" style="margin-right: 9px;margin-left: 5px" alt="סל המטבעות" title="סל המטבעות"> 
+סל המטבעות</a></td>
+<td class="tdBorderleft">3.8695</td>
+<td class="tdBorderleft">3.8339</td>
+<td class="tdBorderleft">3.9051</td>
+<td class="tdBorderleft">0.0000</td>
+<td class="tdBorderleft outBorderleft">0.0000</td>
+</tr></tbody>
+<tfoot>
+<tr>
+<td colspan="10" style="border:none">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td class="bottomShadow" colspan="3"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tfoot></table>
+</td></tr></tbody></table></body></html>

@@ -1,0 +1,34 @@
+<div class="home">
+<img src="/assets/l2.PNG">
+<div class="border">
+    <h1>new request</h1>
+    <div *ngIf="answer">
+        <input *ngIf="enterUrl==true" class="swal2-input" type="text" id="url-input" placeholder="Enter Url..." (onClick)="AddOrUpdateRequest()"
+            (input)="onInput()" [(ngModel)]="urlFile">
+        <br>
+        <br>
+
+        <app-timing (onRequestChanged)="onRequestChanged1($event)"></app-timing>
+        <div class="start-monitoring">
+            <br/> <br/> <br/>
+            <p-button (onClick)="AddOrUpdateRequest()" label="Start Monitoring">Start Monitoring</p-button>
+        </div>
+        <br/>
+    </div>
+</div>
+
+<div class="border">
+    <h1>all requests</h1>
+    <br>
+    <br>
+    <div *ngIf="requests==undefined||requests.length==0">
+        No results to display....
+    </div>
+    <div class="requests" *ngFor="let request of requests,let i=index" #requests>
+        <app-timing [ngClass]="{'edit':enableEditArr[i]}" [fillRequest]="request" (onRequestChanged)="onRequestChanged($event)" class="timing"></app-timing>
+        <i class="fas fa-pencil-alt" (click)="OnEnableEdit(i)"> Edit</i>
+        <i class="far fa-edit" (click)="updateDetailsOfTimingRequest(request)"> Update</i>
+        <i class="far fa-trash-alt" (click)="deleteRequest(request)"> Delete</i>
+    </div>
+</div>
+</div>

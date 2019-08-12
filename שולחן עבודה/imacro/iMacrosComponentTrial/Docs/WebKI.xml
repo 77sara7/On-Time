@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="BrowserResize event" Url="html/651e19c5-f6d4-b1f7-36fb-156bbe3b2fba.htm" />
+  <HelpKINode Title="BrowserResizeEventArgs class">
+    <HelpKINode Title="BrowserResizeEventArgs Class" Url="html/752f02e1-3ede-386c-676b-2034e6a1caa8.htm" />
+    <HelpKINode Title="methods" Url="html/4be829a8-16f9-da0e-38ae-139d3d08e13c.htm" />
+    <HelpKINode Title="properties" Url="html/53598859-9113-14b7-63b5-5fcb3ec803b6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BrowserResizeEventArgs.Size property" Url="html/1f67c417-607f-26af-9df4-65aa0c464ac3.htm" />
+  <HelpKINode Title="BrowserResizeEventHandler delegate" Url="html/4315d5d2-5184-990c-825c-f005fa0d2779.htm" />
+  <HelpKINode Title="BrowserStatus property" Url="html/c20ed085-d0dd-ed3e-5d6b-abf6798dc17f.htm" />
+  <HelpKINode Title="BrowserStatusUpdated event" Url="html/e4cbbc42-d643-5817-fe1d-19f6edfa10b3.htm" />
+  <HelpKINode Title="BrowserStatusUpdatedEventHandler delegate" Url="html/6052d360-8fd6-2254-d499-7a402ca2ce6e.htm" />
+  <HelpKINode Title="BrowserTopMostEventArgs class">
+    <HelpKINode Title="BrowserTopMostEventArgs Class" Url="html/5d90f0c0-2696-b0ad-1ca3-9fa9bfddb496.htm" />
+    <HelpKINode Title="methods" Url="html/47c01a8b-fb3f-a76f-0712-9a815f3f4269.htm" />
+    <HelpKINode Title="properties" Url="html/bcf3d6e9-f7bc-32cc-7c3c-469d30a5c7b3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BrowserTopMostEventArgs.TopMost property" Url="html/4ba87501-f1f3-1d9f-8927-c9d01b3311fd.htm" />
+  <HelpKINode Title="Completed enumeration member" Url="html/2029e619-9fcd-db55-7c1b-6d70906d0d9a.htm" />
+  <HelpKINode Title="Create method" Url="html/3fd36282-4523-77f4-23ac-65697f970b4f.htm" />
+  <HelpKINode Title="DefaultResponse property" Url="html/0db943dd-d206-86ed-0621-7a30a2e86b1e.htm" />
+  <HelpKINode Title="Dispose method" Url="html/6d3fa199-af2d-9f6c-f6bf-4369f3056843.htm" />
+  <HelpKINode Title="DownloadedBytes property" Url="html/95958a70-722d-5a8d-37dd-11a65fbe0870.htm" />
+  <HelpKINode Title="DownloadSize property" Url="html/6e6afcb7-f680-781b-b81d-310a13d714f2.htm" />
+  <HelpKINode Title="DownloadStatus enumeration" Url="html/2029e619-9fcd-db55-7c1b-6d70906d0d9a.htm" />
+  <HelpKINode Title="ErrorCode property" Url="html/f16f59e3-835b-fe8c-49db-e1438085e3b3.htm" />
+  <HelpKINode Title="ErrorText property" Url="html/cefa129c-17ba-9a26-1d16-105965a91a8f.htm" />
+  <HelpKINode Title="ExtractedValues property" Url="html/78adae52-9aea-30fe-e0e0-a59a75c9830b.htm" />
+  <HelpKINode Title="FileDownload event" Url="html/195594b9-9cd6-4eff-c51c-595f784426b7.htm" />
+  <HelpKINode Title="FileDownloadEventArgs class">
+    <HelpKINode Title="FileDownloadEventArgs Class" Url="html/dc3a886b-e3ed-1cb7-195b-f62a56a04428.htm" />
+    <HelpKINode Title="methods" Url="html/4486ba3b-120e-3000-62f7-4470394e34f4.htm" />
+    <HelpKINode Title="properties" Url="html/36e0f877-e4d0-03a1-22b9-608dfb6e798a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileDownloadEventArgs.DownloadedBytes property" Url="html/95958a70-722d-5a8d-37dd-11a65fbe0870.htm" />
+  <HelpKINode Title="FileDownloadEventArgs.DownloadSize property" Url="html/6e6afcb7-f680-781b-b81d-310a13d714f2.htm" />
+  <HelpKINode Title="FileDownloadEventArgs.Status property" Url="html/ef3cb2f8-a36c-1923-9f23-14b0aacf87c7.htm" />
+  <HelpKINode Title="FileDownloadEventHandler delegate" Url="html/8d7f479e-a42d-e8a6-534f-969fa0868da4.htm" />
+  <HelpKINode Title="GetBrowserEmulationMode method" Url="html/c6ebeae9-70bd-2708-8185-0fabba1fd5e0.htm" />
+  <HelpKINode Title="GetPerformanceData method" Url="html/1d1a48c2-b55a-e17a-b5b7-afe52c7b68bb.htm" />
+  <HelpKINode Title="Handled property" Url="html/3c0bf33e-5d29-9f1b-5ca7-fc70339023a6.htm" />
+  <HelpKINode Title="Idle enumeration member" Url="html/7bbb28c1-6c2b-debf-c8a1-0477b9d5e091.htm" />
+  <HelpKINode Title="iMacros.Component namespace" Url="html/70f4a70b-7236-3439-3ee4-75d5cd107a12.htm" />
+  <HelpKINode Title="iMacros.Component.DownloadStatus enumeration" Url="html/2029e619-9fcd-db55-7c1b-6d70906d0d9a.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers namespace" Url="html/4672c50f-c836-5498-8a9e-bb3439e8809a.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.BrowserResizeEventArgs class" Url="html/752f02e1-3ede-386c-676b-2034e6a1caa8.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.BrowserResizeEventHandler delegate" Url="html/4315d5d2-5184-990c-825c-f005fa0d2779.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.BrowserStatusUpdatedEventHandler delegate" Url="html/6052d360-8fd6-2254-d499-7a402ca2ce6e.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.BrowserTopMostEventArgs class" Url="html/5d90f0c0-2696-b0ad-1ca3-9fa9bfddb496.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.FileDownloadEventArgs class" Url="html/dc3a886b-e3ed-1cb7-195b-f62a56a04428.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.FileDownloadEventHandler delegate" Url="html/8d7f479e-a42d-e8a6-534f-969fa0868da4.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.MacroErrorOccurredEventHandler delegate" Url="html/3ed62320-e5fa-5a51-ea28-327863ba754f.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.MasterPasswordEventArgs class" Url="html/af9157ec-5288-aa06-0859-b5a12cb712ef.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.MasterPasswordRequestedEventHandler delegate" Url="html/6d5e1322-4654-91c4-6d5e-16829919308e.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.PlayerModeChangedEventHandler delegate" Url="html/4b48d2b1-a05d-0782-5047-e12afdb7e9c7.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.PlayerStatusUpdatedEventHandler delegate" Url="html/97605d4a-d3ef-95ee-9187-d4d05d13e7cf.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.PromptEventArgs class" Url="html/af78cdf8-e9b7-6ced-c492-2f922205fd7f.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.PromptEventHandler delegate" Url="html/2472a7cc-3e0c-5b09-3fbf-0e2c8eb07d70.htm" />
+  <HelpKINode Title="iMacros.Component.EventHelpers.TopMostRequiredEventHandler delegate" Url="html/e61e8eef-1632-2f80-e2c1-d7accc55a888.htm" />
+  <HelpKINode Title="iMacros.Component.iMacrosControl class" Url="html/529dd334-de25-1561-961f-e1d3d9a778cd.htm" />
+  <HelpKINode Title="iMacros.Component.iMacrosException class" Url="html/85b12562-df62-2262-e858-fae373c84e88.htm" />
+  <HelpKINode Title="iMacros.Component.PlaybackModes enumeration" Url="html/7bbb28c1-6c2b-debf-c8a1-0477b9d5e091.htm" />
+  <HelpKINode Title="iMacrosControl class">
+    <HelpKINode Title="iMacrosControl Class" Url="html/529dd334-de25-1561-961f-e1d3d9a778cd.htm" />
+    <HelpKINode Title="events" Url="html/e198f029-18eb-0336-ab48-ec14d0dadd42.htm" />
+    <HelpKINode Title="methods" Url="html/daf24880-0651-a056-a3c5-78b15b870a32.htm" />
+    <HelpKINode Title="properties" Url="html/39919095-7d9d-7bf3-940e-c53292bed76d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="iMacrosControl.BrowserResize event" Url="html/651e19c5-f6d4-b1f7-36fb-156bbe3b2fba.htm" />
+  <HelpKINode Title="iMacrosControl.BrowserStatus property" Url="html/c20ed085-d0dd-ed3e-5d6b-abf6798dc17f.htm" />
+  <HelpKINode Title="iMacrosControl.BrowserStatusUpdated event" Url="html/e4cbbc42-d643-5817-fe1d-19f6edfa10b3.htm" />
+  <HelpKINode Title="iMacrosControl.Create method" Url="html/3fd36282-4523-77f4-23ac-65697f970b4f.htm" />
+  <HelpKINode Title="iMacrosControl.Dispose method" Url="html/6d3fa199-af2d-9f6c-f6bf-4369f3056843.htm" />
+  <HelpKINode Title="iMacrosControl.ErrorCode property" Url="html/f16f59e3-835b-fe8c-49db-e1438085e3b3.htm" />
+  <HelpKINode Title="iMacrosControl.ErrorText property" Url="html/cefa129c-17ba-9a26-1d16-105965a91a8f.htm" />
+  <HelpKINode Title="iMacrosControl.ExtractedValues property" Url="html/78adae52-9aea-30fe-e0e0-a59a75c9830b.htm" />
+  <HelpKINode Title="iMacrosControl.FileDownload event" Url="html/195594b9-9cd6-4eff-c51c-595f784426b7.htm" />
+  <HelpKINode Title="iMacrosControl.GetBrowserEmulationMode method" Url="html/c6ebeae9-70bd-2708-8185-0fabba1fd5e0.htm" />
+  <HelpKINode Title="iMacrosControl.GetPerformanceData method" Url="html/1d1a48c2-b55a-e17a-b5b7-afe52c7b68bb.htm" />
+  <HelpKINode Title="iMacrosControl.MacroErrorOccurred event" Url="html/02dab8b8-3419-b517-2713-e916628a0064.htm" />
+  <HelpKINode Title="iMacrosControl.MasterPasswordRequested event" Url="html/a4749f87-62f6-c572-aa3e-366b505b6710.htm" />
+  <HelpKINode Title="iMacrosControl.PauseOrContinue method" Url="html/c19502b3-6d15-61f7-74f5-ed68de9ad37d.htm" />
+  <HelpKINode Title="iMacrosControl.PerformanceData property" Url="html/dc503e3e-49a8-cb99-6177-40869a112c6f.htm" />
+  <HelpKINode Title="iMacrosControl.Play method" Url="html/1110cf09-8244-6af6-9da8-aa9263993836.htm" />
+  <HelpKINode Title="iMacrosControl.PlayerMode property" Url="html/fdde9410-0c16-4b08-73fe-00d37e4cffe5.htm" />
+  <HelpKINode Title="iMacrosControl.PlayerModeChanged event" Url="html/fac513be-abb7-0f42-fe06-4aa900c201fb.htm" />
+  <HelpKINode Title="iMacrosControl.PlayerStatus property" Url="html/6687f869-a63b-1fc9-779d-32e73a216b52.htm" />
+  <HelpKINode Title="iMacrosControl.PlayerStatusUpdated event" Url="html/47a3d7fc-6278-100c-96a6-5bb7d997a804.htm" />
+  <HelpKINode Title="iMacrosControl.Prompt event" Url="html/5c4e29d8-2c60-7382-56a0-324608841bc3.htm" />
+  <HelpKINode Title="iMacrosControl.SetBrowserEmulationMode method" Url="html/5df43c3d-d47f-8055-b830-7ee73998937c.htm" />
+  <HelpKINode Title="iMacrosControl.SetVariable method" Url="html/212e1fcb-2fa9-6ad2-4afd-083d6214dc58.htm" />
+  <HelpKINode Title="iMacrosControl.Stop method" Url="html/f4d106b6-b2e6-9d08-e181-4ec3bf8d6563.htm" />
+  <HelpKINode Title="iMacrosControl.TopMostRequired event" Url="html/5d0085a3-49dd-5cce-3bbe-2d5f0cd46e69.htm" />
+  <HelpKINode Title="iMacrosException class">
+    <HelpKINode Title="iMacrosException Class" Url="html/85b12562-df62-2262-e858-fae373c84e88.htm" />
+    <HelpKINode Title="constructor" Url="html/f5584dc9-1199-644b-bd96-2745ae92c64f.htm" />
+    <HelpKINode Title="events" Url="html/354255d5-5815-0815-9066-d51b8dda67f9.htm" />
+    <HelpKINode Title="methods" Url="html/9890cb9b-724e-b527-8157-cd271589a941.htm" />
+    <HelpKINode Title="properties" Url="html/f4e7cfb3-6da3-54c2-0615-31c43be0533f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="iMacrosException.iMacrosException constructor" Url="html/f5584dc9-1199-644b-bd96-2745ae92c64f.htm" />
+  <HelpKINode Title="InProgress enumeration member" Url="html/2029e619-9fcd-db55-7c1b-6d70906d0d9a.htm" />
+  <HelpKINode Title="MacroErrorOccurred event" Url="html/02dab8b8-3419-b517-2713-e916628a0064.htm" />
+  <HelpKINode Title="MacroErrorOccurredEventHandler delegate" Url="html/3ed62320-e5fa-5a51-ea28-327863ba754f.htm" />
+  <HelpKINode Title="MasterPassword property" Url="html/e6cc131c-c640-30cb-af64-8d1818ec2770.htm" />
+  <HelpKINode Title="MasterPasswordEventArgs class">
+    <HelpKINode Title="MasterPasswordEventArgs Class" Url="html/af9157ec-5288-aa06-0859-b5a12cb712ef.htm" />
+    <HelpKINode Title="methods" Url="html/0b102000-0a58-69c8-37d8-80c333e8a3bf.htm" />
+    <HelpKINode Title="properties" Url="html/1a3247c3-f6f5-f620-fc75-412c34f6b399.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MasterPasswordEventArgs.MasterPassword property" Url="html/e6cc131c-c640-30cb-af64-8d1818ec2770.htm" />
+  <HelpKINode Title="MasterPasswordRequested event" Url="html/a4749f87-62f6-c572-aa3e-366b505b6710.htm" />
+  <HelpKINode Title="MasterPasswordRequestedEventHandler delegate" Url="html/6d5e1322-4654-91c4-6d5e-16829919308e.htm" />
+  <HelpKINode Title="Message property" Url="html/5368a827-1256-fd90-3255-ea1c93758e88.htm" />
+  <HelpKINode Title="NeedsInput property" Url="html/f1cc9327-73e2-d197-8886-c2d16e398c5f.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/2029e619-9fcd-db55-7c1b-6d70906d0d9a.htm" />
+  <HelpKINode Title="Paused enumeration member" Url="html/7bbb28c1-6c2b-debf-c8a1-0477b9d5e091.htm" />
+  <HelpKINode Title="PauseOrContinue method" Url="html/c19502b3-6d15-61f7-74f5-ed68de9ad37d.htm" />
+  <HelpKINode Title="PerformanceData property" Url="html/dc503e3e-49a8-cb99-6177-40869a112c6f.htm" />
+  <HelpKINode Title="Play method" Url="html/1110cf09-8244-6af6-9da8-aa9263993836.htm" />
+  <HelpKINode Title="PlaybackModes enumeration" Url="html/7bbb28c1-6c2b-debf-c8a1-0477b9d5e091.htm" />
+  <HelpKINode Title="PlayerMode property" Url="html/fdde9410-0c16-4b08-73fe-00d37e4cffe5.htm" />
+  <HelpKINode Title="PlayerModeChanged event" Url="html/fac513be-abb7-0f42-fe06-4aa900c201fb.htm" />
+  <HelpKINode Title="PlayerModeChangedEventHandler delegate" Url="html/4b48d2b1-a05d-0782-5047-e12afdb7e9c7.htm" />
+  <HelpKINode Title="PlayerStatus property" Url="html/6687f869-a63b-1fc9-779d-32e73a216b52.htm" />
+  <HelpKINode Title="PlayerStatusUpdated event" Url="html/47a3d7fc-6278-100c-96a6-5bb7d997a804.htm" />
+  <HelpKINode Title="PlayerStatusUpdatedEventHandler delegate" Url="html/97605d4a-d3ef-95ee-9187-d4d05d13e7cf.htm" />
+  <HelpKINode Title="Playing enumeration member" Url="html/7bbb28c1-6c2b-debf-c8a1-0477b9d5e091.htm" />
+  <HelpKINode Title="Prompt event" Url="html/5c4e29d8-2c60-7382-56a0-324608841bc3.htm" />
+  <HelpKINode Title="PromptEventArgs class">
+    <HelpKINode Title="PromptEventArgs Class" Url="html/af78cdf8-e9b7-6ced-c492-2f922205fd7f.htm" />
+    <HelpKINode Title="methods" Url="html/770b2d03-20bd-fe9c-fbd0-a7ec8496e36f.htm" />
+    <HelpKINode Title="properties" Url="html/75557cc4-3507-32a8-e2d3-abd3db07d836.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PromptEventArgs.DefaultResponse property" Url="html/0db943dd-d206-86ed-0621-7a30a2e86b1e.htm" />
+  <HelpKINode Title="PromptEventArgs.Handled property" Url="html/3c0bf33e-5d29-9f1b-5ca7-fc70339023a6.htm" />
+  <HelpKINode Title="PromptEventArgs.Message property" Url="html/5368a827-1256-fd90-3255-ea1c93758e88.htm" />
+  <HelpKINode Title="PromptEventArgs.NeedsInput property" Url="html/f1cc9327-73e2-d197-8886-c2d16e398c5f.htm" />
+  <HelpKINode Title="PromptEventArgs.Value property" Url="html/e1e694a4-12a1-2c5f-2ec9-110c0ca2f60e.htm" />
+  <HelpKINode Title="PromptEventHandler delegate" Url="html/2472a7cc-3e0c-5b09-3fbf-0e2c8eb07d70.htm" />
+  <HelpKINode Title="SetBrowserEmulationMode method" Url="html/5df43c3d-d47f-8055-b830-7ee73998937c.htm" />
+  <HelpKINode Title="SetVariable method" Url="html/212e1fcb-2fa9-6ad2-4afd-083d6214dc58.htm" />
+  <HelpKINode Title="Size property" Url="html/1f67c417-607f-26af-9df4-65aa0c464ac3.htm" />
+  <HelpKINode Title="Starting enumeration member" Url="html/2029e619-9fcd-db55-7c1b-6d70906d0d9a.htm" />
+  <HelpKINode Title="Status property" Url="html/ef3cb2f8-a36c-1923-9f23-14b0aacf87c7.htm" />
+  <HelpKINode Title="Stop method" Url="html/f4d106b6-b2e6-9d08-e181-4ec3bf8d6563.htm" />
+  <HelpKINode Title="TopMost property" Url="html/4ba87501-f1f3-1d9f-8927-c9d01b3311fd.htm" />
+  <HelpKINode Title="TopMostRequired event" Url="html/5d0085a3-49dd-5cce-3bbe-2d5f0cd46e69.htm" />
+  <HelpKINode Title="TopMostRequiredEventHandler delegate" Url="html/e61e8eef-1632-2f80-e2c1-d7accc55a888.htm" />
+  <HelpKINode Title="Value property" Url="html/e1e694a4-12a1-2c5f-2ec9-110c0ca2f60e.htm" />
+</HelpKI>

@@ -1,0 +1,95 @@
+﻿@model Ajax.Models.RequestContent
+
+@{
+    ViewBag.Title = "CreateRequest";
+}
+
+<h2>CreateRequest</h2>
+
+@using (Html.BeginForm("CreateRequest"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Request</legend>
+
+        @*<div class="editor-label">
+            @Html.LabelFor(model => model.userId)
+            </div>
+            <div class="editor-field">
+            @Html.EditorFor(model => model.userId)
+            @Html.ValidationMessageFor(model => model.userId)
+            </div>*@
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.name)
+            @Html.ValidationMessageFor(model => model.name)
+        </div>
+        <div id="page-wrapper">
+            <div>
+                Select a imm file:
+                <input type="file" id="fileInput">
+            </div>
+<pre id="fileDisplayArea"></pre>
+            <input type="hidden" id="content" name="content" />
+        </div>
+
+
+
+
+        <div>
+            <div>
+                Select a html file:
+                <input type="file" id="fileInput1">
+            </div>
+<pre id="fileDisplayArea1"></pre>
+            <input type="hidden" id="path" name="path" />
+        </div>
+        <p>
+
+
+            <input type="submit" value="Create" />
+        </p>
+
+    </fieldset>
+}
+
+
+<script>
+    window.onload = function () {
+        var fileInput = document.getElementById('fileInput');
+        var fileDisplayArea = document.getElementById('fileDisplayArea');
+        var fileInput1 = document.getElementById('fileInput1');
+        var fileDisplayArea1 = document.getElementById('fileDisplayArea1');
+        fileInput.addEventListener('change', function (e) {
+            var file = fileInput.files[0];
+            var textType = /text.*/;
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                fileDisplayArea.innerText = reader.result;
+                document.getElementById('content').value = reader.result;
+            }
+            reader.readAsText(file);
+        });
+
+fileInput1.addEventListener('change', function (e) {
+            var file = fileInput1.files[0];
+            var textType = /text.*/;
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                fileDisplayArea1.innerText = reader.result;
+                document.getElementById('path').value = reader.result;
+            }
+            reader.readAsText(file);
+        });
+
+    }
+
+</script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

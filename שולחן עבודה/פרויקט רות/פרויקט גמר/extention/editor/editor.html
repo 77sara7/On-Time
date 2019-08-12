@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>iMacros Editor</title>
+    <link rel="stylesheet" type="text/css"
+          href="../skin/common.css" />
+    <link rel="stylesheet" type="text/css"
+          href="../skin/editor.css" />
+    <script src="../utils.js"></script>
+    <script src="editor.js"></script>
+    <script src="../AsyncFileIO.js"></script>
+    <script src="saveAsDialog.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="../skin/saveAsDialog.css" />
+
+</head>
+<body>
+    
+    <iframe id="editbox" src="editarea/imacro.html"></iframe>
+    <div id="buttonpack">
+        <div class="box centered">
+            <input type="hidden" id="macro-name" value="hellow"></input>
+        </div>
+        <div id="save-button" class="button icon-button" hidden>
+            <span hidden>Save & Close</span>
+        </div>
+        <div id="saveas-button" class="button icon-button" >
+            <span>Save As & Close</span>
+        </div>
+        <div id="cancel-button" class="button icon-button">
+            <span>Cancel</span>
+        </div>
+        <div id="ok-button" class="button icon-button" hidden >
+            <span>OK</span>
+        </div>
+    </div>
+</body>
+</html>

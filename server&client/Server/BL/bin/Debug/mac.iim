@@ -1,0 +1,4 @@
+VERSION BUILD=1005 RECORDER=CR
+URL GOTO=https://translate.google.co.il/
+TAG POS=1 TYPE=DIV ATTR=ID:ft-icon-img-hst 
+SAVEAS TYPE = HTML FOLDER =C:\Users\207618935\Desktop\try\DAL\bin\Debug FILE =newHtml

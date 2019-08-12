@@ -1,0 +1,92 @@
+<div class="ui-rtl" dir="rtl">
+    <div id="header">
+        <div id="div-logo">
+            <img src="" id="top-logo" />
+
+        </div>
+        <div id="notifications">
+        </div>
+    </div>
+    <p-button (onClick)="signOut()" label="Sign Out"></p-button>
+    <div class="ui-g ui-g-nopad" id="header-stripe">
+    </div>
+</div>
+
+<div id="content-body" class="ui-g-10 ui-g-nopad" >
+
+
+      <!-- <form [formGroup]="form">
+                <input placeholder="Enter your email" formControlName="email"/>
+                <button type="submit" [disabled]="form.invalid">SEND</button>
+                 <div *ngIf="form.get('email').pending">
+                    <img src="loader.gif" >
+                 </div>
+        </form> -->
+
+
+
+
+
+
+    <form name="form" (ngSubmit)="f.form.valid && onSubmit() " #f="ngForm" novalidate > 
+
+    <div class="jumbotron" style="text-align: center">
+        <div style="text-align: center">
+            <br>
+            <br>
+            <div style="text-align: center" class="form-group">
+                <span class="ui-float-label">
+                   
+                        <input type="text" class="form-control" size="30" name="email" placeholder="Mail" pInputText [(ngModel)]="userName" #email="ngModel" [ngClass]="{ 'is-invalid': f.submitted && email.invalid }"
+                        required email />
+                        <div *ngIf="f.submitted && email.invalid"  class="invalid-feedback" name="a1a">
+                                <div *ngIf="email.errors.required">מייל חובה</div>
+                                <div *ngIf="!email.errors.required && email.errors.email">מייל חייב להיות כתובת תקינה</div>
+                            </div>
+                    <!-- <input type="text" size="30" placeholder="שם משתמש" pInputText [(ngModel)]="userName"> -->
+                    <!-- <input  type="text" size="30" pInputText [(ngModel)]="userName">
+                <label for="float-input">שם משתמש</label>-->
+                </span>
+            </div>
+            <br>
+            <div style="text-align: center" class="form-group">
+                <span class="ui-float-label">
+                    <input type="password" size="30" placeholder="Password" pInputText [(ngModel)]="password" #passwordForm="ngModel" name="password" required  minlength="4" maxlength="10">
+                    <div *ngIf="f.submitted && passwordForm.invalid" class="invalid-feedback" name="a1la">
+                            <div *ngIf="passwordForm.errors.required">Password is required</div>
+                            <div *ngIf="passwordForm.errors.minlength">Password length must containe 3-10 charecters</div>
+                            
+                            
+                        </div>
+                    <!--<input class="float-input" type="password" size="30" [(ngModel)]="password" />
+                 placeholder="סיסמא" 
+                <label for="float-input">סיסמא</label>-->
+
+                </span>
+            </div>
+
+
+
+            <br>
+            <div style="text-align: center" style="color:crimson" *ngIf="!loginSucceed">
+                <Label>{{ currentUser.errorMessage }}</Label>
+            </div>
+            <br>
+            <div style="text-align: center" class="ui-float-label">
+                    <button pButton >Login</button>
+                
+            </div>
+            <br>
+            <div style="text-align: center" class="ui-float-label">
+                <p-button routerLink="/new-user" label="new"></p-button>
+            </div>
+            <p-button routerLink="/request" label="request"></p-button>
+        </div>
+       
+    </div>
+
+</form>
+
+    <!-- <p-card>
+    Content
+</p-card> -->

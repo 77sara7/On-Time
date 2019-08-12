@@ -1,0 +1,61 @@
+
+<!-- saved from url=(0045)https://netfree.link/misc/go-payment.html?v=2 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./jquery.min.js.download"></script>
+<script type="text/javascript">
+(function(){
+    
+    function isIE () {
+        var myNav = navigator.userAgent.toLowerCase();
+        return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+    }
+    
+    if (isIE () && isIE () < 9) return;
+    
+    var localStorage = window.localStorage || {};
+    
+    
+    var timePopup = 2 * 60  * 60 * 1000; // 2h
+    var nextTime = +localStorage['next-popup-payment-netfree']  || 0;
+    
+    if( nextTime > Date.now() )
+        return;
+    
+    localStorage['next-popup-payment-netfree'] = Date.now() + timePopup;
+    
+    $.ajax({
+    	type: "GET",
+    	url: "//api.internal.netfree.link/user/0" ,
+        dataType: "json"
+    }).done(function(data,status){
+        
+        if(!data && !data.userId) return;
+
+        $.ajax({
+        	type: "GET",
+        	url: "/api/user/payment/payment-status?userKey=" + data.userKey + "&r=" + Math.random()  ,
+            dataType: "json"
+        }).done(function(data,status){
+            if(data.status == 'not'){
+                /*
+                if(!localStorage['payment-netfree-first-not-payment']){
+                    localStorage['payment-netfree-first-not-payment'] = Date.now();
+                }
+                
+                var firstTime = +localStorage['payment-netfree-first-not-payment'];
+                
+                var passDays  = (Date.now() - firstTime) / (24*60*60*1000);
+                var leftDays = Math.max(0,10 - passDays);
+                
+                localStorage['next-popup-payment-netfree'] = Math.floor(Date.now() + (timePopup * (leftDays / 10)));
+                localStorage['payment-status-left-days'] = Math.max(0,Math.floor(leftDays));
+                */
+                
+                window.top.location = window.location.origin + "/go-payment";
+            }else{
+                delete localStorage['payment-netfree-first-not-payment'];
+            }
+        });
+        
+    });
+})();
+</script></head><body></body></html>

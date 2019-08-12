@@ -1,0 +1,4 @@
+cd C:\Users\207618935\Server\MonitorService\bin\Debug
+installutil.exe MonitorService.exe
+installutil.exe /u MonitorService.exe
+https://dj1xg6k8tv6mw.cloudfront.net/p/animation_964x752_3_MQ.mp4

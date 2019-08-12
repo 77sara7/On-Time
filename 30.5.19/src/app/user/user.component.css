@@ -1,0 +1,49 @@
+.user_icon{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%
+}
+.user_icon{
+    
+    border: 5px,solid,rebeccapurple
+}
+.talkbubble {
+    width: 120px;
+    height: 80px;
+    background: red;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+ 
+  .talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid rebeccapurple;
+    border-bottom: 13px solid transparent;
+  }
+  .left {
+    background: #9e978e;
+    display: inline-block;
+    margin: 0 1em 1em 0;
+  }
+  
+  .left {
+    height: 90px;
+    width: 45px;
+  }
+  
+  
+  .left {
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+  }
+  
+  

@@ -1,0 +1,442 @@
+/* global $ jsSHA async */
+
+(function countNews() {
+	
+	if(!window._cardData) return;
+	
+	var countNews = +window._cardData.countNews;
+	
+	if(!countNews) return;
+	
+	var unreadCount = countNews - (+window.localStorage['card-read-news'] || 0);
+
+	var $unreadnews = $("#unread-news");
+
+	$unreadnews.text(unreadCount);
+	if (unreadCount) $unreadnews.show();
+
+
+	$("#news-link").on('click', function() {
+		window.localStorage['card-read-news'] = countNews;
+	});
+})();
+
+
+var subLayuotOnShow = {};
+var subLayuotOnHide = {};
+
+var lastSubLayuot = false;
+
+function hideSubLayuots() {
+	$('.layuot.sub').removeClass('active');
+	$("#go-main").hide();
+	if(subLayuotOnHide[lastSubLayuot])
+		subLayuotOnHide[lastSubLayuot]();
+	lastSubLayuot = false;
+}
+
+function showSubLayuot(name) {
+	hideSubLayuots();
+	
+	lastSubLayuot = name;
+	if(subLayuotOnShow[lastSubLayuot])
+		subLayuotOnShow[lastSubLayuot]();
+		
+	$('#layuot-' + name).addClass('active');
+	$("#go-main").show();
+}
+
+$("#go-main").on('click', function() {
+	hideSubLayuots();
+});
+
+$("#click-report-image").on('click', function() {
+	showSubLayuot('report-image-2');
+});
+
+$("#go-report-image-2").on('click', function() {
+	showSubLayuot('report-image-1');
+});
+
+$("#click-card-settings").on('click', function() {
+	showSubLayuot('card-settings');
+});
+
+function sendImageslist(list, callback) {
+	$.ajax({
+		type: 'POST',
+		url: '/image/feedback',
+		data: JSON.stringify({
+			list: list
+		}),
+		contentType: "application/json; charset=utf-8",
+		dataType: "json"
+		
+	}).always(function(){
+		if(callback)
+			callback();
+	});
+}
+
+function imagesListItemOnclick() {
+
+	var img = this.getElementsByTagName("img")[0];
+    sendImageslist([img.src]);
+    
+    this.parentNode.removeChild(this);
+    emitMessage("remove-image-by-src", img.src, null);
+}
+
+function LoadPageImages(){
+	emitMessage("get-images-src", null, function(firstParam, images){
+		
+		var $list = $("#small-images-report-list");
+		$list.empty();
+		
+		for (var i = 0; i < images.length; ++i) {
+			var $newItem = $("#tamplate-small-image").clone();
+			$newItem.removeAttr('id');
+			$newItem.find('img').attr('src',images[i]);
+			$list.append($newItem);
+			
+			$newItem.on('click',imagesListItemOnclick); 
+	    }
+	});
+}
+
+var callbacks = {};
+
+function emitMessage(name, data, callback, nodelete) {
+	var token = makeToken(20);
+	if (callback)
+		callbacks[token] = callback;
+
+	parent.postMessage({
+		token: token,
+		name: name,
+		data: data
+	}, '*');
+	if (callback && nodelete) {
+		callback.nodelete = true;
+		return function deleteCallback() {
+			delete callbacks[token];
+		};
+	}
+}
+
+
+var localStorage = window.localStorage || {};
+
+/* card settings */
+var cardSettings = {
+    hPosition: 'right',
+    vPosition: 'middle',
+    openCardEvent: 'mouseenter'
+};
+
+if(localStorage['side-card-settings']){
+	try {
+		cardSettings = JSON.parse(localStorage['side-card-settings']);
+	} catch (e) {}
+}
+
+function cardSettingsSaveAndApply(){
+	localStorage['side-card-settings'] = JSON.stringify(cardSettings);
+    emitMessage('set-card-settings', cardSettings);
+    
+    $('input:radio[name=rb-right-left]').filter('[value="'+  cardSettings.hPosition +'"]').attr('checked', true);
+    $('input:radio[name=rb-handle]').filter('[value="'+  cardSettings.vPosition +'"]').attr('checked', true);
+    $('input:radio[name=rb-open-card-event]').filter('[value="'+  cardSettings.openCardEvent +'"]').attr('checked', true);
+}
+
+cardSettingsSaveAndApply();
+
+$('input[name=rb-right-left]').change(function(){
+	cardSettings.hPosition = $('input[name=rb-right-left]:checked').val();
+	cardSettingsSaveAndApply();
+});
+
+$('input[name=rb-handle]').change(function(){
+	cardSettings.vPosition = $('input[name=rb-handle]:checked').val();
+	cardSettingsSaveAndApply();
+});
+
+$('input[name=rb-open-card-event]').change(function(){
+	cardSettings.openCardEvent = $('input[name=rb-open-card-event]:checked').val();
+	cardSettingsSaveAndApply();
+});
+
+
+function makeToken(length) {
+	var text = "";
+	var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+	for (var i = 0; i < length; i++)
+		text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+	return text;
+}
+
+window.addEventListener("message", function(event) {
+
+	if (!event.data) return;
+	if (callbacks[event.data.token]) {
+		var fn = callbacks[event.data.token];
+		if (!fn.nodelete) delete callbacks[event.data.token];
+		fn(null, event.data.data);
+		return;
+	}
+
+}, false); 
+
+var deleteSelectCb = false;
+
+subLayuotOnShow['report-image-1'] = function(){
+	LoadPageImages();
+};
+
+subLayuotOnShow['report-image-2'] = function(){
+	$("#select-count").text(0);
+	emitMessage('start-select', {}, function(_err, data) {});
+
+	deleteSelectCb = emitMessage('on-selected', {}, function(_err, data) {
+		$("#select-count").text(data.count);
+	}, true); 
+};
+
+function stopSelect() {
+	if (deleteSelectCb) deleteSelectCb();
+	emitMessage('stop-select', {}, function(_err, data) {});
+}
+
+subLayuotOnHide['report-image-2'] = function(){
+	stopSelect();
+};
+
+
+$("#send-image").on('click', function() {
+	
+	emitMessage('get-selected', { reloadTime: 3000 }, function(err, data) {
+		var list = data.list;
+		console.log(list);
+		sendImageslist(list, function(){
+			hideSubLayuots();
+		});
+	});
+	
+	setTimeout(function(){
+		emitMessage('report-selected', {}, function(err, data) {
+			
+		});
+	},2000);
+});
+
+
+//OLD:
+$("#send-text").on('click', function() {
+
+	emitMessage('get-top.location.href', {}, function(_err, data) {
+		var url = data.href;
+		var content = $("#bad-text-content").val();
+
+		$.ajax({
+			type: 'POST',
+			url: '/feedback/ajax/link-report',
+			data: JSON.stringify({
+				url: url,
+				content: content
+			}),
+			contentType: "application/json; charset=utf-8",
+			dataType: "json"
+		}).done(function(data) {
+			if (data && data.ticket) {
+				window.open("/user#/tickets/ticket/" + data.ticket, '_blank');
+			}
+			hideSubLayuots();
+		});
+	});
+
+});
+
+$("#refresh-images").on('click', function() {
+	emitMessage("refresh-images", {}, function() {});
+});
+
+var oneSec = 1000;
+var oneMin = 60 * oneSec;
+var oneHour = 60 * oneMin;
+
+function updateTimeCheckImages() {
+	$.ajax('/ajax/check-images-time').always(function(data) {
+		
+		var preText = "";
+		var numberText = "";
+		var unitText = "";
+		
+		var time = data && +data.time;
+		var text = "";
+		if (time > oneHour) {
+			text = "יותר משעה";
+			preText = " יותר מ ";
+			unitText = "שעה";
+			numberText = 1;
+		}
+		else if (time > oneMin) {
+			text = Math.round(time / oneMin) + " " +
+				"דקות";
+			unitText = "דקות";
+			numberText = Math.round(time / oneMin);
+		}
+		else if (time > 0) {
+			text = Math.round(time / oneSec) + " " +
+				"שניות";
+				
+			unitText = "שניות";
+			numberText = Math.round(time / oneSec);
+		}
+
+		if (text) {
+			text = "עכשיו נבדקות התמונות שנשלחו לפני " +
+				text;
+				
+			preText = "עכשיו נבדקות התמונות שנשלחו לפני" + preText ;
+		}
+		else {
+			preText = text = "כעת אין תמונות שנבדקות";
+		}
+		
+		$("#check-images-time").text(text);
+		
+		$("#check-images-time-pre").text(preText);
+		$("#check-images-time-number").text(numberText);
+		$("#check-images-time-unit").text(unitText);
+	});
+}
+updateTimeCheckImages();
+//setTimeout(updateTimeCheckImages,3000);
+
+$("#upload-all-images-for-check").on('click', function() {
+	emitMessage("upload-all-images-for-check", {}, function(_err, data) {});
+});
+
+
+var queryReqex = /(\?.*)?$/;
+var nfoptRegex = /(?:\?)?&~nfopt\(([^\/]+)\)$/;
+
+var imageMapValue = {};
+
+function processImages() {
+	getNewImagesImages(function() {
+		checkImages(function(_err, haveImages) {
+			setTimeout(processImages, 3000);
+		});
+	});
+}
+
+processImages();
+
+function getNewImagesImages(cb) {
+	emitMessage("get-images-list", {}, function(_err, data) {
+		var list = data.list;
+
+		var checkImagesList = [];
+
+		list && list.forEach(function(link) {
+			var linkobj = imageMapValue[link] = imageMapValue[link] || {};
+
+			if (!linkobj.hash) {
+				var hashObj = new jsSHA("SHA-1", "TEXT");
+				hashObj.update(link);
+				linkobj.hash = hashObj.getHash("HEX").substr(0, 10);
+			}
+			else {
+				return;
+			}
+
+			checkImagesList.push(linkobj.hash);
+		});
+
+		if (!checkImagesList.length)
+			return cb();
+
+
+		$.ajax({
+			type: "POST",
+			url: "/nf/image-value/get-cache",
+			data: JSON.stringify({
+				list: checkImagesList
+			}),
+			contentType: "application/json; charset=utf-8",
+			dataType: "json"
+		}).always(function(data) {
+			if (data && data.list) {
+				list.forEach(function(link) {
+					var linkobj = imageMapValue[link] = imageMapValue[link] || {};
+					var o = data.list[linkobj.hash] || {};
+					linkobj.lastValue = o.v;
+					linkobj.checkHash = o.h;
+					linkobj.united = o.u;
+				});
+			}
+			cb();
+		});
+	});
+}
+
+function checkImages(cb) {
+
+	var paramRefresh = "&~nfopt(r=" + Math.floor(Math.random() * 0xffff).toString(16) + ")";
+
+	var haveImages = false;
+
+	async.forEachOf(imageMapValue, function(link, key, callback) {
+		if (link.lastValue !== 0) return callback();
+
+		if (!link.scanCount || (link.scanCount % 2 === 0)) {
+			haveImages = true;
+			link.scanCount = 1;
+			return callback();
+		}
+
+		if (link.scanCount > 20) return callback();
+		link.scanCount++;
+		
+		$.ajax({
+			url: '/nf/image-value/check?hash=' + encodeURIComponent(link.checkHash) + "&united=" + encodeURIComponent(link.united ||'')  + '&r=' + Math.random(),
+		}).always(function(data) {
+			var value = data && data.value;
+			link.lastValue = value;
+			if (value !== 0) {
+				var newSrc = key.replace(nfoptRegex, '').replace(queryReqex, function(all, start) {
+					return (start || '?') + paramRefresh;
+				});
+				emitMessage("refresh-image", {
+					src: key,
+					newSrc: newSrc
+				}, function() {});
+			}
+			else {
+				haveImages = true;
+			}
+			callback();
+		});
+	}, function() {
+		cb(null, haveImages);
+	});
+}
+
+
+emitMessage('get-top.location.href', {}, function(_err, data) {
+	$("#click-report-text").attr('href','/user/#/tickets/new?u=' + encodeURIComponent(data.href) + '&t=report');
+});
+
+$("#click-report-text").on('click', function() {
+	
+	if($("#click-report-text").attr('href')) return;
+	
+	emitMessage('get-top.location.href', {}, function(_err, data) {
+		$("#click-report-text")
+			.attr('href','/user/#/tickets/new?u=' + encodeURIComponent(data.href) + '&t=report')
+			.trigger( "click" );
+	});
+});

@@ -1,0 +1,144 @@
+﻿@model Ajax.Models.Request
+
+@using Ajax.Models
+
+<fieldset>
+    <legend>Request</legend>
+
+    @Html.HiddenFor(model => model.requestId)
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.userId)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(modelItem => modelItem.requestId)
+        @Html.ValidationMessageFor(model => model.userId)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.name)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.name)
+        @Html.ValidationMessageFor(model => model.name)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.date)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.date)
+        @Html.ValidationMessageFor(model => model.date)
+    </div>
+</fieldset>
+<fieldset>
+    <br /><br />
+    <h3>dayly_______________________</h3>
+    @*<input type="checkbox" name="dayly" value="1" min="1" max="7" id="dayly" onclick="AddDayly('dayly')" />*@
+    @if (Model.FrequencyToRequest.FirstOrDefault(item => item.frequencyId == 2) != null)
+    {
+       <div>dayly</div><input type="checkbox" name="dayly1" value="true" min="1" max="7" id="dayly1" onclick="AddDayly1('dayly1')" />
+
+        @Html.Partial("DaylyPartial", Model.FrequencyToRequest.FirstOrDefault(item => item.frequencyId == 2));
+    }
+    else
+    {
+        <div>not dayly</div><input type="checkbox" name="dayly" value="1" min="1" max="7" id="dayly" onclick="AddDayly('dayly')" />
+
+        @Html.Partial("DaylyPartial", new FrequencyToRequest())
+    }  <br />
+    <h3>weekly______________________</h3>
+    <input type="number" name="dayy" value="1" min="1" max="7" id="week" style="display:inline" />
+    <div> in case of changes?</div> <input type="checkbox" value="in change" title="in change"/>
+    <input type="submit" value="add" id="ete" onclick="AddWeek('week')" style="display:inline" />
+
+    <span></span>
+
+    @if (Model.FrequencyToRequest.FirstOrDefault(item => item.frequencyId == 1) != null)
+    {
+        @Html.Partial("WeeklyPartial", Model.FrequencyToRequest.First(item => item.frequencyId == 1).FrequencyDays.ToList())
+    }
+    else
+    {
+        @Html.Partial("WeeklyPartial", new List<FrequencyDays>());
+    } <br />
+    <h3>monthly____________________</h3>
+    @{
+        <input type="number" name="dayy" value="1" min="1" max="30" id="month" style="display:inline" />
+        <div> in case of changes?</div> <input type="checkbox" value="in change" />
+        <input type="submit" value="add" id="ete" onclick="AddMonth('month')" style="display:inline" />
+    }
+
+
+    @if (Model.FrequencyToRequest.FirstOrDefault(item => item.frequencyId == 3) != null)
+    {
+        @Html.Partial("MonthlyPartial", Model.FrequencyToRequest.First(item => item.frequencyId == 3).FrequencyDays.ToList());
+    }
+    else
+    {
+        @Html.Partial("MonthlyPartial", new List<FrequencyDays>());
+    }
+
+</fieldset>
+<script type="text/javascript">
+    function AddWeek(num) {
+        //var val = $("#" + num).val();
+        var adress = "CreateWeekly/?dayy=" + $("#" + num).val();
+        $.ajax({
+            url: adress,
+            type: "Get",
+            //success: function (result) {
+            //    $(week).text(result);
+            //},
+            error: function () {
+            }
+        })
+    }
+    function AddMonth(num) {
+        var val = $("#" + num).val();
+        var adress = "CreateMonthly/?day=" + val;
+        $.ajax({
+            url: adress,
+            type: "Get",
+            //success: function (result) {
+            //    $(week).text(result);
+            //},
+            error: function () {
+            }
+        })
+    }
+    function AddDayly(num) {
+        var val = $("#" + num).val();
+        var adress = "CreateDayly/?c=" + val;
+        $.ajax({
+            url: adress,
+            type: "Get",
+            //success: function (result) {
+            //    $(week).text(result);
+            //},
+            error: function () {
+            }
+        })
+    }
+
+    function AddDayly1(num) {
+        var val = $("#" + num).val();
+        var adress = "DelDayly/?c=" + val;
+        $.ajax({
+            url: adress,
+            type: "Get",
+            //success: function (result) {
+            //    $(week).text(result);
+            //},
+            error: function () {
+              
+            }
+        })
+    }
+
+</script>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

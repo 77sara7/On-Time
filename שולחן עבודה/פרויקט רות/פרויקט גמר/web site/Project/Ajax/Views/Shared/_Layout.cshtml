@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top" class="bgded fixed" style="background-image:url('../../Pictures/11.png');">
+    <div class="wrapper row0">
+        <header id="header" class="clear">
+            <div id="logo">
+                <img src="~/Pictures/logo16.png" />
+                <a href="@Url.Action("../Home/Menu")"><h1>OnTime</h1></a>
+                    
+                    @if (Session["user"] != null)
+                    { <h6>@Session["userName"]  we are happy to see you</h6>}
+
+</div>
+        </header>
+    </div>
+
+    <div class="wrapper row1">
+        <nav id="mainav" class="clear">
+            <!-- ################################################################################################ -->
+            <ul class="clear">
+                @if (Session["user"] == null)
+                {
+                    <li class="active"><a href="@Url.Action("../Login/Login")">sign in</a></li>
+                }
+                else
+                {
+                    <li class="active"><a href="@Url.Action("../Login/Logout")">Logout</a></li>
+                }
+                <li><a href="@Url.Action("../Request/RequestList")">Records</a></li>
+                <li><a href="@Url.Action("../Extention/Download")">Extention</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="wrapper" style="background-color:#808080;" >
+        <div id="slider" style="padding:5%;width:auto;height:inherit">
+            @RenderBody()
+        </div>
+    </div>
+    <div class="wrapper row5">
+        <div id="copyright" class="clear">
+            <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">OnTime</a></p>
+            <p class="fl_right">create by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">RG&MZ</a></p>
+        </div>
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/Scripts/jquery.min.js")
+
+    @Scripts.Render("~/Scripts/supersized.min.js")
+
+
+
+</body>
+</html>

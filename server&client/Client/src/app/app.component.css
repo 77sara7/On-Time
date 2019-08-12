@@ -1,0 +1,39 @@
+.header {
+    /* grid-area: header;
+    display: flex;
+    justify-content: center; */
+    /* margin: auto; */
+  }
+  .main{
+    grid-area: main;
+    margin: auto;
+  }
+  .footer {
+    grid-area: footer;
+    margin: auto;
+  }
+  .container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    grid-template-rows:0% auto 10%;
+    /* grid-template-rows: auto; */
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+  }
+   /* .ui-steps-number{
+      -moz-force-broken-image-icon:"fas fa-home"
+  }  */
+  /* ::ng-deep.ui-steps-number {
+
+  } */
+  /* .ui-steps .ui-steps-item .ui-menuitem-link {
+  
+    text-decoration: none;
+    display: block;
+    padding: 4em;
+    position: relative;
+    text-align: center;
+} */

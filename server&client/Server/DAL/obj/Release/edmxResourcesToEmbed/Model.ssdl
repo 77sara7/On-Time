@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Frequency">
+    <Key>
+      <PropertyRef Name="frequency_id" />
+    </Key>
+    <Property Name="frequency_id" Type="int" Nullable="false" />
+    <Property Name="frequency_description" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="request_id" />
+    </Key>
+    <Property Name="request_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="request_name" Type="nvarchar" MaxLength="30" />
+    <Property Name="date_from" Type="date" />
+    <Property Name="date_to" Type="date" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="day" Type="int" />
+    <Property Name="hour" Type="int" />
+    <Property Name="day_in_month" Type="int" />
+    <Property Name="frequency_id" Type="int" Nullable="false" />
+    <Property Name="file_id" Type="uniqueidentifier" />
+    <Property Name="recording_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="is_relevant" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ON_TIME_DB.dbo.v_attached_file' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="v_attached_file">
+    <Key>
+      <PropertyRef Name="stream_id" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="is_directory" />
+      <PropertyRef Name="creation_time" />
+    </Key>
+    <Property Name="file_stream" Type="varbinary(max)" />
+    <Property Name="stream_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="is_directory" Type="bit" Nullable="false" />
+    <Property Name="unc_path" Type="nvarchar" MaxLength="4000" />
+    <Property Name="creation_time" Type="datetimeoffset" Precision="7" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Request_Frequency">
+    <End Role="Frequency" Type="Self.Frequency" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frequency">
+        <PropertyRef Name="frequency_id" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="frequency_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="attached_file_add" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="file_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="file_data" Type="varbinary(max)" Mode="In" />
+    <Parameter Name="file_id" Type="uniqueidentifier" Mode="InOut" />
+  </Function>
+  <Function Name="attached_file_update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="file_id" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="file_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="file_data" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="file_add" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="file_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="file_data" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Frequency" EntityType="Self.Frequency" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Request" EntityType="Self.Request" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="v_attached_file" EntityType="Self.v_attached_file" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [v_attached_file].[file_stream] AS [file_stream], 
+    [v_attached_file].[stream_id] AS [stream_id], 
+    [v_attached_file].[name] AS [name], 
+    [v_attached_file].[is_directory] AS [is_directory], 
+    [v_attached_file].[unc_path] AS [unc_path], 
+    [v_attached_file].[creation_time] AS [creation_time]
+    FROM [dbo].[v_attached_file] AS [v_attached_file]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Request_Frequency" Association="Self.FK_Request_Frequency">
+      <End Role="Frequency" EntitySet="Frequency" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_Users" Association="Self.FK_Request_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

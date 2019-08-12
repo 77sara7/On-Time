@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<!-- saved from url=(0143)https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer -->
+<html class="hasSidebar hasPageActions hasBreadcrumb conceptual js" lang="en-us" dir="ltr" data-authenticated="false" data-auth-status-determined="true" data-target="docs" x-ms-format-detection="none"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/51-6d3a1e"><link rel="stylesheet" href="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/override.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Create a Windows service application in Visual Studio">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@docsmsft">
+
+		<meta name="ms.devlang" content="dotnet">
+<meta name="author" content="ghogen">
+<meta name="ms.author" content="dotnetcontent">
+<meta name="breadcrumb_path" content="/dotnet/breadcrumb/toc.json">
+<meta name="apiPlatform" content="dotnet">
+<meta name="ms.topic" content="conceptual">
+<meta name="ms.prod" content="dotnet-framework">
+<meta name="uhfHeaderId" content="MSDocsHeader-DotNet">
+<meta name="ms.assetid" content="e24d8a3d-edc6-485c-b6e0-5672d91fb607">
+<meta name="ms.date" content="09/10/2018">
+<meta name="search.ms_sitename" content="Docs">
+<meta name="search.ms_docsetname" content="core-docs">
+<meta name="locale" content="en-us">
+<meta name="site_name" content="Docs">
+<meta name="search.ms_product" content="VS">
+<meta name="depot_name" content="VS.core-docs">
+<meta name="updated_at" content="2019-02-22 04:13 AM">
+<meta name="gitcommit" content="https://github.com/dotnet/docs/blob/d75827697540cc2ae72979c1df3e8b32a95ec2cf/docs/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer.md">
+<meta name="original_content_git_url" content="https://github.com/dotnet/docs/blob/live/docs/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer.md">
+<meta name="document_id" content="75152e30-b486-3ba0-c606-25ada7347b22">
+<meta name="document_version_independent_id" content="e797ddfe-a9d3-93a4-61bd-fd6dc9b8d6b4">
+<meta name="page_type" content="conceptual">
+<meta name="toc_rel" content="toc.json">
+<meta name="pdf_url_template" content="https://docs.microsoft.com/pdfstore/en-us/VS.core-docs/{branchName}{pdfName}">
+<meta name="search.mshattr.devlang" content="csharp vb">
+<meta name="word_count" content="2954">
+
+	<meta name="scope" content=".NET">
+<link href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer" rel="canonical">
+	<title>Create a Windows service application in Visual Studio | Microsoft Docs</title>
+
+		<link rel="stylesheet" href="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/15b8e1c6.site-ltr.css">
+
+	<link rel="stylesheet" href="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/89eb8f33.conceptual.css">
+
+
+	<script async="" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/analytics.js.download"></script><script>
+	var msDocs = {
+		data:{
+			azureHeaderLocale: 'en-us',
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'Conceptual',
+			brand: '',
+			context: {
+
+			},
+			hasComments: true,
+			feedbackSystem: 'GitHub',
+			feedbackGitHubRepo: 'dotnet/docs',
+			feedbackProductUrl: 'https://developercommunity.visualstudio.com/spaces/61/index.html',
+			contentGitUrl: 'https://github.com/dotnet/docs/blob/master/docs/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer.md',
+			learnBannerDetails: {
+				learnBannerProducts: ''
+			}
+		},
+		functions:{},
+		settings:{
+			extendBreadcrumb: false,
+			enableUHFPPE: true
+		}
+	};
+	if (!('Promise' in window && 'resolve' in window.Promise && 'reject' in window.Promise && 'all' in window.Promise && 'race' in window.Promise)) {
+		document.write('<script src="https://static.docs.com/ui/third-party/bluebird/3.5.0/bluebird.min.js" integrity="sha384-aD4BDeDGeLXLpPK4yKeqtZQa9dv4a/7mQ+4L5vwshIYH1Mc2BrXvHd32iHzYCQy5" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof fetch !== 'function') {
+		document.write('<script src="https://static.docs.com/ui/third-party/fetch/2.0.3/fetch.min.js" integrity="sha384-H3LQq82b6Mm80GYRHtRSlTwO9DoXctmYCVEYk9M8mp97lRzs6DuSrHVUg3SBP9w0" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof HTMLTemplateElement === 'undefined') {
+		document.write('<script src="https://static.docs.com/ui/third-party/template/1.4.0/template.min.js" integrity="sha384-1zKzI6ldTVHMU7n0W2HpE/lhHI+UG4D9IIaxbj3kT2UhCWicdTuJkTtnKuu0CQzN" crossorigin="anonymous"><\/script>');
+	}
+	</script>
+
+	<script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/jquery-3.3.1.min.js.download" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+		<script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/98377c1c.index-docs.js.download"></script><style></style><script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/jsll-4.js.download" async="" defer=""></script>
+
+<script>bazadebezolkohpepadr="873471169"</script><script type="text/javascript" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/34101d86" defer=""></script><script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/18-d72213" defer=""></script><style>
+			.c-uhfh input[type="search"],
+			.c-uhfh.c-sgl-stck .c-uhfh-actions .c-search input[type="search"] {
+				padding-left: 69px !important;
+			}</style><script async="" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/t.js.download"></script><script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/popup-card.min.js.download" type="text/javascript"></script><script async="" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/t.js(1).download"></script><script async="" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/t.js(2).download"></script><script async="" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/t.js(3).download"></script><script async="" src="https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&amp;name=%27Ms.Webi.ContentUpdate%27&amp;time=%272019-03-10T17%3A43%3A43.768Z%27&amp;os=%27Windows%27&amp;appId=%27JS%3ADocs%27&amp;-ver=%271.0%27&amp;-impressionGuid=%272c4893e7-0a7e-487a-8642-1d2f1e234d8e%27&amp;-pageName=%2775152e30-b486-3ba0-c606-25ada7347b22%27&amp;-uri=%27https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer%27&amp;-market=%27en-us%27&amp;-pageTags=%27%7B%22pgdevlng%22%3A%22dotnet%22%2C%22author%22%3A%22ghogen%22%2C%22pgauth%22%3A%22dotnetcontent%22%2C%22pgtop%22%3A%22conceptual%22%2C%22product%22%3A%22dotnet-framework%22%2C%22asst%22%3A%22e24d8a3d-edc6-485c-b6e0-5672d91fb607%22%2C%22date%22%3A%2209%2F10%2F2018%22%2C%22depotname%22%3A%22VS.core-docs%22%2C%22publishtime%22%3A%222019-02-22%2004%3A13%20AM%22%2C%22gitcommit%22%3A%22https%3A%2F%2Fgithub.com%2Fdotnet%2Fdocs%2Fblob%2Fd75827697540cc2ae72979c1df3e8b32a95ec2cf%2Fdocs%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer.md%22%2C%22giturl%22%3A%22https%3A%2F%2Fgithub.com%2Fdotnet%2Fdocs%2Fblob%2Flive%2Fdocs%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer.md%22%2C%22document_version_independent_id%22%3A%22e797ddfe-a9d3-93a4-61bd-fd6dc9b8d6b4%22%2C%22contentlocale%22%3A%22en-us%22%2C%22highContrast%22%3A%22false%22%2C%22metaTags%22%3A%7B%7D%7D%27&amp;-pageHeight=12419&amp;-vpHeight=925&amp;-vpWidth=1920&amp;-actionType=%27R%27&amp;-behavior=0&amp;-vScrollOffset=0&amp;-hScrollOffset=0&amp;-contentVer=%272.0%27&amp;-content=%27%5B%7B%22cN%22%3A%22headerArea%22%2C%22cT%22%3A%22Area_coreuiArea%22%2C%22id%22%3A%22a1Body%22%2C%22sN%22%3A1%2C%22aN%22%3A%22Body%22%7D%2C%7B%22cN%22%3A%22headerRegion%22%2C%22cT%22%3A%22Region_coreui-region%22%2C%22id%22%3A%22r1a1%22%2C%22sN%22%3A1%2C%22aN%22%3A%22a1%22%7D%2C%7B%22cN%22%3A%22headerUniversalHeader%22%2C%22cT%22%3A%22Module_coreui-universalheader%22%2C%22id%22%3A%22m1r1a1%22%2C%22sN%22%3A1%2C%22aN%22%3A%22r1a1%22%7D%2C%7B%22cN%22%3A%22Universal%20Header_cont%22%2C%22cT%22%3A%22Container%22%2C%22id%22%3A%22c2m1r1a1%22%2C%22sN%22%3A2%2C%22aN%22%3A%22m1r1a1%22%7D%2C%7B%22cN%22%3A%22GlobalNav_Logo_cont%22%2C%22cT%22%3A%22Container%22%2C%22id%22%3A%22c3c2m1r1a1%22%2C%22sN%22%3A3%2C%22aN%22%3A%22c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22CatNav_.NET_nav%22%2C%22id%22%3A%22n6c2m1r1a1%22%2C%22sN%22%3A6%2C%22aN%22%3A%22c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22Category%20nav_cont%22%2C%22cT%22%3A%22Container%22%2C%22id%22%3A%22c8c2m1r1a1%22%2C%22sN%22%3A8%2C%22aN%22%3A%22c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22CatNav_APIs_nav%22%2C%22id%22%3A%22n2c8c2m1r1a1%22%2C%22sN%22%3A2%2C%22aN%22%3A%22c8c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22CatNav_.NET%20Core_nav%22%2C%22id%22%3A%22n3c8c2m1r1a1%22%2C%22sN%22%3A3%2C%22aN%22%3A%22c8c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22CatNav_.NET%20Framework_nav%22%2C%22id%22%3A%22n4c8c2m1r1a1%22%2C%22sN%22%3A4%2C%22aN%22%3A%22c8c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22CatNav_ASP.NET_nav%22%2C%22id%22%3A%22n5c8c2m1r1a1%22%2C%22sN%22%3A5%2C%22aN%22%3A%22c8c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22CatNav_Xamarin_nav%22%2C%22id%22%3A%22n6c8c2m1r1a1%22%2C%22sN%22%3A6%2C%22aN%22%3A%22c8c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22CatNav_Azure_nav%22%2C%22id%22%3A%22n7c8c2m1r1a1%22%2C%22sN%22%3A7%2C%22aN%22%3A%22c8c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22Header%20actions_cont%22%2C%22cT%22%3A%22Container%22%2C%22id%22%3A%22c9c2m1r1a1%22%2C%22sN%22%3A9%2C%22aN%22%3A%22c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22GlobalNav_cont%22%2C%22cT%22%3A%22Container%22%2C%22id%22%3A%22c1c9c2m1r1a1%22%2C%22sN%22%3A1%2C%22aN%22%3A%22c9c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22GlobalNav_More_nonnav%22%2C%22id%22%3A%22nn1c1c9c2m1r1a1%22%2C%22sN%22%3A1%2C%22aN%22%3A%22c1c9c2m1r1a1%22%7D%2C%7B%22cN%22%3A%22GlobalNav_Search_cont%22%2C%22cT%22%3A%22Container%22%2C%22id%22%3A%22c3c1c9c2m1r1a1%22%2C%22sN%22%3A3%2C%22aN%22%3A%22c1c9c2m1r1a1%22%7D%5D%27&amp;*baseType=%27Ms.Content.ContentUpdate%27&amp;*title=%27Create%20a%20Windows%20service%20application%20in%20Visual%20Studio%20%7C%20Microsoft%20Docs%27&amp;*cookieEnabled=true&amp;*isJs=true&amp;*isDomComplete=false&amp;*isLoggedIn=false&amp;ext-javascript-ver=%271.1%27&amp;ext-javascript-libVer=%274.2.11%27&amp;ext-javascript-domain=%27docs.microsoft.com%27&amp;ext-javascript-msfpc=%27GUID%3Debc8368f5cbe4450815866670d3653cc%26HASH%3Debc8%26LV%3D201903%26V%3D4%26LU%3D1552239584888%27&amp;ext-javascript-userConsent=false&amp;ext-user-localId=%27t%3A064CD69154506EC71767DB8A505068C7%27&amp;$mscomCookies=false"></script></head>
+
+<body lang="en-us" dir="ltr">
+<div class="header-holder">
+		<div id="headerAreaHolder" data-bi-name="header">    <div id="headerArea" class="uhf" data-m="{&quot;cN&quot;:&quot;headerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a1Body&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;Body&quot;}">
+                <div id="headerRegion" data-region-key="headerregion" data-m="{&quot;cN&quot;:&quot;headerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a1&quot;}">
+
+    <div id="headerUniversalHeader" data-m="{&quot;cN&quot;:&quot;headerUniversalHeader&quot;,&quot;cT&quot;:&quot;Module_coreui-universalheader&quot;,&quot;id&quot;:&quot;m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a1&quot;}" data-module-id="Category|headerRegion|coreui-region|headerUniversalHeader|coreui-universalheader">
+        
+
+
+
+
+
+		<a id="uhfSkipToMain" class="m-skip-to-main" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#main" tabindex="0" style="z-index:3000002" data-m="{&quot;cN&quot;:&quot;Skip to content_nonnav&quot;,&quot;id&quot;:&quot;nn1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a1&quot;}">Skip to main content</a>
+
+
+<header role="banner" class="c-uhfh context-uhf c-sgl-stck c-category-header" itemscope="itemscope" data-header-footprint="/MSDocs/MSDocsHeader-DotNet, fromService: True" data-magict="true" itemtype="http://schema.org/Organization">
+	<div class="theme-light js-global-head f-closed  global-head-cont" data-m="{&quot;cN&quot;:&quot;Universal Header_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;m1r1a1&quot;}">
+		<div class="c-uhfh-gcontainer-st">
+			<button type="button" class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="All Microsoft expand to see list of Microsoft products and services" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Mobile menu button_nonnav&quot;,&quot;id&quot;:&quot;nn1c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+			<button type="button" class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Close search" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Close Search_nonnav&quot;,&quot;id&quot;:&quot;nn2c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+					<a id="uhfLogo" class="c-logo c-sgl-stk-uhfLogo" itemprop="url" href="https://www.microsoft.com/" aria-label="Microsoft" data-m="{&quot;cN&quot;:&quot;GlobalNav_Logo_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+						<img alt="" itemprop="logo" itemscope="itemscope" class="c-image" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/RE1Mu3b" role="presentation" aria-hidden="true">
+						<span role="presentation" aria-hidden="true">Microsoft</span>
+					</a>
+			<div class="f-mobile-title">
+				<button type="button" class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile back button_nonnav&quot;,&quot;id&quot;:&quot;nn4c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+				<span data-global-title="Microsoft home" class="js-mobile-title">.NET</span>
+				<button type="button" class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile forward button_nonnav&quot;,&quot;id&quot;:&quot;nn5c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+			</div>
+					<div class="c-show-pipe x-hidden-vp-mobile-st">
+						<a id="uhfCatLogo" class="c-logo c-cat-logo" href="https://docs.microsoft.com/dotnet" aria-label=".NET" itemprop="url" data-m="{&quot;cN&quot;:&quot;CatNav_.NET_nav&quot;,&quot;id&quot;:&quot;n6c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+								<span>.NET</span>
+						</a>
+					</div>
+				<div class="cat-logo-button-cont x-hidden">
+						<button type="button" id="uhfCatLogoButton" class="c-cat-logo-button x-hidden" aria-expanded="false" aria-label=".NET" data-m="{&quot;cN&quot;:&quot;.NET_nonnav&quot;,&quot;id&quot;:&quot;nn7c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+							.NET
+						</button>
+				</div>
+
+
+
+			        <nav id="uhf-g-nav" aria-label="Contextual menu" class="c-uhfh-gnav" data-m="{&quot;cN&quot;:&quot;Category nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+            <ul class="js-paddle-items">
+                    <li class="single-link js-nav-menu x-hidden-none-mobile-vp uhf-menu-item">
+                        <a class="c-uhf-nav-link" href="https://docs.microsoft.com/dotnet" data-m="{&quot;cN&quot;:&quot;CatNav_Home_nav&quot;,&quot;id&quot;:&quot;n1c8c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}"> Home </a>
+                    </li>
+                                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_0" class="c-uhf-nav-link" href="https://docs.microsoft.com/dotnet/api/" data-m="{&quot;cN&quot;:&quot;CatNav_APIs_nav&quot;,&quot;id&quot;:&quot;n2c8c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">APIs</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id=".NET Core" class="c-uhf-nav-link" href="https://docs.microsoft.com/dotnet/articles/core" data-m="{&quot;cN&quot;:&quot;CatNav_.NET Core_nav&quot;,&quot;id&quot;:&quot;n3c8c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">.NET Core</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id=".NET Framework" class="c-uhf-nav-link" href="https://docs.microsoft.com/dotnet/articles/framework" data-m="{&quot;cN&quot;:&quot;CatNav_.NET Framework_nav&quot;,&quot;id&quot;:&quot;n4c8c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">.NET Framework</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="ASP.NET" class="c-uhf-nav-link" href="https://docs.microsoft.com/aspnet" data-m="{&quot;cN&quot;:&quot;CatNav_ASP.NET_nav&quot;,&quot;id&quot;:&quot;n5c8c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">ASP.NET</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="Xamarin" class="c-uhf-nav-link" href="https://developer.xamarin.com/guides/" data-m="{&quot;cN&quot;:&quot;CatNav_Xamarin_nav&quot;,&quot;id&quot;:&quot;n6c8c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Xamarin</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="Azure" class="c-uhf-nav-link" href="https://docs.microsoft.com/azure" data-m="{&quot;cN&quot;:&quot;CatNav_Azure_nav&quot;,&quot;id&quot;:&quot;n7c8c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Azure</a>
+                        </li>
+
+
+                <li id="overflow-menu" class="overflow-menu x-hidden uhf-menu-item">
+                        <div class="c-uhf-menu js-nav-menu">
+        <button data-m="{&quot;pid&quot;:&quot;More&quot;,&quot;id&quot;:&quot;nn8c8c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}" type="button" aria-label="More" aria-expanded="false" style="white-space:nowrap">More</button>
+        <ul id="overflow-menu-list" aria-hidden="true" class="overflow-menu-list">
+        </ul>
+    </div>
+
+                </li>
+                            </ul>
+            
+        </nav>
+
+
+			<div class="c-uhfh-actions" data-m="{&quot;cN&quot;:&quot;Header actions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c9c2m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+				<div class="wf-menu">        <nav id="uhf-c-nav" aria-label="All microsoft menu" data-m="{&quot;cN&quot;:&quot;GlobalNav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c9c2m1r1a1&quot;}">
+            <ul class="js-paddle-items">
+                <li>
+                    <div class="c-uhf-menu js-nav-menu">
+                        <button type="button" class="c-button-logo all-ms-nav" aria-label="All Microsoft expand to see list of Microsoft products and services" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_nonnav&quot;,&quot;id&quot;:&quot;nn1c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}" style="white-space: nowrap"> <span>All Microsoft</span></button>
+                        <ul class="f-multi-column f-multi-column-6" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;More_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}">
+                                    <li class="c-w0-contr">
+            <ul class="c-w0">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Office_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_6" class="js-subm-uhf-nav-link" href="https://products.office.com/en-us/home" data-m="{&quot;cN&quot;:&quot;W0Nav_Office_nav&quot;,&quot;id&quot;:&quot;n1c1c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c2c1c9c2m1r1a1&quot;}">Office</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Windows_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_7" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/" data-m="{&quot;cN&quot;:&quot;W0Nav_Windows_nav&quot;,&quot;id&quot;:&quot;n1c2c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c2c1c9c2m1r1a1&quot;}">Windows</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Surface_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_8" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/surface" data-m="{&quot;cN&quot;:&quot;W0Nav_Surface_nav&quot;,&quot;id&quot;:&quot;n1c3c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c2c1c9c2m1r1a1&quot;}">Surface</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Xbox_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_9" class="js-subm-uhf-nav-link" href="https://www.xbox.com/" data-m="{&quot;cN&quot;:&quot;W0Nav_Xbox_nav&quot;,&quot;id&quot;:&quot;n1c4c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c2c1c9c2m1r1a1&quot;}">Xbox</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Deals_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_10" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage" data-m="{&quot;cN&quot;:&quot;W0Nav_Deals_nav&quot;,&quot;id&quot;:&quot;n1c5c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c2c1c9c2m1r1a1&quot;}">Deals</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Support_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="l1_support" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;W0Nav_Support_nav&quot;,&quot;id&quot;:&quot;n1c6c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c2c1c9c2m1r1a1&quot;}">Support</a>
+            
+        </li>
+            </ul>
+        </li>
+
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">Software</button>
+            <ul aria-hidden="true" role="presentation">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_WindowsApps_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_14" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_WindowsApps_nav&quot;,&quot;id&quot;:&quot;n1c2c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c7c2c1c9c2m1r1a1&quot;}">Windows apps</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_OneDrive_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_15" class="js-subm-uhf-nav-link" href="https://onedrive.live.com/about/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneDrive_nav&quot;,&quot;id&quot;:&quot;n1c3c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c7c2c1c9c2m1r1a1&quot;}">OneDrive</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_Outlook_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_16" class="js-subm-uhf-nav-link" href="https://outlook.live.com/owa/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Outlook_nav&quot;,&quot;id&quot;:&quot;n1c4c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c7c2c1c9c2m1r1a1&quot;}">Outlook</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_Skype_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_17" class="js-subm-uhf-nav-link" href="https://www.skype.com/en/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Skype_nav&quot;,&quot;id&quot;:&quot;n1c5c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c7c2c1c9c2m1r1a1&quot;}">Skype</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_OneNote_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_18" class="js-subm-uhf-nav-link" href="https://www.onenote.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneNote_nav&quot;,&quot;id&quot;:&quot;n1c6c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c7c2c1c9c2m1r1a1&quot;}">OneNote</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cN&quot;:&quot;PCsAndDevices_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;GlobalNav_PCsAndDevices_nonnav&quot;,&quot;id&quot;:&quot;nn1c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c2c1c9c2m1r1a1&quot;}">PCs &amp; Devices  </button>
+            <ul aria-hidden="true" role="presentation">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_PCsAndTablets_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_20" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/devices" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_PCsAndTablets_nav&quot;,&quot;id&quot;:&quot;n1c2c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c8c2c1c9c2m1r1a1&quot;}">PCs &amp; tablets</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_PCAndDevices_Accessories_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_21" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/accessories/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCAndDevices_Accessories_nav&quot;,&quot;id&quot;:&quot;n1c3c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c8c2c1c9c2m1r1a1&quot;}">Accessories</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">Entertainment</button>
+            <ul aria-hidden="true" role="presentation">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Products_DevicesAndXbox_XboxAndGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_23" class="js-subm-uhf-nav-link" href="https://www.xbox.com/en-us/games/xbox-one?xr=shellnav" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_DevicesAndXbox_XboxAndGames_nav&quot;,&quot;id&quot;:&quot;n1c2c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c9c2c1c9c2m1r1a1&quot;}">Xbox games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Entertainment_PCGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_24" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-games" data-m="{&quot;cN&quot;:&quot;GlobalNav_Entertainment_PCGames_nav&quot;,&quot;id&quot;:&quot;n1c3c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c9c2c1c9c2m1r1a1&quot;}">PC games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Entertainment_WindowsDigitalGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_25" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_WindowsDigitalGames_nav&quot;,&quot;id&quot;:&quot;n1c4c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c9c2c1c9c2m1r1a1&quot;}">Windows digital games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Entertainment_MoviesAndTV_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_26" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesAndTv" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_MoviesAndTV_nav&quot;,&quot;id&quot;:&quot;n1c5c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c9c2c1c9c2m1r1a1&quot;}">Movies &amp; TV</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Entertainment_Books_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_27" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/books" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_Books_nav&quot;,&quot;id&quot;:&quot;n1c6c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c9c2c1c9c2m1r1a1&quot;}">Books</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:10,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">Business</button>
+            <ul aria-hidden="true" role="presentation">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftAzure_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_29" class="js-subm-uhf-nav-link" href="https://azure.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c2c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c10c2c1c9c2m1r1a1&quot;}">Microsoft Azure</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftDynamics365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_30" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/dynamics365/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftDynamics365_nav&quot;,&quot;id&quot;:&quot;n1c3c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c10c2c1c9c2m1r1a1&quot;}">Microsoft Dynamics 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Business_Microsoft365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_31" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/microsoft-365/?omkt=en-US" data-m="{&quot;cN&quot;:&quot;GlobalNav_Business_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n1c4c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c10c2c1c9c2m1r1a1&quot;}">Microsoft 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_Enterprise_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_32" class="js-subm-uhf-nav-link" href="https://enterprise.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_Enterprise_nav&quot;,&quot;id&quot;:&quot;n1c5c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c10c2c1c9c2m1r1a1&quot;}">Microsoft Industry</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_DataPlatform_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_33" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/sql-server/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_DataPlatform_nav&quot;,&quot;id&quot;:&quot;n1c6c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c10c2c1c9c2m1r1a1&quot;}">Data platform</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_MicrosoftAdvertising_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_34" class="js-subm-uhf-nav-link" href="https://go.microsoft.com/fwlink/?linkid=2026638" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_MicrosoftAdvertising_nav&quot;,&quot;id&quot;:&quot;n1c7c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c10c2c1c9c2m1r1a1&quot;}">Microsoft Advertising</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:11,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">Developer &amp; IT  </button>
+            <ul aria-hidden="true" role="presentation">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_.Net_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_36" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/net/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_.Net_nav&quot;,&quot;id&quot;:&quot;n1c2c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c11c2c1c9c2m1r1a1&quot;}">.NET</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DevelopersAndIT_VisualStudio_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_37" class="js-subm-uhf-nav-link" href="https://visualstudio.microsoft.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DevelopersAndIT_VisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c3c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c11c2c1c9c2m1r1a1&quot;}">Visual Studio</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_ProductsandServices_WindowsServer_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_38" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/cloud-platform/windows-server" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_ProductsandServices_WindowsServer_nav&quot;,&quot;id&quot;:&quot;n1c4c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c11c2c1c9c2m1r1a1&quot;}">Windows Server</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_WindowsDevCenter_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_39" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n1c5c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c11c2c1c9c2m1r1a1&quot;}">Windows Dev Center</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_Docs.microsoft.com_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_40" class="js-subm-uhf-nav-link" href="https://docs.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_Docs.microsoft.com_nav&quot;,&quot;id&quot;:&quot;n1c6c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c11c2c1c9c2m1r1a1&quot;}">Docs</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:12,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">Other</button>
+            <ul aria-hidden="true" role="presentation">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Other_MicrosoftStore_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_42" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_Other_MicrosoftStore_nav&quot;,&quot;id&quot;:&quot;n1c2c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c12c2c1c9c2m1r1a1&quot;}">Microsoft Store</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Other_Microsoft Rewards_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_43" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/rewards" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Other_Microsoft Rewards_nav&quot;,&quot;id&quot;:&quot;n1c3c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c12c2c1c9c2m1r1a1&quot;}">Microsoft Rewards </a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Products_SoftwareAndServices_FreeDownloadsAndSecurity_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_44" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/download/default.aspx" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_SoftwareAndServices_FreeDownloadsAndSecurity_nav&quot;,&quot;id&quot;:&quot;n1c4c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c12c2c1c9c2m1r1a1&quot;}">Free downloads &amp; security</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Products_ForStudentsAndEducators_Education_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_45" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/education?icid=CNavMSCOML0_Studentsandeducation" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_ForStudentsAndEducators_Education_nav&quot;,&quot;id&quot;:&quot;n1c5c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c12c2c1c9c2m1r1a1&quot;}">Education</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Other_Store_Locations_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_46" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Other_Store_Locations_nav&quot;,&quot;id&quot;:&quot;n1c6c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c12c2c1c9c2m1r1a1&quot;}">Store locations</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Store_More_GiftCards_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_47" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/gift-cards" data-m="{&quot;cN&quot;:&quot;GlobalNav_Store_More_GiftCards_nav&quot;,&quot;id&quot;:&quot;n1c7c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c12c2c1c9c2m1r1a1&quot;}">Gift cards</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+                                                            <li class="f-multi-column-info">
+                                    <a data-m="{&quot;id&quot;:&quot;n13c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:13,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}" href="https://www.microsoft.com/en-us/sitemap.aspx" aria-label="" class="c-glyph">View Sitemap</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+</div>
+		<form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="https://docs.microsoft.com/en-us/search/index" method="GET" title="Search" data-seautosuggest="{&quot;queryParams&quot;:{&quot;market&quot;:&quot;en-us&quot;,&quot;clientId&quot;:&quot;7F27B536-CF6B-4C65-8638-A0F8CBDFCA65&quot;,&quot;sources&quot;:&quot;Microsoft-Terms,Iris-Products,DCatAll-Products&quot;,&quot;filter&quot;:&quot;+ClientType:StoreWeb&quot;,&quot;counts&quot;:&quot;5,1,5&quot;},&quot;familyNames&quot;:{&quot;Apps&quot;:&quot;App&quot;,&quot;Books&quot;:&quot;Book&quot;,&quot;Bundles&quot;:&quot;Bundle&quot;,&quot;Devices&quot;:&quot;Device&quot;,&quot;Fees&quot;:&quot;Fee&quot;,&quot;Games&quot;:&quot;Game&quot;,&quot;MusicAlbums&quot;:&quot;Album&quot;,&quot;MusicTracks&quot;:&quot;Song&quot;,&quot;MusicVideos&quot;:&quot;Video&quot;,&quot;MusicArtists&quot;:&quot;Artist&quot;,&quot;OperatingSystem&quot;:&quot;Operating System&quot;,&quot;Software&quot;:&quot;Software&quot;,&quot;Movies&quot;:&quot;Movie&quot;,&quot;TV&quot;:&quot;TV&quot;,&quot;CSV&quot;:&quot;Gift Card&quot;,&quot;VideoActor&quot;:&quot;Actor&quot;}}" data-seautosuggestapi="https://www.microsoft.com/services/api/v3/suggest" data-m="{&quot;cN&quot;:&quot;GlobalNav_Search_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}" aria-expanded="false">
+			<input id="cli_shellHeaderSearchInput" aria-label="search expanded" aria-autocomplete="list" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="search" placeholder="Search" data-m="{&quot;cN&quot;:&quot;SearchBox_nav&quot;,&quot;id&quot;:&quot;n1c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c9c2m1r1a1&quot;}"><div class="x-screen-reader" aria-live="assertive"></div>
+			<button id="search" aria-label="Search" class="c-glyph" data-m="{&quot;cN&quot;:&quot;Search_nav&quot;,&quot;id&quot;:&quot;n2c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1c9c2m1r1a1&quot;}" data-bi-dnt="true" data-bi-mto="true" aria-expanded="false">
+				<span role="presentation">Search</span>
+			</button>
+			<div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+				<ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m="{&quot;cN&quot;:&quot;search suggestions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1c9c2m1r1a1&quot;}"></ul>
+			</div>
+			
+		<input name="scope" hidden=""><a class="search-scope" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#" role="button" title="Search filter is &quot;.NET&quot;. Tap to remove." style=""><span class="search-scope-text">.NET</span> <span class="docon docon-navigate-close"></span></a></form>
+		<button data-m="{&quot;cN&quot;:&quot;cancel-search&quot;,&quot;pid&quot;:&quot;Cancel Search&quot;,&quot;id&quot;:&quot;nn4c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}" id="cancel-search" class="cancel-search" aria-label="Cancel Search">
+			<span>Cancel</span>
+		</button>
+				
+			<div class="auth-control" aria-busy="true" aria-label="Loading..."></div></div>
+		</div>
+		
+		
+	</div>
+	
+</header>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+</div>
+	<div class="content-header uhf-container has-padding has-default-focus" data-bi-name="content-header">
+		<nav class="has-padding-none-mobile" data-bi-name="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" aria-label="Breadcrumb">
+		<ul class="breadcrumbs"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://docs.microsoft.com/en-us/">Docs</a></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/index">.NET</a></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/framework/index">.NET Framework</a></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="mobile-breadcrumb"><a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/index">Developing Windows Service Applications</a></li></ul>
+		</nav>
+		<div class="content-header-controls exit-focus">
+			<button type="button" class="ap-collapse-behavior ap-expanded button" data-bi-name="ap-collapse">
+				<span class="icon"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit focus mode</span>
+			</button>
+			
+		</div>
+		<div class="content-header-controls">
+			<button type="button" class="contents-button button" data-bi-name="contents-expand">
+				<span class="icon"><span class="docon docon-menu"></span></span>
+				<span>Contents</span>
+			</button>
+		</div>
+		<div class="action-bar">
+			<ul class="action-list">
+						<li>
+							<a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#feedback" class="button is-text is-size-7 is-icon-only-touch" data-bi-name="comments">
+								<span class="icon">
+									<span class="docon docon-comment-lines" aria-hidden="true"></span>
+								</span>
+								<span class="action-item-text">Feedback</span>
+							</a>
+						</li>
+							<li id="contenteditbtn">
+									<a href="https://github.com/dotnet/docs/blob/master/docs/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer.md" class="button is-text is-icon-only-touch is-size-7" title="Edit This Document" data-bi-name="edit" data-original_content_git_url="https://github.com/dotnet/docs/blob/live/docs/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer.md" data-original_content_git_url_template="" data-pr_repo="" data-pr_branch="">
+									<span class="icon">
+										<span class="docon docon-edit-outline" aria-hidden="true"></span>
+									</span>
+									<span class="action-item-text">Edit</span>
+								</a>
+							</li>
+				<li>
+					<div class="sharing dropdown has-caret" auto-align="">
+						<a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#" class="dropdown-trigger button is-text is-size-7 is-icon-only-touch" aria-haspopup="true" aria-controls="sharing-menu" aria-expanded="false" title="Share This Document" data-bi-name="share">
+							<span class="icon">
+								<span class="docon docon-sharing" aria-hidden="true"></span>
+							</span>
+							<span class="action-item-text">Share</span>
+						</a>
+						<div class="dropdown-menu" id="sharing-menu" role="menu">
+							<ul data-bi-name="share-links">
+								<li><a class="share-twitter" data-bi-name="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer%3FWT.mc_id%3Dtwitter&amp;text=Create%20a%20Windows%20service%20application%20in%20Visual%20Studio%20%7C%20Microsoft%20Docs&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer%3FWT.mc_id%3Dtwitter">
+									<span class="icon">
+										<span class="docon docon-brand-twitter" aria-hidden="true"></span>
+									</span>
+									<span>Twitter</span></a></li>
+								<li><a class="share-linkedin" data-bi-name="linkedin" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer%3FWT.mc_id%3Dlinkedin">
+									<span class="icon">
+										<span class="docon docon-brand-linkedin" aria-hidden="true"></span>
+									</span>
+									<span>LinkedIn</span></a></li>
+								<li><a class="share-facebook" data-bi-name="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer%3FWT.mc_id%3Dfacebook">
+									<span class="icon">
+										<span class="docon docon-brand-facebook" aria-hidden="true"></span>
+									</span>
+									<span>Facebook</span></a></li>
+								<li><a class="share-email" data-bi-name="email" href="mailto:?subject=%5BShared%20Article%5D%20Create%20a%20Windows%20service%20application%20in%20Visual%20Studio%20%7C%20Microsoft%20Docs&amp;body=Create%20a%20Windows%20service%20application%20in%20Visual%20Studio%20%7C%20Microsoft%20Docs%0A%0Ahttps%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer%3FWT.mc_id%3Demail">
+									<span class="icon">
+										<span class="docon docon-mail-message-fill" aria-hidden="true"></span>
+									</span>
+									<span>Email</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<button class="toggle-theme button is-text is-size-7 is-icon-only-touch" aria-label="toggle-theme" data-bi-name="select-theme" data-theme-to="dark"><!---->
+		<span class="icon docon docon-clear-night"></span>
+		<span class="action-item-text"><!---->Dark<!----></span>
+	<!----></button>
+				</li>
+				<li>
+					<div class="language dropdown has-caret" auto-align="">
+						<button class="dropdown-trigger button is-text is-size-7" aria-haspopup="true" aria-controls="language-menu" aria-expanded="false" title="Language" data-bi-name="language">
+							<span class="icon">
+								<span class="docon docon-code-lang" aria-hidden="true"></span>
+							</span>
+							<span id="lang-title" class="action-item-text">C#</span>
+						</button>
+						<div class="dropdown-menu" name="language-selector" id="language-selector" role="menu">
+							<ul data-bi-name="language-links">
+									<li><a data-bi-name="lang-csharp" tabindex="0" aria-selected="false">C#</a></li>
+									<li><a data-bi-name="lang-vb" tabindex="0" aria-selected="false">VB</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="is-unstyled-action-list-item">
+					<a class="docs-sign-in auth-status-determined not-authenticated button is-text has-text-primary is-size-7" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#">Sign in</a>
+					<div class="dropdown has-caret auth-status-determined authenticated" auto-align="">
+						<button class="dropdown-trigger button is-text is-size-7 is-icon-only-touch has-inner-focus" aria-label="Your Account" aria-haspopup="true" aria-controls="user-menu" aria-expanded="false">
+							<span class="image icon" aria-hidden="true">
+								<img class="has-body-background-medium is-rounded" data-profile-property="avatarUrl">
+							</span>
+							<span class="is-truncated" data-profile-property="userName"></span>
+						</button>
+						<div class="dropdown-menu box" id="user-menu" role="menu">
+							<div class="media is-user-dir">
+								<div class="media-left">
+									<span class="image is-64x64" aria-hidden="true">
+										<img class="has-body-background-medium is-rounded" data-profile-property="avatarUrl">
+									</span>
+								</div>
+								<div class="media-content">
+									<p class="title has-margin-top-small">
+										<span class="is-truncated" style="max-width: 200px" data-profile-property="userName"></span>
+									</p>
+									<p class="subtitle">
+										<span class="is-truncated" style="max-width: 200px" data-profile-property="upn"></span>
+									</p>
+								</div>
+							</div>
+							<ul class="is-unstyled has-margin-none">
+								<li><a href="https://docs.microsoft.com/profile" data-profile-property="profileUrl">Profile</a></li>
+								<li><a class="docs-sign-out" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#">Sign out</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<button type="button" class="contents-button" aria-label="Contents" data-bi-name="contents-expand-">
+				<span class="docon docon-editor-list-bullet"></span><span>Contents</span>
+			</button>
+		</div>
+	</div>
+
+
+	<div id="disclaimer-holder" class="has-overflow-hidden"></div>
+	</div>
+
+	<div class="mainContainer uhf-container  has-top-padding  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps ">
+
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<div class="columns has-large-gaps ">
+
+					<div id="page-actions" class="right-container column is-one-quarter is-one-fifth-desktop is-hidden-mobile is-hidden-tablet-only" data-bi-name="pageactions" role="complementary" aria-label="Page Actions">
+							<nav id="side-doc-outline" class="doc-outline" data-bi-name="intopic toc" role="navigation" aria-label="On page navigation" style="width: 199.188px; top: 120px; bottom: 24px;">
+								<h3>In this article</h3>
+							<ol><li class="selected"><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#create-a-service">Create a service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#rename-the-service">Rename the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#add-features-to-the-service">Add features to the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#set-service-status">Set service status</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#add-installers-to-the-service">Add installers to the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#optional-set-startup-parameters">(Optional) Set startup parameters</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#build-the-service">Build the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#install-the-service">Install the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#start-and-run-the-service">Start and run the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#uninstall-the-service">Uninstall the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#next-steps">Next steps</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#see-also">See also</a></li></ol></nav>
+					</div>
+
+
+				<div id="main-column" class="column  is-full is-four-fifths-desktop ">
+
+					<main id="main" role="main" class="content " data-bi-name="content" lang="en-us" dir="ltr">
+
+
+
+						<h1 id="walkthrough-create-a-windows-service-app" sourcefile="docs/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer.md" sourcestartlinenumber="13">Walkthrough: Create a Windows service app</h1>
+
+						<ul class="metadata page-metadata x-hidden-focus" data-bi-name="page info" lang="en-us" dir="ltr">
+							<li class="displayDate">
+								<time role="presentation" datetime="2018-09-10T00:00:00.000Z" data-article-date-source="ms.date">09/10/2018</time>
+							</li>
+								<li class="readingTime">14 minutes to read</li>
+							<li class="contributors-holder">
+								<span class="contributors-text">Contributors</span>
+								<ul class="contributors" data-bi-name="contributors">
+											<li><a href="https://github.com/ghogen" title="Gordon Hogenson" data-bi-name="contributorprofile"><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/ghogen.png" data-src="https://github.com/ghogen.png?size=32" alt="Gordon Hogenson"></a></li>
+											<li><a href="https://github.com/mairaw" title="Maira Wenzel" data-bi-name="contributorprofile"><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/mairaw.png" data-src="https://github.com/mairaw.png?size=32" alt="Maira Wenzel"></a></li>
+											<li><a href="https://github.com/DennisLee-DennisLee" title="Dennis Lee" data-bi-name="contributorprofile"><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/DennisLee-DennisLee.png" data-src="https://github.com/DennisLee-DennisLee.png?size=32" alt="Dennis Lee"></a></li>
+											<li><a href="https://github.com/BillWagner" title="Bill Wagner" data-bi-name="contributorprofile"><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/BillWagner.png" data-src="https://github.com/BillWagner.png?size=32" alt="Bill Wagner"></a></li>
+											<li><a href="https://github.com/gewarren" title="Genevieve Warren" data-bi-name="contributorprofile"><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/gewarren.png" data-src="https://github.com/gewarren.png?size=32" alt="Genevieve Warren"></a></li>
+											<li><a href="https://github.com/dotnet/docs/blob/master/docs/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer.md" title="all 14 contributors" data-bi-name="contributorshowall"><span aria-hidden="true">all</span></a></li>
+								</ul>
+							</li>
+
+						</ul>
+
+						<nav id="center-doc-outline" class="doc-outline is-hidden-desktop" data-bi-name="intopic toc" role="navigation" aria-label="On page navigation">
+							<h3>In this article</h3>
+						<ol><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#create-a-service">Create a service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#rename-the-service">Rename the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#add-features-to-the-service">Add features to the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#set-service-status">Set service status</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#add-installers-to-the-service">Add installers to the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#optional-set-startup-parameters">(Optional) Set startup parameters</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#build-the-service">Build the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#install-the-service">Install the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#start-and-run-the-service">Start and run the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#uninstall-the-service">Uninstall the service</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#next-steps">Next steps</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#see-also">See also</a></li></ol></nav>
+
+
+						<!-- <content> -->
+							
+<p>This article demonstrates how to create a simple Windows service app in Visual Studio that writes messages to an event log.</p>
+<h2 id="create-a-service" class="heading-with-anchor">Create a service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#create-a-service"></a></h2>
+<p>To begin, create the project and set values that are required for the service to function correctly.</p>
+<ol>
+<li><p>In Visual Studio, on the menu bar, choose <strong>File</strong> &gt; <strong>New</strong> &gt; <strong>Project</strong> (or press <strong>Ctrl</strong>+<strong>Shift</strong>+<strong>N</strong>) to open the <strong>New Project</strong> dialog.</p>
+</li>
+<li><p>Navigate to and select the <strong>Windows Service</strong> project template. Expand <strong>Installed</strong> &gt; [<strong>Visual C#</strong> or <strong>Visual Basic</strong>] &gt; <strong>Windows Desktop</strong>, or type <strong>Windows Service</strong> in the search box on the upper right.</p>
+<p><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/new-project-dialog.png" alt="Windows Service template in New Project dialog in Visual Studio" data-linktype="relative-path"></p>
+<div class="alert is-info">
+<p class="alert-title"><span class="docon docon-status-error-outline"></span> Note</p>
+<p>If you don't see the <strong>Windows Service</strong> template, you may need to install the <strong>.NET desktop development</strong> workload. In the <strong>New Project</strong> dialog, click the link that says <strong>Open Visual Studio Installer</strong> on the lower left. In <strong>Visual Studio Installer</strong>, select the <strong>.NET desktop development</strong> workload and then choose <strong>Modify</strong>.</p>
+</div>
+</li>
+<li><p>Name the project <strong>MyNewService</strong>, and then choose <strong>OK</strong>.</p>
+<p>The project template includes a component class named <code>Service1</code> that inherits from <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase" data-linktype="absolute-path">System.ServiceProcess.ServiceBase</a>. It includes much of the basic service code, such as the code to start the service.</p>
+</li>
+</ol>
+<h2 id="rename-the-service" class="heading-with-anchor">Rename the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#rename-the-service"></a></h2>
+<p>Rename the service from <strong>Service1</strong> to <strong>MyNewService</strong>.</p>
+<ol>
+<li><p>In the <strong>Design</strong> view for Service1.cs (or Service1.vb), click the link to <strong>switch to code view</strong>. Right-click on <strong>Service1</strong> and select <strong>Rename</strong> from the context menu. Enter <strong>MyNewService</strong> and then press <strong>Enter</strong> or click <strong>Apply</strong>.</p>
+</li>
+<li><p>In the <strong>Properties</strong> window for <strong>Service1.cs [Design]</strong> or <strong>Service1.vb [Design]</strong>, change the <strong>ServiceName</strong> value to <strong>MyNewService</strong>.</p>
+</li>
+<li><p>In <strong>Solution Explorer</strong>, rename <strong>Service1.cs</strong> to <strong>MyNewService.cs</strong>, or rename <strong>Service1.vb</strong> to <strong>MyNewService.vb</strong>.</p>
+</li>
+</ol>
+<h2 id="add-features-to-the-service" class="heading-with-anchor">Add features to the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#add-features-to-the-service"></a></h2>
+<p>In this section, you add a custom event log to the Windows service. Event logs are not associated in any way with Windows services. The <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventlog" data-linktype="absolute-path">EventLog</a> component is used here as an example of the type of component you can add to a Windows service.</p>
+<h3 id="add-custom-event-log-functionality" class="heading-with-anchor">Add custom event log functionality<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#add-custom-event-log-functionality"></a></h3>
+<ol>
+<li><p>In <strong>Solution Explorer</strong>, open the context menu for <strong>MyNewService.cs</strong> or <strong>MyNewService.vb</strong>, and then choose <strong>View Designer</strong>.</p>
+</li>
+<li><p>From the <strong>Components</strong> section of the <strong>Toolbox</strong>, drag an <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventlog" data-linktype="absolute-path">EventLog</a> component to the designer.</p>
+</li>
+<li><p>In <strong>Solution Explorer</strong>, open the context menu for <strong>MyNewService.cs</strong> or <strong>MyNewService.vb</strong>, and then choose <strong>View Code</strong>.</p>
+</li>
+<li><p>Edit the constructor to define a custom event log:</p>
+<div class="codeHeader" id="code-try-0" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MyNewService</span>(<span class="hljs-params"></span>)
+</span>{
+     InitializeComponent();
+
+     eventLog1 = <span class="hljs-keyword">new</span> System.Diagnostics.EventLog();
+     <span class="hljs-keyword">if</span> (!System.Diagnostics.EventLog.SourceExists(<span class="hljs-string">"MySource"</span>))
+     {
+         System.Diagnostics.EventLog.CreateEventSource(
+             <span class="hljs-string">"MySource"</span>, <span class="hljs-string">"MyNewLog"</span>);
+     }
+     eventLog1.Source = <span class="hljs-string">"MySource"</span>;
+     eventLog1.Log = <span class="hljs-string">"MyNewLog"</span>;
+ }
+</code></pre>
+<pre hidden=""><code class="lang-vb" name="VbRadconService#2">' To access the constructor in Visual Basic, select New from the
+' method name drop-down list. 
+Public Sub New()
+  MyBase.New()
+  InitializeComponent()
+  Me.EventLog1 = New System.Diagnostics.EventLog
+  If Not System.Diagnostics.EventLog.SourceExists("MySource") Then
+      System.Diagnostics.EventLog.CreateEventSource("MySource",
+      "MyNewLog")
+  End If
+  EventLog1.Source = "MySource"
+  EventLog1.Log = "MyNewLog"
+End Sub
+</code></pre></li>
+</ol>
+<h3 id="define-what-occurs-when-the-service-starts" class="heading-with-anchor">Define what occurs when the service starts<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#define-what-occurs-when-the-service-starts"></a></h3>
+<p>In the code editor, locate the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> method that was automatically overridden when you created the project. Add a line of code that writes an entry to the event log when the service starts:</p>
+<div class="codeHeader" id="code-try-1" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp" name="VbRadconService#3"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnStart</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
+</span>{
+    eventLog1.WriteEntry(<span class="hljs-string">"In OnStart"</span>);
+}
+</code></pre><pre hidden=""><code class="lang-vb" name="VbRadconService#3">' To access the OnStart in Visual Basic, select OnStart from the
+' method name drop-down list. 
+Protected Overrides Sub OnStart(ByVal args() As String)
+  EventLog1.WriteEntry("In OnStart")
+End Sub
+</code></pre>
+<p>A service application is designed to be long-running, so it usually polls or monitors something in the system. The monitoring is set up in the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> method. However, <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> doesn’t actually do the monitoring. The <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> method must return to the operating system after the service's operation has begun. It must not loop forever or block. To set up a simple polling mechanism, you can use the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.timers.timer" data-linktype="absolute-path">System.Timers.Timer</a> component as follows: In the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> method, set parameters on the component, and then set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.timers.timer.enabled" data-linktype="absolute-path">Enabled</a> property to <code>true</code>. The timer raises events in your code periodically, at which time your service could do its monitoring. You can use the following code to do this:</p>
+<div class="codeHeader" id="code-try-2" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-comment">// Set up a timer that triggers every minute.</span>
+System.Timers.Timer timer = <span class="hljs-keyword">new</span> System.Timers.Timer();
+timer.Interval = <span class="hljs-number">60000</span>; <span class="hljs-comment">// 60 seconds</span>
+timer.Elapsed += <span class="hljs-keyword">new</span> System.Timers.ElapsedEventHandler(<span class="hljs-keyword">this</span>.OnTimer);
+timer.Start();
+</code></pre>
+<pre hidden=""><code class="lang-vb">' Set up a timer that triggers every minute.
+Dim timer As System.Timers.Timer = New System.Timers.Timer()
+timer.Interval = 60000 ' 60 seconds
+AddHandler timer.Elapsed, AddressOf Me.OnTimer
+timer.Start()
+</code></pre>
+<p>Add a member variable to the class. It contains the identifier of the next event to write into the event log.</p>
+<div class="codeHeader" id="code-try-3" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> eventId = <span class="hljs-number">1</span>;
+</code></pre>
+<pre hidden=""><code class="lang-vb">Private eventId As Integer = 1
+</code></pre>
+<p>Add a new method to handle the timer event:</p>
+<div class="codeHeader" id="code-try-4" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnTimer</span>(<span class="hljs-params"><span class="hljs-keyword">object</span> sender, System.Timers.ElapsedEventArgs args</span>)
+</span>{
+    <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Insert monitoring activities here.</span>
+    eventLog1.WriteEntry(<span class="hljs-string">"Monitoring the System"</span>, EventLogEntryType.Information, eventId++);
+}
+</code></pre>
+<pre hidden=""><code class="lang-vb">Private Sub OnTimer(sender As Object, e As Timers.ElapsedEventArgs)
+    ' TODO: Insert monitoring activities here.
+    eventLog1.WriteEntry("Monitoring the System", EventLogEntryType.Information, eventId)
+    eventId = eventId + 1
+End Sub
+</code></pre>
+<p>You might want to perform tasks by using background worker threads instead of running all your work on the main thread. For more information, see <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker" data-linktype="absolute-path">System.ComponentModel.BackgroundWorker</a>.</p>
+<h3 id="define-what-occurs-when-the-service-is-stopped" class="heading-with-anchor">Define what occurs when the service is stopped<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#define-what-occurs-when-the-service-is-stopped"></a></h3>
+<p>Add a line of code to the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstop" data-linktype="absolute-path">OnStop</a> method that adds an entry to the event log when the service is stopped:</p>
+<div class="codeHeader" id="code-try-5" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp">eventLog1.WriteEntry(<span class="hljs-string">"In OnStop."</span>);
+</code></pre>
+<pre hidden=""><code class="lang-vb" name="VbRadconService#4">Protected Overrides Sub OnStop()
+  EventLog1.WriteEntry("In OnStop.")
+End Sub
+</code></pre><h3 id="define-other-actions-for-the-service" class="heading-with-anchor">Define other actions for the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#define-other-actions-for-the-service"></a></h3>
+<p>You can override the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onpause" data-linktype="absolute-path">OnPause</a>, <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.oncontinue" data-linktype="absolute-path">OnContinue</a>, and <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onshutdown" data-linktype="absolute-path">OnShutdown</a> methods to define additional processing for your component. The following code shows how you can override the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.oncontinue" data-linktype="absolute-path">OnContinue</a> method:</p>
+<div class="codeHeader" id="code-try-6" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp" name="VbRadconService#5"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnContinue</span>(<span class="hljs-params"></span>)
+</span>{
+    eventLog1.WriteEntry(<span class="hljs-string">"In OnContinue."</span>);
+}  
+</code></pre><pre hidden=""><code class="lang-vb" name="VbRadconService#5">Protected Overrides Sub OnContinue()
+  EventLog1.WriteEntry("In OnContinue.")
+End Sub
+</code></pre>
+<p>Some custom actions have to occur when a Windows service is installed by the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.configuration.install.installer" data-linktype="absolute-path">Installer</a> class. Visual Studio can create these installers specifically for a Windows service and add them to your project.</p>
+<h2 id="set-service-status" class="heading-with-anchor">Set service status<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#set-service-status"></a></h2>
+<p>Services report their status to the Service Control Manager, so that users can tell whether a service is functioning correctly. By default, services that inherit from <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase" data-linktype="absolute-path">ServiceBase</a> report a limited set of status settings, including Stopped, Paused, and Running. If a service takes a little while to start up, it might be helpful to report a Start Pending status. You can also implement the Start Pending and Stop Pending status settings by adding code that calls into the Windows <a href="https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-setservicestatus" data-linktype="absolute-path">SetServiceStatus function</a>.</p>
+<p>To implement service pending status:</p>
+<ol>
+<li><p>Add a <code>using</code> statement or <code>Imports</code> declaration for the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.runtime.interopservices" data-linktype="absolute-path">System.Runtime.InteropServices</a> namespace in the MyNewService.cs or MyNewService.vb file:</p>
+<div class="codeHeader" id="code-try-7" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-keyword">using</span> System.Runtime.InteropServices;
+</code></pre>
+<pre hidden=""><code class="lang-vb">Imports System.Runtime.InteropServices
+</code></pre>
+</li>
+<li><p>Add the following code to MyNewService.cs to declare the <code>ServiceState</code> values and to add a structure for the status, which you'll use in a platform invoke call:</p>
+<div class="codeHeader" id="code-try-8" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> ServiceState
+{
+    SERVICE_STOPPED = <span class="hljs-number">0x00000001</span>,
+    SERVICE_START_PENDING = <span class="hljs-number">0x00000002</span>,
+    SERVICE_STOP_PENDING = <span class="hljs-number">0x00000003</span>,
+    SERVICE_RUNNING = <span class="hljs-number">0x00000004</span>,
+    SERVICE_CONTINUE_PENDING = <span class="hljs-number">0x00000005</span>,
+    SERVICE_PAUSE_PENDING = <span class="hljs-number">0x00000006</span>,
+    SERVICE_PAUSED = <span class="hljs-number">0x00000007</span>,
+}
+
+[<span class="hljs-meta">StructLayout(LayoutKind.Sequential)</span>]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">struct</span> ServiceStatus
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> dwServiceType;
+    <span class="hljs-keyword">public</span> ServiceState dwCurrentState;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> dwControlsAccepted;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> dwWin32ExitCode;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> dwServiceSpecificExitCode;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> dwCheckPoint;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> dwWaitHint;
+};
+</code></pre>
+<pre hidden=""><code class="lang-vb">Public Enum ServiceState
+    SERVICE_STOPPED = 1
+    SERVICE_START_PENDING = 2
+    SERVICE_STOP_PENDING = 3
+    SERVICE_RUNNING = 4
+    SERVICE_CONTINUE_PENDING = 5
+    SERVICE_PAUSE_PENDING = 6
+    SERVICE_PAUSED = 7
+End Enum
+
+&lt;StructLayout(LayoutKind.Sequential)&gt;
+Public Structure ServiceStatus
+    Public dwServiceType As Long
+    Public dwCurrentState As ServiceState
+    Public dwControlsAccepted As Long
+    Public dwWin32ExitCode As Long
+    Public dwServiceSpecificExitCode As Long
+    Public dwCheckPoint As Long
+    Public dwWaitHint As Long
+End Structure
+</code></pre>
+</li>
+<li><p>Now, in the <code>MyNewService</code> class, declare the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-setservicestatus" data-linktype="absolute-path">SetServiceStatus function</a> by using <a href="https://docs.microsoft.com/en-us/dotnet/framework/interop/consuming-unmanaged-dll-functions" data-linktype="relative-path">platform invoke</a>:</p>
+<div class="codeHeader" id="code-try-9" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp">[<span class="hljs-meta">DllImport(<span class="hljs-string">"advapi32.dll"</span>, SetLastError = true)</span>]
+<span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">extern</span> <span class="hljs-keyword">bool</span> <span class="hljs-title">SetServiceStatus</span>(<span class="hljs-params">System.IntPtr handle, <span class="hljs-keyword">ref</span> ServiceStatus serviceStatus</span>)</span>;
+</code></pre>
+<pre hidden=""><code class="lang-vb">Declare Auto Function SetServiceStatus Lib "advapi32.dll" (ByVal handle As IntPtr, ByRef serviceStatus As ServiceStatus) As Boolean
+</code></pre>
+</li>
+<li><p>To implement the Start Pending status, add the following code to the beginning of the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> method:</p>
+<div class="codeHeader" id="code-try-10" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-comment">// Update the service state to Start Pending.</span>
+ServiceStatus serviceStatus = <span class="hljs-keyword">new</span> ServiceStatus();
+serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
+serviceStatus.dwWaitHint = <span class="hljs-number">100000</span>;
+SetServiceStatus(<span class="hljs-keyword">this</span>.ServiceHandle, <span class="hljs-keyword">ref</span> serviceStatus);
+</code></pre>
+<pre hidden=""><code class="lang-vb">' Update the service state to Start Pending.
+Dim serviceStatus As ServiceStatus = New ServiceStatus()
+serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING
+serviceStatus.dwWaitHint = 100000
+SetServiceStatus(Me.ServiceHandle, serviceStatus)
+</code></pre>
+</li>
+<li><p>Add code to set the status to Running at the end of the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> method.</p>
+<div class="codeHeader" id="code-try-11" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-comment">// Update the service state to Running.</span>
+serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING;
+SetServiceStatus(<span class="hljs-keyword">this</span>.ServiceHandle, <span class="hljs-keyword">ref</span> serviceStatus);
+</code></pre>
+<pre hidden=""><code class="lang-vb">' Update the service state to Running.
+serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING
+SetServiceStatus(Me.ServiceHandle, serviceStatus)
+</code></pre>
+</li>
+<li><p>(Optional) Repeat this procedure for the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstop" data-linktype="absolute-path">OnStop</a> method.</p>
+</li>
+</ol>
+<div class="alert is-info">
+<p class="alert-title"><span class="docon docon-status-error-outline"></span> Note</p>
+<p>The <a href="https://docs.microsoft.com/en-us/windows/desktop/Services/service-control-manager" data-linktype="absolute-path">Service Control Manager</a> uses the <code>dwWaitHint</code> and <code>dwCheckpoint</code> members of the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/ns-winsvc-_service_status" data-linktype="absolute-path">SERVICE_STATUS structure</a> to determine how much time to wait for a Windows service to start or shut down. If your <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstart" data-linktype="absolute-path">OnStart</a> and <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstop" data-linktype="absolute-path">OnStop</a> methods run long, your service can request more time by calling <a href="https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-setservicestatus" data-linktype="absolute-path">SetServiceStatus</a> again with an incremented <code>dwCheckPoint</code> value.</p>
+</div>
+<h2 id="add-installers-to-the-service" class="heading-with-anchor">Add installers to the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#add-installers-to-the-service"></a></h2>
+<p>Before you can run a Windows service, you need to install it, which registers it with the Service Control Manager. You can add installers to your project that handle the registration details.</p>
+<ol>
+<li><p>In <strong>Solution Explorer</strong>, open the context menu for <strong>MyNewService.cs</strong> or <strong>MyNewService.vb</strong>, and then choose <strong>View Designer</strong>.</p>
+</li>
+<li><p>Click the background of the designer to select the service itself, instead of any of its contents.</p>
+</li>
+<li><p>Open the context menu for the designer window (if you’re using a pointing device, right-click inside the window), and then choose <strong>Add Installer</strong>.</p>
+<p>By default, a component class that contains two installers is added to your project. The component is named <strong>ProjectInstaller</strong>, and the installers it contains are the installer for your service and the installer for the service's associated process.</p>
+</li>
+<li><p>In <strong>Design</strong> view for <strong>ProjectInstaller</strong>, choose <strong>serviceInstaller1</strong> for a Visual C# project, or <strong>ServiceInstaller1</strong> for a Visual Basic project.</p>
+</li>
+<li><p>In the <strong>Properties</strong> window, make sure the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceinstaller.servicename" data-linktype="absolute-path">ServiceName</a> property is set to <strong>MyNewService</strong>.</p>
+</li>
+<li><p>Set the <strong>Description</strong> property to some text, such as "A sample service". This text appears in the Services window and helps the user identify the service and understand what it’s used for.</p>
+</li>
+<li><p>Set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceinstaller.displayname" data-linktype="absolute-path">DisplayName</a> property to the text that you want to appear in the Services window in the <strong>Name</strong> column. For example, you can enter "MyNewService Display Name". This name can be different from the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceinstaller.servicename" data-linktype="absolute-path">ServiceName</a> property, which is the name used by the system (for example, when you use the <code>net start</code> command to start your service).</p>
+</li>
+<li><p>Set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceinstaller.starttype" data-linktype="absolute-path">StartType</a> property to <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicestartmode#System_ServiceProcess_ServiceStartMode_Automatic" data-linktype="absolute-path">Automatic</a>.</p>
+<p><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/windowsservice-installerproperties.png" alt="Installer Properties for a Windows service" title="WindowsService_InstallerProperties" data-linktype="relative-path"></p>
+</li>
+<li><p>In the designer, choose <strong>serviceProcessInstaller1</strong> for a Visual C# project, or <strong>ServiceProcessInstaller1</strong> for a Visual Basic project. Set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceprocessinstaller.account" data-linktype="absolute-path">Account</a> property to <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceaccount#System_ServiceProcess_ServiceAccount_LocalSystem" data-linktype="absolute-path">LocalSystem</a>. This causes the service to be installed and to run using the local system account.</p>
+<div class="alert is-primary">
+<p class="alert-title"><span class="docon docon-status-info-outline"></span> Important</p>
+<p>The <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceaccount#System_ServiceProcess_ServiceAccount_LocalSystem" data-linktype="absolute-path">LocalSystem</a> account has broad permissions, including the ability to write to the event log. Use this account with caution, because it might increase your risk of attacks from malicious software. For other tasks, consider using the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceaccount#System_ServiceProcess_ServiceAccount_LocalService" data-linktype="absolute-path">LocalService</a> account, which acts as a non-privileged user on the local computer and presents anonymous credentials to any remote server. This example fails if you try to use the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.serviceaccount#System_ServiceProcess_ServiceAccount_LocalService" data-linktype="absolute-path">LocalService</a> account, because it needs permission to write to the event log.</p>
+</div>
+</li>
+</ol>
+<p>For more information about installers, see <a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-add-installers-to-your-service-application" data-linktype="relative-path">How to: Add Installers to Your service Application</a>.</p>
+<h2 id="optional-set-startup-parameters" class="heading-with-anchor">(Optional) Set startup parameters<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#optional-set-startup-parameters"></a></h2>
+<p>A Windows service, like any other executable, can accept command-line arguments, or startup parameters. When you add code to process startup parameters, users can start your service with their own custom startup parameters by using the Services window in the Windows Control Panel. However, these startup parameters are not persisted the next time the service starts. To set startup parameters permanently, you can set them in the registry, as shown in this procedure.</p>
+<div class="alert is-info">
+<p class="alert-title"><span class="docon docon-status-error-outline"></span> Note</p>
+<p>Before you decide to add startup parameters, consider whether that is the best way to pass information to your service. Although startup parameters are easy to use and to parse, and users can easily override them, they might be harder for users to discover and use without documentation. Generally, if your service requires more than just a few startup parameters, you should consider using the registry or a configuration file instead. Every Windows service has an entry in the registry under <strong>HKLM\System\CurrentControlSet\services</strong>. Under the service's key, you can use the <strong>Parameters</strong> subkey to store information that your service can access. You can use application configuration files for a Windows service the same way you do for other types of programs. For example code, see <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager.appsettings" data-linktype="absolute-path">AppSettings</a>.</p>
+</div>
+<p>To add startup parameters:</p>
+<ol>
+<li><p>In the <code>Main</code> method in Program.cs or in MyNewService.Designer.vb, add an input parameter to pass to the service constructor:</p>
+<div class="codeHeader" id="code-try-12" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
+</span>{
+    ServiceBase[] ServicesToRun;
+    ServicesToRun = <span class="hljs-keyword">new</span> ServiceBase[]
+    {
+        <span class="hljs-keyword">new</span> MyNewService(args)
+    };
+    ServiceBase.Run(ServicesToRun);
+}
+</code></pre>
+<pre hidden=""><code class="lang-vb">Shared Sub Main(ByVal cmdArgs() As String)
+    Dim ServicesToRun() As System.ServiceProcess.ServiceBase = New System.ServiceProcess.ServiceBase() {New MyNewServiceVB(cmdArgs)}
+    System.ServiceProcess.ServiceBase.Run(ServicesToRun)
+End Sub
+</code></pre>
+</li>
+<li><p>Change the <code>MyNewService</code> constructor as follows:</p>
+<div class="codeHeader" id="code-try-13" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MyNewService</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
+</span>{
+    InitializeComponent();
+
+     <span class="hljs-keyword">string</span> eventSourceName = <span class="hljs-string">"MySource"</span>;
+     <span class="hljs-keyword">string</span> logName = <span class="hljs-string">"MyNewLog"</span>;
+
+     <span class="hljs-keyword">if</span> (args.Length &gt; <span class="hljs-number">0</span>)
+     {
+         eventSourceName = args[<span class="hljs-number">0</span>];
+     }
+
+     <span class="hljs-keyword">if</span> (args.Length &gt; <span class="hljs-number">1</span>)
+     {
+         logName = args[<span class="hljs-number">1</span>];
+     }
+
+     eventLog1 = <span class="hljs-keyword">new</span> System.Diagnostics.EventLog();
+
+     <span class="hljs-keyword">if</span> (!System.Diagnostics.EventLog.SourceExists(eventSourceName))
+     {
+         System.Diagnostics.EventLog.CreateEventSource(eventSourceName, logName);
+     }
+
+     eventLog1.Source = eventSourceName;
+     eventLog1.Log = logName;
+}
+</code></pre>
+<pre hidden=""><code class="lang-vb">Public Sub New(ByVal cmdArgs() As String)
+    InitializeComponent()
+    Dim eventSourceName As String = "MySource"
+    Dim logName As String = "MyNewLog"
+    If (cmdArgs.Count() &gt; 0) Then
+        eventSourceName = cmdArgs(0)
+    End If
+    If (cmdArgs.Count() &gt; 1) Then
+        logName = cmdArgs(1)
+    End If
+    eventLog1 = New System.Diagnostics.EventLog()
+    If (Not System.Diagnostics.EventLog.SourceExists(eventSourceName)) Then
+        System.Diagnostics.EventLog.CreateEventSource(eventSourceName, logName)
+    End If
+    eventLog1.Source = eventSourceName
+    eventLog1.Log = logName
+End Sub
+</code></pre>
+<p>This code sets the event source and log name according to the supplied startup parameters, or uses default values if no arguments are supplied.</p>
+</li>
+<li><p>To specify the command-line arguments, add the following code to the <code>ProjectInstaller</code> class in ProjectInstaller.cs or ProjectInstaller.vb:</p>
+<div class="codeHeader" id="code-try-14" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-csharp"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnBeforeInstall</span>(<span class="hljs-params">IDictionary savedState</span>)
+</span>{
+    <span class="hljs-keyword">string</span> parameter = <span class="hljs-string">"MySource1\" \"MyLogFile1"</span>;
+    Context.Parameters[<span class="hljs-string">"assemblypath"</span>] = <span class="hljs-string">"\""</span> + Context.Parameters[<span class="hljs-string">"assemblypath"</span>] + <span class="hljs-string">"\" \""</span> + parameter + <span class="hljs-string">"\""</span>;
+    <span class="hljs-keyword">base</span>.OnBeforeInstall(savedState);
+}
+</code></pre>
+<pre hidden=""><code class="lang-vb">Protected Overrides Sub OnBeforeInstall(ByVal savedState As IDictionary)
+    Dim parameter As String = "MySource1"" ""MyLogFile1"
+    Context.Parameters("assemblypath") = """" + Context.Parameters("assemblypath") + """ """ + parameter + """"
+    MyBase.OnBeforeInstall(savedState)
+End Sub
+</code></pre>
+<p>This code modifies the <strong>ImagePath</strong> registry key, which typically contains the full path to the executable for the Windows service, by adding the default parameter values. The quotation marks around the path (and around each individual parameter) are required for the service to start up correctly. To change the startup parameters for this Windows service, users can change the parameters given in the <strong>ImagePath</strong> registry key, although the better way is to change it programmatically and expose the functionality to users in a friendly way (for example, in a management or configuration utility).</p>
+</li>
+</ol>
+<h2 id="build-the-service" class="heading-with-anchor">Build the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#build-the-service"></a></h2>
+<ol>
+<li><p>In <strong>Solution Explorer</strong>, open the context menu for your project, and then choose <strong>Properties</strong>.</p>
+<p>The property pages for your project appear.</p>
+</li>
+<li><p>On the <strong>Application</strong> tab, in the <strong>Startup object</strong> list, choose <strong>MyNewService.Program</strong>.</p>
+</li>
+<li><p>In <strong>Solution Explorer</strong>, open the context menu for your project, and then choose <strong>Build</strong> to build the project (or press <strong>Ctrl</strong>+<strong>Shift</strong>+<strong>B</strong>).</p>
+</li>
+</ol>
+<h2 id="install-the-service" class="heading-with-anchor">Install the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#install-the-service"></a></h2>
+<p>Now that you've built the Windows service, you can install it. To install a Windows service, you must have administrator credentials on the computer on which you're installing it.</p>
+<ol>
+<li><p>Open <strong>Developer Command Prompt for Visual Studio</strong> with administrative credentials. If you’re using a mouse, right-click on <strong>Developer Command Prompt for VS 2017</strong> in the Windows Start menu, and then choose <strong>More</strong> &gt; <strong>Run as Administrator</strong>.</p>
+</li>
+<li><p>In the <strong>Developer Command Prompt</strong> window, navigate to the folder that contains your project's output (by default, it's the <em>\bin\Debug</em> subdirectory of your project).</p>
+</li>
+<li><p>Enter the following command:</p>
+<div class="codeHeader" id="code-try-15" data-bi-name="code-header"><span class="language">shell</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-shell">installutil.exe MyNewService.exe
+</code></pre>
+<p>If the service installs successfully, <strong>installutil.exe</strong> reports success. If the system could not find <strong>InstallUtil.exe</strong>, make sure that it exists on your computer. This tool is installed with the .NET Framework to the folder <em>%windir%\Microsoft.NET\Framework[64]\[framework version]</em>. For example, the default path for the 32-bit version is <em>%windir%\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe</em>.</p>
+<p>If the <strong>installutil.exe</strong> process reports failure, check the install log to find out why. By default the log is in the same folder as the service executable. The installation can fail if  the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.runinstallerattribute" data-linktype="absolute-path">RunInstallerAttribute</a> Class is not present on the <code>ProjectInstaller</code> class, if the attribute is not set to <strong>true</strong>, or if the <code>ProjectInstaller</code> class is not marked <strong>public</strong>.</p>
+</li>
+</ol>
+<p>For more information, see <a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-install-and-uninstall-services" data-linktype="relative-path">How to: Install and Uninstall Services</a>.</p>
+<h2 id="start-and-run-the-service" class="heading-with-anchor">Start and run the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#start-and-run-the-service"></a></h2>
+<ol>
+<li><p>In Windows, open the <strong>Services</strong> desktop app. Press <strong>Windows</strong>+<strong>R</strong> to open the <strong>Run</strong> box, and then enter <strong>services.msc</strong> and press <strong>Enter</strong> or click <strong>OK</strong>.</p>
+<p>You should see your service listed in <strong>Services</strong>, displayed alphabetically by the display name that you set for it.</p>
+<p><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/windowsservices-serviceswindow.png" alt="MyNewService in the Services window." data-linktype="relative-path"></p>
+</li>
+<li><p>In <strong>Services</strong>, open the shortcut menu for your service, and then choose <strong>Start</strong>.</p>
+</li>
+<li><p>To stop the service, open the shortcut menu for the service, and then choose <strong>Stop</strong>.</p>
+</li>
+<li><p>(Optional) From the command line, you can use the commands <code>net start ServiceName</code> and <code>net stop ServiceName</code> to start and stop your service.</p>
+</li>
+</ol>
+<h3 id="verify-the-event-log-output-of-your-service" class="heading-with-anchor">Verify the event log output of your service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#verify-the-event-log-output-of-your-service"></a></h3>
+<ol>
+<li><p>Open <strong>Event Viewer</strong> by starting to type <strong>Event Viewer</strong> in the search box on the Windows task bar, and then selecting <strong>Event Viewer</strong> from the search results.</p>
+<div class="alert is-success">
+<p class="alert-title"><span class="docon docon-lightbulb"></span> Tip</p>
+<p>In Visual Studio, you can access event logs by opening <strong>Server Explorer</strong> (Keyboard: <strong>Ctrl</strong>+<strong>Alt</strong>+<strong>S</strong>) and expanding the <strong>Event Logs</strong> node for the local computer.</p>
+</div>
+</li>
+<li><p>In <strong>Event Viewer</strong>, expand <strong>Applications and Services Logs</strong>.</p>
+</li>
+<li><p>Locate the listing for <strong>MyNewLog</strong> (or <strong>MyLogFile1</strong>, if you followed the optional procedure to add command-line arguments) and expand it. You should see entries for the two actions (start and stop) that your service performed.</p>
+<p><img src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/windows-service-event-viewer.png" alt="Use the Event Viewer to see the event log entries" data-linktype="relative-path"></p>
+</li>
+</ol>
+<h2 id="uninstall-the-service" class="heading-with-anchor">Uninstall the service<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#uninstall-the-service"></a></h2>
+<ol>
+<li><p>Open <strong>Developer Command Prompt for Visual Studio</strong> with administrative credentials.</p>
+</li>
+<li><p>In the command prompt window, navigate to the folder that contains your project's output.</p>
+</li>
+<li><p>Enter the following command:</p>
+<div class="codeHeader" id="code-try-16" data-bi-name="code-header"><span class="language">shell</span>
+			<button class="action" data-bi-name="copy">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre><code class="lang-shell">installutil.exe /u MyNewService.exe
+</code></pre>
+<p>If the service uninstalls successfully, <strong>installutil.exe</strong> reports that your service was successfully removed. For more information, see <a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-install-and-uninstall-services" data-linktype="relative-path">How to: Install and Uninstall Services</a>.</p>
+</li>
+</ol>
+<h2 id="next-steps" class="heading-with-anchor">Next steps<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#next-steps"></a></h2>
+<p>Now that you've created the service, you might want to create a standalone setup program that others can use to install your Windows service. ClickOnce doesn't support Windows services, but you can use the <a href="http://wixtoolset.org/" data-linktype="external">WiX Toolset</a> to create an installer for a Windows service. For other ideas, see <a href="https://docs.microsoft.com/en-us/visualstudio/deployment/deploying-applications-services-and-components#create-an-installer-package-windows-desktop" data-linktype="absolute-path">Create an installer package</a>.</p>
+<p>You might explore the use of a <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicecontroller" data-linktype="absolute-path">ServiceController</a> component, which enables you to send commands to the service you've installed.</p>
+<p>You can use an installer to create an event log when the application is installed instead of creating the event log when the application runs. Additionally, the event log will be deleted by the installer when the application is uninstalled. For more information, see the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventloginstaller" data-linktype="absolute-path">EventLogInstaller</a> reference page.</p>
+<h2 id="see-also" class="heading-with-anchor">See also<a class="docon docon-link heading-anchor" tabindex="-1" aria-hidden="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#see-also"></a></h2>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/index" data-linktype="relative-path">Windows service applications</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/introduction-to-windows-service-applications" data-linktype="relative-path">Introduction to Windows service applications</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-debug-windows-service-applications" data-linktype="relative-path">How to: Debug Windows service applications</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/desktop/Services/services" data-linktype="absolute-path">Services (Windows)</a></li>
+</ul>
+
+						<!-- </content> -->
+
+						</main>
+
+						<!-- feedback section -->
+
+
+
+<section class="feedback-section" data-bi-name="feedback-section">
+	<h2 id="feedback">Feedback</h2>
+
+	<div class="alert choose-feedback-type">
+		<p>
+We'd love to hear your thoughts. Choose the type you'd like to provide:		</p>
+
+		<div class="choose-feedback-buttons">
+			<a class="button feedback-type-product has-margin-bottom-small" href="https://developercommunity.visualstudio.com/spaces/61/index.html" data-bi-name="product-feedback">
+				<span>Product feedback</span>
+				<span class="icon docon docon-navigate-external" aria-hidden="true"></span>
+			</a>
+
+			<div class="field has-addons is-inline-flex has-margin-bottom-small">
+				<div class="control has-margin-top-none has-margin-bottom-none">
+					<button class="button feedback-sign-in-button has-text-wrap" data-bi-name="feedback-sign-in">
+						<span class="icon docon docon-brand-github" aria-hidden="true"></span>
+						<span>
+							Sign in to give content feedback						</span>
+					</button>
+				</div>
+				<div class="control dropdown has-caret has-margin-top-none has-margin-bottom-none" auto-align="">
+					<button class="button dropdown-trigger is-full-height" aria-haspopup="true" aria-expanded="false" aria-controls="fbm0" aria-label="Expand content feedback menu" data-bi-name="documentation-feedback-menu">
+						<span class="icon docon docon-chevron-down-light" aria-hidden="true"></span>
+					</button>
+					<div class="dropdown-menu documentation-feedback-menu" id="fbm0" role="menu">
+						You may also leave feedback <a data-bi-name="create-issue-on-github" href="https://github.com/dotnet/docs/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20docs.microsoft.com%20%E2%9E%9F%20GitHub%20issue%20linking.*%0A%0A*%20ID%3A%2075152e30-b486-3ba0-c606-25ada7347b22%0A*%20Version%20Independent%20ID%3A%20e797ddfe-a9d3-93a4-61bd-fd6dc9b8d6b4%0A*%20Content%3A%20%5BCreate%20a%20Windows%20service%20application%20in%20Visual%20Studio%5D(https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer)%0A*%20Content%20Source%3A%20%5Bdocs%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer.md%5D(https%3A%2F%2Fgithub.com%2Fdotnet%2Fdocs%2Fblob%2Fmaster%2Fdocs%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer.md)%0A*%20Product%3A%20**dotnet-framework**%0A*%20GitHub%20Login%3A%20%40ghogen%0A*%20Microsoft%20Alias%3A%20**dotnetcontent**">directly on GitHub <span class="docon docon-navigate-external" aria-hidden="true"></span></a>.					</div>
+				</div>
+			</div>
+
+			<div class="field has-addons is-inline-flex has-margin-bottom-small" hidden="">
+				<div class="control has-margin-top-none has-margin-bottom-none">
+					<button class="button feedback-form-toggle" aria-expanded="false" aria-controls="feedback-form" data-bi-name="documentation-feedback">
+Content feedback					</button>
+				</div>
+				<div class="control dropdown has-caret has-margin-top-none has-margin-bottom-none" auto-align="">
+					<button class="button dropdown-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="fbm1" aria-label="Liquid error: Can&#39;t find the localized string expandDocumentationFeedbackMenu for template Conceptual." data-bi-name="documentation-feedback-menu">
+						<span class="icon docon docon-chevron-down-light" aria-hidden="true"></span>
+					</button>
+					<div class="dropdown-menu documentation-feedback-menu" id="fbm1" role="menu">
+						You may also leave feedback <a data-bi-name="create-issue-on-github" href="https://github.com/dotnet/docs/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20docs.microsoft.com%20%E2%9E%9F%20GitHub%20issue%20linking.*%0A%0A*%20ID%3A%2075152e30-b486-3ba0-c606-25ada7347b22%0A*%20Version%20Independent%20ID%3A%20e797ddfe-a9d3-93a4-61bd-fd6dc9b8d6b4%0A*%20Content%3A%20%5BCreate%20a%20Windows%20service%20application%20in%20Visual%20Studio%5D(https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer)%0A*%20Content%20Source%3A%20%5Bdocs%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer.md%5D(https%3A%2F%2Fgithub.com%2Fdotnet%2Fdocs%2Fblob%2Fmaster%2Fdocs%2Fframework%2Fwindows-services%2Fwalkthrough-creating-a-windows-service-application-in-the-component-designer.md)%0A*%20Product%3A%20**dotnet-framework**%0A*%20GitHub%20Login%3A%20%40ghogen%0A*%20Microsoft%20Alias%3A%20**dotnetcontent**">directly on GitHub <span class="docon docon-navigate-external" aria-hidden="true"></span></a>.					</div>
+				</div>
+			</div>
+		</div>
+		<p class="has-margin-top-none"><small>Our feedback system is built on GitHub Issues. Read more on <a href="https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs">our blog</a>.</small></p>
+	</div>
+
+	<form class="feedback-form" id="feedback-form" accept-charset="UTF-8" autocomplete="off" action="javascript:" hidden="">
+		<h3 class="feedback-form-heading current-user">
+			<img class="avatar" alt="Avatar" width="36" height="36" aria-hidden="true" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIGZpbGw9InRyYW5zcGFyZW50IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==">
+			<span class="username" aria-hidden="true"></span>
+			<span class="visually-hidden">Liquid error: Can't find the localized string giveDocumentationFeedback for template Conceptual.</span>
+		</h3>
+
+		<label>
+			<span class="visually-hidden">Issue Title</span>
+			<input class="input is-radiusless has-margin-bottom-small" name="title" type="text" placeholder="Issue Title" required="" pattern=".*\w.*">
+		</label>
+		<label>
+			<span class="visually-hidden">Leave a comment</span>
+			<textarea name="body" placeholder="Leave a comment" class="textarea is-radiusless" required=""></textarea>
+		</label>
+
+		<div class="action-container">
+			<button class="button is-primary" type="submit" name="submit">Submit feedback</button>
+		</div>
+	</form>
+
+	<div class="feedback-status alert is-loading" role="alert">
+		<p>Loading feedback...</p>
+	</div>
+
+	<div class="feedback-tab-group tabGroup" data-tab-group-independent="" hidden="" data-bi-name="tab-group">
+		<ul role="tablist">
+			<li role="presentation">
+				<a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#tabpanel-issues-open" role="tab" aria-controls="tabpanel-issues-open" data-tab="issues-open" aria-label="Open Issues" data-bi-name="tab" aria-selected="true" tabindex="0"></a>
+			</li>
+			<li role="presentation">
+				<a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#tabpanel-issues-closed" role="tab" aria-controls="tabpanel-issues-closed" data-tab="issues-closed" aria-label="Closed Issues" data-bi-name="tab" aria-selected="false" tabindex="-1"></a>
+			</li>
+		</ul>
+		<section id="tabpanel-issues-open" role="tabpanel" data-tab="issues-open">
+			<div class="no-issues-placeholder">There are no open issues</div>
+			<ul class="github-issues-list" aria-label="Open Issues"></ul>
+		</section>
+		<section id="tabpanel-issues-closed" role="tabpanel" data-tab="issues-closed" hidden="hidden" aria-hidden="true">
+			<div class="no-issues-placeholder">There are no closed issues</div>
+			<ul class="github-issues-list" aria-label="Closed Issues"></ul>
+		</section>
+	</div>
+	<div class="action-container">
+		<a class="view-on-github" href="https://github.com/dotnet/docs/issues?utf8=%E2%9C%93&amp;q=%22e797ddfe-a9d3-93a4-61bd-fd6dc9b8d6b4%22&amp;in=body" data-bi-name="view-on-github" hidden="">
+			<span class="docon docon-brand-github" aria-hidden="true"></span>
+			<span>View on GitHub</span>
+			<span class="docon docon-navigate-external" aria-hidden="true"></span>
+		</a>
+	</div>
+</section>
+						<!-- end feedback section -->
+
+						<div class="footerContainer is-visible-interactive has-default-focus ">
+<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+
+    <a data-mscc-ic="false" class="locale-selector-link" href="https://docs.microsoft.com/en-us/locale?target=https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer" data-bi-name="select-locale"><span class="icon docon docon-world is-size-4 has-margin-right-small"></span><span class="local-selector-link-text">English (United States)</span></a>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+			<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+		<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+		<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+    </ul>
+</footer>
+						</div>
+					</div>
+
+					<!--end of div.columns -->
+
+				</div>
+
+			<!--end of .primary-holder -->
+			</section>
+
+				<div id="left-container" class="left-container column is-one-third-tablet is-one-quarter-desktop">
+					<nav class="sidebar" id="sidebar" data-bi-name="left toc" role="navigation" aria-label="Main Navigation" style="width: 364px; top: 120px; bottom: 24px;">
+						<button class="sidebar-header" type="button" aria-label="Close" data-bi-name="contents-collapse">
+							<span>Contents</span>
+							<span class="docon docon-navigate-close" aria-hidden="true"></span>
+						</button>
+						<div id="sidebarContent">
+							<div class="filterHolder">
+							<form class="tocFilter" aria-label="Filter Table of Contents"><input class="input is-size-7" placeholder="Filter by title" aria-label="Filter" data-bi-name="toc-filter" id="toc-filter" type="search" aria-controls="filterResults"><a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#" title="Clear Filter" class="clearInput"><span class="visually-hidden">Clear Filter</span></a></form><div class="emptyFilterMessage">No results</div></div>
+							<nav class="toc" role="application" aria-label="Table of Contents" id="filterResults"><ul role="tree" onclick="msDocs.functions.stopSomePropagation(event, &quot;top&quot;)" class="noSibs"><li role="group" aria-expanded="true" aria-label="windows service applications " onclick="event.stopPropagation();msDocs.functions.toggleAriaExpanded(this)"><a onclick="msDocs.functions.stopSomePropagation(event, &quot;left&quot;)" tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/" data-text="windows service applications ">Windows Service Applications</a><ul role="tree" onclick="msDocs.functions.stopSomePropagation(event, &quot;top&quot;)"><li role="treeitem"><a onclick="msDocs.functions.stopSomePropagation(event, &quot;left&quot;)" tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/introduction-to-windows-service-applications" data-text="introduction to windows service applications ">Introduction to Windows Service Applications</a></li><li role="treeitem" class="selectedHolder"><a tabindex="0" class="selected" aria-current="page" data-showme="true" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer" data-text="walkthrough: create a windows service app ">Walkthrough: Create a Windows Service App</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/service-application-programming-architecture" data-text="service application programming architecture ">Service Application Programming Architecture</a></li><li role="group" aria-expanded="false" aria-label="how to: create windows services " tabindex="0" onclick="event.stopPropagation();msDocs.functions.toggleAriaExpanded(this)" class="noSubs"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-create-windows-services" data-text="how to: create windows services ">How to: Create Windows Services</a><ul role="tree" onclick="msDocs.functions.stopSomePropagation(event, &quot;top&quot;)"><li role="treeitem"><a onclick="msDocs.functions.stopSomePropagation(event, &quot;left&quot;)" tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-write-services-programmatically" data-text="how to: write services programmatically ">How to: Write Services Programmatically</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-add-installers-to-your-service-application" data-text="how to: add installers to your service application ">How to: Add Installers to Your Service Application</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-specify-the-security-context-for-services" data-text="how to: specify the security context for services ">How to: Specify the Security Context for Services</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-install-and-uninstall-services" data-text="how to: install and uninstall services ">How to: Install and Uninstall Services</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-start-services" data-text="how to: start services ">How to: Start Services</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-pause-a-windows-service-visual-basic" data-text="how to: pause a windows service (visual basic) ">How to: Pause a Windows Service (Visual Basic)</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-continue-a-windows-service-visual-basic" data-text="how to: continue a windows service (visual basic) ">How to: Continue a Windows Service (Visual Basic)</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-debug-windows-service-applications" data-text="how to: debug windows service applications ">How to: Debug Windows Service Applications</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/how-to-log-information-about-services" data-text="how to: log information about services ">How to: Log Information About Services</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/troubleshooting-debugging-windows-services" data-text="troubleshooting: debug windows services ">Troubleshooting: Debug Windows Services</a></li><li role="treeitem"><a tabindex="0" href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/troubleshooting-service-application-wont-install" data-text="troubleshooting: service application won&amp;#39;t install ">Troubleshooting: Service Application Won't Install</a></li></ul></li></ul></li></ul></nav>
+							<div class="pdf-download-holder">
+		<a href="https://docs.microsoft.com/en-us/dotnet/opbuildpdf/framework/windows-services/toc.pdf?branch=live" class="pdf-download-link has-inner-focus" data-bi-name="downloadPdf">
+			<span class="icon">
+				<span class="docon docon-arrow-down" aria-hidden="true"></span>
+			</span>
+			<span class="pdf-download-text">Download PDF</span>
+		</a>
+	</div>
+						</div>
+					</nav>
+				</div>
+
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+		</div>
+
+		<!--end of .mainContainer -->
+	</div>
+
+	<div id="openFeedbackContainer" class="openfeedback-container">
+		<form aria-live="assertive" class="rating has-default-focus rating-helpful-active" action="javascript:" data-bi-name="rating">
+			<button class="rating-close has-default-focus has-inner-focus docon docon-navigate-close" type="button" aria-label="Close" data-bi-name="rating-close"></button>
+			<button class="button is-primary rating-mobile-feedback" type="button" data-bi-name="rating-mobile-feedback">Feedback</button>
+			<div class="rating-helpful">
+				<label>Is this page helpful?</label>
+				<div class="buttons">
+					<button class="button is-primary" type="button" data-bi-name="rating-yes" data-bi-sat="1">Yes</button>
+					<button class="button is-primary" type="button" data-bi-name="rating-no" data-bi-sat="0">No</button>
+				</div>
+			</div>
+			<div class="rating-thanks1 has-default-focus">
+				<p class="x-hidden-focus" tabindex="-1">Thanks for the feedback!</p>
+				<p>Comments or suggestions? <a href="https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer#" data-bi-name="rating-verbatim-link">Tell us here</a>.</p>
+			</div>
+			<div class="rating-thanks2">
+				<span class="x-hidden-focus" tabindex="-1">Thanks for the feedback!</span>
+			</div>
+			<div class="rating-verbatim has-default-focus">
+				<label for="rating-0">How can we improve?</label>
+				<textarea class="rating-textarea textarea" required="required" id="rating-0" placeholder="Please share your ideas. We welcome feedback in any language."></textarea>
+				<button class="button is-primary" type="submit" data-bi-name="rating-verbatim" disabled="">Submit</button>
+			</div>
+		</form></div>
+
+	<div class="footerContainer has-default-focus is-hidden-interactive ">
+<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+
+    <a data-mscc-ic="false" class="locale-selector-link" href="https://docs.microsoft.com/en-us/locale?target=https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer" data-bi-name="select-locale"><span class="icon docon docon-world is-size-4 has-margin-right-small"></span><span class="local-selector-link-text">English (United States)</span></a>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+			<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+		<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+		<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+    </ul>
+</footer>
+
+	</div>
+
+	<div class="action-panel has-default-focus"></div>
+<noscript><img src="https://docs.microsoft.com/akam/10/pixel_34101d86?a=dD03OTBiZDc1OWFlNDc2MWFjZjZiNjY1OTgyNzk5NjgxMTAyZWMwNmU4JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+
+
+<!-- Injection By NetFree -->
+<script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/go-tou.js.download" type="text/javascript" async=""></script>
+<script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/go-payment.js.download" type="text/javascript" async=""></script>
+<script src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/popup-card-init.js.download" type="text/javascript" async=""></script>
+<iframe src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/tou.html" style="height: 0px; width: 0px; display: none;"></iframe><iframe src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/go-payment.html" style="height: 0px; width: 0px; display: none;"></iframe><div><div id="netfree-popup-window">
+    <style type="text/css">
+            #netfree-popup-window-main {
+                position: fixed;
+                background: #FFFFFF;
+                padding: 0;
+                margin: 0;
+                transition: right 0.3s ease, left 0.3s ease;
+                z-index: 9999999999;
+                direction: rtl;
+                box-sizing: border-box;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                height: 100%;
+                right: -250px;
+                width: 250px;
+                
+            }
+            
+            #netfree-popup-window-hand-pull {
+                background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);
+                background-size: 88%;
+                background-repeat: no-repeat;
+                width: 15px;
+                left: -15px;
+                height: 50px;
+                position: absolute;
+                top: 10px;
+                bottom: 10px;
+                margin: auto;
+                cursor: pointer;
+            }
+  
+            #netfree-popup-window-iframe {
+                width: 100%;
+                height: 100%;
+                border: 0;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                display: block;
+            }
+            
+            .netfree-popup-window-mouseenter {
+                opacity: .7;
+                -webkit-filter: blur(2px)
+            }
+            
+            .netfree-popup-window-click {
+                opacity: .2
+            }
+            
+            
+            #netfree-popup-window-main.active {
+                right: 0px;
+            }
+            
+            #netfree-popup-window-main.h-position-right {
+                /* default */
+            }
+            
+            /* מוצמד לשמאל */
+            #netfree-popup-window-main.h-position-left {
+                right: auto;
+                left: -250px;
+            }
+            
+            #netfree-popup-window-main.h-position-left.active {
+                right: auto;
+                left: 0px;
+            }
+            
+            #netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull {
+                left: auto;
+                right: -15px;
+                background-position-x: 200%;
+            }
+            
+            /* נקודות למעלה */
+            #netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull {
+                margin: 20px 0 auto 0;
+            }
+            /* נקודות למטה */
+            #netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull {
+                margin: auto 0 20px 0;
+            }
+            
+            /* 
+                מעלים את הכרטסת שמדפיסים את הדף
+            */
+            @media print {
+                #netfree-popup-window-main {
+                    display: none;
+                }
+                #netfree-popup-window{
+                    display: none;
+                }
+            }
+            
+            /*
+                מסך נמוך
+            */
+            @media only screen and (max-height: 750px) {
+                #netfree-popup-window-main {
+                    right: -309px;
+                    width: 309px;
+                }
+                #netfree-popup-window-main.h-position-left {
+                    left: -309px;
+                }
+            
+            }
+
+            /*
+                מסך שוכב של טאבלט
+            */
+            @media only screen and (max-device-width: 760px) and (orientation: landscape) {
+                #netfree-popup-window-main {
+                    right: -280px;
+                    width: 280px;
+                }
+                #netfree-popup-window-main.h-position-left {
+                    left: -280px;
+                }
+            }
+                
+            @media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape) {
+                #netfree-popup-window-main {
+                    right: -302px;
+                    width: 302px;
+                }
+                #netfree-popup-window-main.h-position-left {
+                    left: -302px;
+                }
+            
+            }
+            
+            @media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait) {
+                #netfree-popup-window-main {
+                    right: -270px;
+                    width: 270px;
+                }
+                #netfree-popup-window-main.h-position-left {
+                    left: -270px;
+                }
+            }
+            
+            @media only screen and (max-device-width: 700px) and (orientation: portrait) {
+                #netfree-popup-window-main {
+                    right: -222px;
+                    width: 222px;
+                }
+                #netfree-popup-window-main.h-position-left {
+                    left: -222px;
+                }
+            }
+            
+            @media print{
+                #netfree-popup-window-main{
+                    display: none;
+                }
+            }
+    </style>
+    
+    <div id="netfree-popup-window-main" class="h-position-right v-position-middle">
+        <span id="netfree-popup-window-hand-pull"></span>
+        <iframe id="netfree-popup-window-iframe" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/card.html"></iframe>
+    </div>
+    
+    <script type="text/javascript" src="./Create a Windows service application in Visual Studio _ Microsoft Docs_files/popup-card.min.js.download"></script>
+
+</div>
+</div></body></html>

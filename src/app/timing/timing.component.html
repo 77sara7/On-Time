@@ -1,0 +1,44 @@
+<div class="ui-g ui-fluid time">
+    <div class="name">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+            <input type="text" pInputText placeholder="Request name" [(ngModel)]="fillRequest.request_name" (input)="onChangeRequest($event)">
+        </div>
+    </div>
+
+    <div class="frequency_id">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="fa fa-clock"></i></span>
+
+            <p-dropdown [options]="frequencyLabel" [(ngModel)]="stringValueFrequency" placeholder="Select frequency" (onChange)="ChangeFrequency($event)"></p-dropdown>
+        </div>
+    </div>
+    <div class="if" *ngIf="frequencyIdChoose=='week'">
+    <!-- <div class="if"> -->
+         <!-- ככה רואים את היום של כל אחד -->
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="fa fa-clock"></i></span>
+            <p-dropdown [options]="day" [(ngModel)]="stringValueDay" placeholder="Select day" (onChange)="onChangeRequest($event)"></p-dropdown>
+        </div>
+    </div>
+    <!-- <div class="if"> -->
+         <!-- ככה רואים את השעה של כל אחד -->
+    <div class="if" *ngIf="frequencyIdChoose=='day'">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="fa fa-clock"></i></span>
+            <p-dropdown [options]="hours" [(ngModel)]="stringValueHour" placeholder="Select hour" (onChange)="onChangeRequest($event)"></p-dropdown>
+        </div>
+    </div>
+    <div class="date_from">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="fa fa-calendar-alt"></i></span>
+            <p-calendar [(ngModel)]="fillRequest.date_from" showButtonBar="true" name="dateFrom" (onSelect)="onChangeRequest($event)"></p-calendar>
+        </div>
+    </div>
+    <div class="date_to">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="fa fa-calendar-alt"></i></span>
+            <p-calendar [(ngModel)]="fillRequest.date_to" showButtonBar="true" name="dateTo" (onSelect)="onChangeRequest($event)"></p-calendar>
+        </div>
+    </div>
+</div>

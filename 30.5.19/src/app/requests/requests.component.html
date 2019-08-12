@@ -1,0 +1,9 @@
+<p-button (onClick)="newRequest()"  label="new Request"></p-button>
+<div *ngFor="let request of requests,let i=index" (dblclick)=fillData(request)>{{request.request_name}}
+</div>
+<div *ngIf="isClicked==true">
+    <app-timing [requestTiming]='timing' (selectTiming)='saveData($event)'></app-timing>
+    <input type="text" placeholder="request name" [(ngModel)]="currentRequest.request_name"  name="RequestName">
+    <p-button (onClick)="deleteRequest()"  label="Delete Request">Delete Request</p-button>
+    <p-button (onClick)="updateRequest()" label="update Request">update Request</p-button>
+</div>

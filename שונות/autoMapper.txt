@@ -1,0 +1,5 @@
+            Mapper.Initialize(cfg => cfg.CreateMap<ElectricClock, CommonElectricClock>()
+            .ForMember(o => o.Command, b => b.MapFrom(z => z.Command))
+            .ForMember(o => o.Desc, b => b.MapFrom(z => z.Description)));
+            ElectricClock electricClock = new ElectricClock();
+            CommonElectricClock commonElectricClock = Mapper.Map<CommonElectricClock>(electricClock);

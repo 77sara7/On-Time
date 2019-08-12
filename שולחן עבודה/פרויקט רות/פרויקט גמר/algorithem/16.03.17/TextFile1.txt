@@ -1,0 +1,808 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .wrapper {
+            width: 1000px;
+            margin: 0px auto;
+        }
+
+        .InnerTag {
+            margin: 0.5px;
+            display: inline-block;
+            padding: 6px;
+        }
+
+        .Icon {
+            width: 10%;
+            height: 10%;
+            display: inline;
+        }
+
+        .side {
+            width: 80%;
+        }
+
+        .smallNumber {
+            width: 30%;
+        }
+
+        .smallTitle {
+            background-color: #ffc000;
+            padding: 2%;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <br />
+    <div style="background-color:#548235">
+        <div class="wrapper">
+            <img src="logo.png" height="150" />
+
+        </div>
+    </div><br />
+    <br />
+    <div class="wrapper">
+
+        <div id="d1" style="float: left;border-style:solid; width:25%;">
+            <div class="smallTitle">
+                <div>new site</div>
+            </div>
+            <br />
+            <div class="InnerTag">
+                <span style='background-color:yellow'>iddddddddddddddddddd:</span><input id="Text1" type="text"  style='background-color:yellow'/><br />
+                <span style='background-color:yellow'>name:</span><input id="Text1" type="text"  style='background-color:yellow'/><br />
+                <span style='background-color:yellow'>timing:</span>
+
+                <div style='background-color:yellow'>
+                    <input id="Radio1" type="radio" name="timing"  style='background-color:yellow'/><span style='background-color:yellow'>days:</span><input id="Text1" type="number"  style='background-color:yellow'/><br />
+                    <input id="Radio2" type="radio" name="timing"  style='background-color:yellow'/><span style='background-color:yellow'>weeks</span><input id="Text1" type="number"  style='background-color:yellow'/><br />
+                    <input id="Radio3" type="radio" name="timing"  style='background-color:yellow'/><span style='background-color:yellow'>on change</span><br  style='background-color:yellow'/>
+                </div>
+
+                <input id="Button1" type="button" value="new"  style='background-color:yellow'/><br />
+                <br />
+
+            < style='background-color:yellow'/div>
+        </div>
+        <div id="d2" class="InnerTag" style="float:right;background-color:#ffc000; width:65%;height:180px ;background-color:yellow">
+
+
+        </div>
+        <br />
+        <div style="clear:both ;background-color:yellow">
+            <br />
+            <div id="d3" class="InnerTag" style='background-color:yellow'>
+                <table cellpadding="7" width="650" style='background-color:yellow'>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>1</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>2</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" /></td>
+
+
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" /></td>
+
+
+                    < style='background-color:yellow'/tr>
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                    <tr style='background-color:yellow'>
+                        <td style='background-color:yellow'>3</td>
+                        <td style='background-color:yellow'>www.amazon.com</td>
+                        <td style='background-color:yellow'>????</td>
+
+                        <td style='background-color:yellow'><img src="pic style='background-color:yellow'/pic.JPG" class="Icon" />< style='background-color:yellow'/td>
+
+
+                    </tr>
+                < style='background-color:yellow'/table>
+            </div><div style="float:right; width:25%; border-style:solid ;background-color:yellow">
+                <div class="smallTitle" style='background-color:yellow'>
+                    <div style='background-color:yellow'>edit site< style='background-color:yellow'/div>
+                </div>
+                <br />
+                <div id="d1" class="InnerTag" style='background-color:yellow'>
+
+                    <span style='background-color:yellow'>idd:</span><br /><input id="Text1" type="text" class="side"  style='background-color:yellow'/><br />
+                    <span style='background-color:yellow'>name:</span><br /><input id="Text1" type="text" class="side"  style='background-color:yellow'/><br />
+                    <span style='background-color:yellow'>timing:</span>
+
+                    <div style='background-color:yellow'>
+                        <input id="Radio1" type="radio" name="timing"  style='background-color:yellow'/><span style='background-color:yellow'>days:</span><input id="Text1" type="number" class="smallNumber"  style='background-color:yellow'/><br />
+                        <input id="Radio2" type="radio" name="timing"  style='background-color:yellow'/><span style='background-color:yellow'>weekssssssss</span><input id="Text1" type="number" class="smallNumber" /><br />
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

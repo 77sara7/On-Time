@@ -1,0 +1,53 @@
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+    height:"90%";
+     width:"45%"
+}
+h1{ 
+   /* font-family:monospace */
+  font-family:cursive
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+  /* font-family: 'Angelina'; */
+}
+header{
+  /* display: flex; */
+  text-align: center;
+  margin: auto;
+}
+h3{
+  font-family: 'Swis721 LtCn BT';
+  
+}
+button{
+  font-size: 20px !important;
+  width: 15%;
+  height: 1% !important;
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+
+}
+  img {
+    position: absolute;
+    width: 370px;
+    left: 80px;
+    top: 0;
+  }
+  input[type="text"] {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+ 
+  #success {
+    background: green;
+  }
+  #error {
+    background: red;
+  }
+  a{
+    text-decoration-line: none;
+    font-size: 2rem !important; 
+  }
+ 

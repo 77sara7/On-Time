@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="TasksModelStoreContainer" CdmEntityContainer="TasksEntities1">
+    <EntitySetMapping Name="Contents">
+      <EntityTypeMapping TypeName="TasksModel.Contents">
+        <MappingFragment StoreEntitySet="Contents">
+          <ScalarProperty Name="requestId" ColumnName="requestId" />
+          <ScalarProperty Name="ordinalNum" ColumnName="ordinalNum" />
+          <ScalarProperty Name="contens" ColumnName="contens" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditCompeny">
+      <EntityTypeMapping TypeName="TasksModel.CreditCompeny">
+        <MappingFragment StoreEntitySet="CreditCompeny">
+          <ScalarProperty Name="CreditCompenyId" ColumnName="CreditCompenyId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Frequency">
+      <EntityTypeMapping TypeName="TasksModel.Frequency">
+        <MappingFragment StoreEntitySet="Frequency">
+          <ScalarProperty Name="frequencyId" ColumnName="frequencyId" />
+          <ScalarProperty Name="frequency1" ColumnName="frequency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrequencyDays">
+      <EntityTypeMapping TypeName="TasksModel.FrequencyDays">
+        <MappingFragment StoreEntitySet="FrequencyDays">
+          <ScalarProperty Name="frequencyDaysId" ColumnName="frequencyDaysId" />
+          <ScalarProperty Name="day" ColumnName="day" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrequencyToRequest">
+      <EntityTypeMapping TypeName="TasksModel.FrequencyToRequest">
+        <MappingFragment StoreEntitySet="FrequencyToRequest">
+          <ScalarProperty Name="FrequencyToRequestId" ColumnName="FrequencyToRequestId" />
+          <ScalarProperty Name="isComper" ColumnName="isComper" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Path">
+      <EntityTypeMapping TypeName="TasksModel.Path">
+        <MappingFragment StoreEntitySet="Path">
+          <ScalarProperty Name="requestId" ColumnName="requestId" />
+          <ScalarProperty Name="ordinalNum" ColumnName="ordinalNum" />
+          <ScalarProperty Name="path1" ColumnName="path" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentDetails">
+      <EntityTypeMapping TypeName="TasksModel.PaymentDetails">
+        <MappingFragment StoreEntitySet="PaymentDetails">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="ownerName" ColumnName="ownerName" />
+          <ScalarProperty Name="numCredit" ColumnName="numCredit" />
+          <ScalarProperty Name="validDate" ColumnName="validDate" />
+          <ScalarProperty Name="cvc" ColumnName="cvc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Request">
+      <EntityTypeMapping TypeName="TasksModel.Request">
+        <MappingFragment StoreEntitySet="Request">
+          <ScalarProperty Name="requestId" ColumnName="requestId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TasksModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="TasksModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_Contents_Request" TypeName="TasksModel.FK_Contents_Request" StoreEntitySet="Contents">
+      <EndProperty Name="Request">
+        <ScalarProperty Name="requestId" ColumnName="requestId" />
+      </EndProperty>
+      <EndProperty Name="Contents">
+        <ScalarProperty Name="requestId" ColumnName="requestId" />
+        <ScalarProperty Name="ordinalNum" ColumnName="ordinalNum" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_PaymentDetails_CreditCompeny" TypeName="TasksModel.FK_PaymentDetails_CreditCompeny" StoreEntitySet="PaymentDetails">
+      <EndProperty Name="CreditCompeny">
+        <ScalarProperty Name="CreditCompenyId" ColumnName="CreditCompenyId" />
+      </EndProperty>
+      <EndProperty Name="PaymentDetails">
+        <ScalarProperty Name="userId" ColumnName="userId" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="CreditCompenyId" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_FrequencyToRequest_Frequency" TypeName="TasksModel.FK_FrequencyToRequest_Frequency" StoreEntitySet="FrequencyToRequest">
+      <EndProperty Name="Frequency">
+        <ScalarProperty Name="frequencyId" ColumnName="frequencyId" />
+      </EndProperty>
+      <EndProperty Name="FrequencyToRequest">
+        <ScalarProperty Name="FrequencyToRequestId" ColumnName="FrequencyToRequestId" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="frequencyId" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_FrequencyDays_FrequencyToRequest" TypeName="TasksModel.FK_FrequencyDays_FrequencyToRequest" StoreEntitySet="FrequencyDays">
+      <EndProperty Name="FrequencyToRequest">
+        <ScalarProperty Name="FrequencyToRequestId" ColumnName="FrequencyToRequestId" />
+      </EndProperty>
+      <EndProperty Name="FrequencyDays">
+        <ScalarProperty Name="frequencyDaysId" ColumnName="frequencyDaysId" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="FrequencyToRequestId" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_FrequencyToRequest_Request" TypeName="TasksModel.FK_FrequencyToRequest_Request" StoreEntitySet="FrequencyToRequest">
+      <EndProperty Name="Request">
+        <ScalarProperty Name="requestId" ColumnName="requestId" />
+      </EndProperty>
+      <EndProperty Name="FrequencyToRequest">
+        <ScalarProperty Name="FrequencyToRequestId" ColumnName="FrequencyToRequestId" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="requestId" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_Path_Request" TypeName="TasksModel.FK_Path_Request" StoreEntitySet="Path">
+      <EndProperty Name="Request">
+        <ScalarProperty Name="requestId" ColumnName="requestId" />
+      </EndProperty>
+      <EndProperty Name="Path">
+        <ScalarProperty Name="requestId" ColumnName="requestId" />
+        <ScalarProperty Name="ordinalNum" ColumnName="ordinalNum" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_PaymentDetails_User" TypeName="TasksModel.FK_PaymentDetails_User" StoreEntitySet="PaymentDetails">
+      <EndProperty Name="User">
+        <ScalarProperty Name="userId" ColumnName="userId" />
+      </EndProperty>
+      <EndProperty Name="PaymentDetails">
+        <ScalarProperty Name="userId" ColumnName="userId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_Request_User" TypeName="TasksModel.FK_Request_User" StoreEntitySet="Request">
+      <EndProperty Name="User">
+        <ScalarProperty Name="userId" ColumnName="userId" />
+      </EndProperty>
+      <EndProperty Name="Request">
+        <ScalarProperty Name="requestId" ColumnName="requestId" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="userId" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

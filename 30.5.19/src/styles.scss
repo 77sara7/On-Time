@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    text-align: right !important;
+    margin: 0px;
+    font-size: 1em !important;
+    text-align: right;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  //side gutter 
+  
+  #gutter .ui-menu  {
+    width: auto !important;
+    margin: 0px !important;
+    border: none !important;
+    background-color:  #1B2B3B !important;
+  }
+    
+  #gutter .ui-state-active, body .ui-state-highlight {
+    background-color:  #00B68E !important;
+  }
+
+  #gutter .ui-menu li :hover  {
+    background-color:  rgb(102, 121, 141) !important;
+  }
+
+  #gutter .ui-menuitem-text {
+    color: white !important;
+  }
+  
+  #gutter .ui-menuitem-icon {
+    color: white !important;
+    font-size: large !important;
+  }
+  
+  #gutter .menu-selected {
+    background-color:  #00B68E !important;
+    color: #ffffff;
+  }
+
+  //panel
+
+ .ui-panel {
+    margin-top: 1em;
+    margin-bottom: 20px;
+  }
+
+ .ui-panel-titlebar {
+    --background-color: #2F8EE5 !important;
+    --color: white !important;
+  }
+
+  //dropdown
+
+  .ui-dropdown-item {
+    text-align: right !important;
+  }
+
+  //steps
+  .ui-steps .ui-steps-item {
+    float: right !important;
+}
+
+.ui-steps::before {
+  border: 2px solid #1B2B3B !important;
+}
+
+
+//menu
+
+.ui-tabmenuitem {
+  float: right !important;
+}
+
+  

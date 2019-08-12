@@ -1,0 +1,6 @@
+[
+	{"ad_text": "OnTime", "ad_img": "imacros.png", "ad_link": "http://localhost:4200"},
+	{"ad_text": "OnTime site:", "ad_img": "imacros-pro.png", "ad_link": "http://localhost:4200"},
+	{"ad_text": "OnTime site:", "ad_img": "imacros-server.png", "ad_link": "http://localhost:4200"},
+	{"ad_text": "OnTime site:", "ad_img": "imacros-wug.png", "ad_link": "http://localhost:4200"}
+]

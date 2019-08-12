@@ -1,0 +1,101 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.pdb
+M:\New folder\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+M:\New folder\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+M:\New folder\DAL\bin\Debug\DAL.dll.config
+M:\New folder\DAL\bin\Debug\DAL.dll
+M:\New folder\DAL\bin\Debug\DAL.pdb
+M:\New folder\DAL\bin\Debug\AutoMapper.dll
+M:\New folder\DAL\bin\Debug\Common.dll
+M:\New folder\DAL\bin\Debug\Entities.dll
+M:\New folder\DAL\bin\Debug\EntityFramework.dll
+M:\New folder\DAL\bin\Debug\EntityFramework.SqlServer.dll
+M:\New folder\DAL\bin\Debug\Common.pdb
+M:\New folder\DAL\bin\Debug\Entities.pdb
+M:\New folder\DAL\bin\Debug\Entities.dll.config
+M:\New folder\DAL\bin\Debug\AutoMapper.pdb
+M:\New folder\DAL\bin\Debug\AutoMapper.xml
+M:\New folder\DAL\bin\Debug\EntityFramework.xml
+M:\New folder\DAL\bin\Debug\EntityFramework.SqlServer.xml
+M:\New folder\DAL\obj\Debug\DAL.csproj.CopyComplete
+M:\New folder\DAL\obj\Debug\DAL.dll
+M:\New folder\DAL\obj\Debug\DAL.pdb
+M:\New folder\DAL\bin\Debug\System.ValueTuple.dll
+M:\New folder\DAL\bin\Debug\System.ValueTuple.xml
+M:\Project\server\DAL\bin\Debug\DAL.dll.config
+M:\Project\server\DAL\bin\Debug\DAL.dll
+M:\Project\server\DAL\bin\Debug\DAL.pdb
+M:\Project\server\DAL\bin\Debug\AutoMapper.dll
+M:\Project\server\DAL\bin\Debug\Common.dll
+M:\Project\server\DAL\bin\Debug\Entities.dll
+M:\Project\server\DAL\bin\Debug\EntityFramework.dll
+M:\Project\server\DAL\bin\Debug\EntityFramework.SqlServer.dll
+M:\Project\server\DAL\bin\Debug\System.ValueTuple.dll
+M:\Project\server\DAL\bin\Debug\Common.pdb
+M:\Project\server\DAL\bin\Debug\Entities.pdb
+M:\Project\server\DAL\bin\Debug\Entities.dll.config
+M:\Project\server\DAL\bin\Debug\AutoMapper.pdb
+M:\Project\server\DAL\bin\Debug\AutoMapper.xml
+M:\Project\server\DAL\bin\Debug\EntityFramework.xml
+M:\Project\server\DAL\bin\Debug\EntityFramework.SqlServer.xml
+M:\Project\server\DAL\bin\Debug\System.ValueTuple.xml
+M:\Project\server\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+M:\Project\server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+M:\Project\server\DAL\obj\Debug\DAL.csproj.CopyComplete
+M:\Project\server\DAL\obj\Debug\DAL.dll
+M:\Project\server\DAL\obj\Debug\DAL.pdb
+M:\Project\server&client\DAL\bin\Debug\DAL.dll.config
+M:\Project\server&client\DAL\bin\Debug\DAL.dll
+M:\Project\server&client\DAL\bin\Debug\DAL.pdb
+M:\Project\server&client\DAL\bin\Debug\AutoMapper.dll
+M:\Project\server&client\DAL\bin\Debug\Common.dll
+M:\Project\server&client\DAL\bin\Debug\Entities.dll
+M:\Project\server&client\DAL\bin\Debug\EntityFramework.dll
+M:\Project\server&client\DAL\bin\Debug\EntityFramework.SqlServer.dll
+M:\Project\server&client\DAL\bin\Debug\System.ValueTuple.dll
+M:\Project\server&client\DAL\bin\Debug\Common.pdb
+M:\Project\server&client\DAL\bin\Debug\Entities.pdb
+M:\Project\server&client\DAL\bin\Debug\Entities.dll.config
+M:\Project\server&client\DAL\bin\Debug\AutoMapper.pdb
+M:\Project\server&client\DAL\bin\Debug\AutoMapper.xml
+M:\Project\server&client\DAL\bin\Debug\EntityFramework.xml
+M:\Project\server&client\DAL\bin\Debug\EntityFramework.SqlServer.xml
+M:\Project\server&client\DAL\bin\Debug\System.ValueTuple.xml
+M:\Project\server&client\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+M:\Project\server&client\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+M:\Project\server&client\DAL\obj\Debug\DAL.csproj.CopyComplete
+M:\Project\server&client\DAL\obj\Debug\DAL.dll
+M:\Project\server&client\DAL\obj\Debug\DAL.pdb
+M:\Project\server&client\DAL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll

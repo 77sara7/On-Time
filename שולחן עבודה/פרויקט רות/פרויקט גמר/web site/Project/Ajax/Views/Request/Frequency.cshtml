@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Ajax.Models.FrequencyDays>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FrequencyToRequestId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.day)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FrequencyToRequestId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.day)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.frequencyDaysId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.frequencyDaysId })
+        </td>
+    </tr>
+}
+
+</table>

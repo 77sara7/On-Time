@@ -1,0 +1,54 @@
+C:\Users\318343407\Desktop\16.03.17\16.03.17\bin\Debug\16.03.17.exe.config
+C:\Users\318343407\Desktop\16.03.17\16.03.17\bin\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\16.03.17\16.03.17\bin\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\16.03.17\16.03.17\obj\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\16.03.17\16.03.17\obj\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\16.03.17\16.03.17\obj\Debug\16.03.17.csprojResolveAssemblyReference.cache
+M:\aaפרויקט\פרויקט\16.03.17\16.03.17\bin\Debug\16.03.17.exe.config
+M:\aaפרויקט\פרויקט\16.03.17\16.03.17\obj\Debug\16.03.17.exe
+M:\aaפרויקט\פרויקט\16.03.17\16.03.17\obj\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\24.04.17\16.03.17\bin\Debug\16.03.17.exe.config
+C:\Users\318343407\Desktop\24.04.17\16.03.17\obj\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\24.04.17\16.03.17\obj\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\24.04.17\16.03.17\bin\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\24.04.17\16.03.17\bin\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\24.04.17\16.03.17\obj\Debug\16.03.17.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\threds\16.03.17\bin\Debug\16.03.17.exe.config
+C:\Users\318343407\Desktop\threds\16.03.17\obj\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\threds\16.03.17\obj\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\threds\16.03.17\bin\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\threds\16.03.17\bin\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\threds\16.03.17\obj\Debug\16.03.17.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\threds11.5\16.03.17\bin\Debug\16.03.17.exe.config
+C:\Users\318343407\Desktop\threds11.5\16.03.17\obj\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\threds11.5\16.03.17\obj\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\threds11.5\16.03.17\bin\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\threds11.5\16.03.17\bin\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\threds11.5\16.03.17\obj\Debug\16.03.17.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\16.5\16.03.17\bin\Debug\16.03.17.exe.config
+C:\Users\318343407\Desktop\16.5\16.03.17\obj\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\16.5\16.03.17\obj\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\16.5\16.03.17\bin\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\16.5\16.03.17\bin\Debug\16.03.17.pdb
+C:\Users\318343407\Desktop\16.5\16.03.17\obj\Debug\16.03.17.csprojResolveAssemblyReference.cache
+M:\aaפרויקט\סופי\algorithem\16.03.17\bin\Debug\16.03.17.exe.config
+M:\aaפרויקט\סופי\algorithem\16.03.17\obj\Debug\16.03.17.exe
+M:\aaפרויקט\סופי\algorithem\16.03.17\obj\Debug\16.03.17.pdb
+M:\aaפרויקט\סופי\algorithem\16.03.17\bin\Debug\16.03.17.exe
+M:\aaפרויקט\סופי\algorithem\16.03.17\bin\Debug\16.03.17.pdb
+M:\aaפרויקט\סופי\algorithem\16.03.17\obj\Debug\16.03.17.csprojResolveAssemblyReference.cache
+C:\Users\318343407\Desktop\סופי\algorithem\16.03.17\bin\Debug\16.03.17.exe.config
+C:\Users\318343407\Desktop\סופי\algorithem\16.03.17\obj\Debug\16.03.17.exe
+C:\Users\318343407\Desktop\סופי\algorithem\16.03.17\obj\Debug\16.03.17.pdb
+G:\סופי\algorithem\16.03.17\bin\Debug\16.03.17.exe.config
+G:\סופי\algorithem\16.03.17\obj\Debug\16.03.17.exe
+G:\סופי\algorithem\16.03.17\obj\Debug\16.03.17.pdb
+G:\סופי\algorithem\16.03.17\obj\Debug\16.03.17.csprojResolveAssemblyReference.cache
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\obj\Debug\16.03.17.csprojAssemblyReference.cache
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\obj\Debug\16.03.17.csproj.CoreCompileInputs.cache
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\bin\Debug\16.03.17.exe.config
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\bin\Debug\16.03.17.exe
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\bin\Debug\16.03.17.pdb
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\obj\Debug\16.03.17.csproj.CopyComplete
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\obj\Debug\16.03.17.exe
+C:\Users\207618935\Desktop\פרויקט רות\פרויקט גמר\algorithem\16.03.17\obj\Debug\16.03.17.pdb

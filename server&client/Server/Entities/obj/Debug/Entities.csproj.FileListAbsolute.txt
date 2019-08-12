@@ -1,0 +1,125 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.pdb
+M:\New folder\Entities\bin\Debug\Entities.dll.config
+M:\New folder\Entities\bin\Debug\Entities.dll
+M:\New folder\Entities\bin\Debug\Entities.pdb
+M:\New folder\Entities\bin\Debug\EntityFramework.dll
+M:\New folder\Entities\bin\Debug\EntityFramework.SqlServer.dll
+M:\New folder\Entities\bin\Debug\EntityFramework.xml
+M:\New folder\Entities\bin\Debug\EntityFramework.SqlServer.xml
+M:\New folder\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+M:\New folder\Entities\obj\Debug\Entities.csproj.CopyComplete
+M:\New folder\Entities\obj\Debug\Entities.dll
+M:\New folder\Entities\obj\Debug\Entities.pdb
+M:\New folder\Entities\bin\Debug\AutoMapper.dll
+M:\New folder\Entities\bin\Debug\System.ValueTuple.dll
+M:\New folder\Entities\bin\Debug\AutoMapper.pdb
+M:\New folder\Entities\bin\Debug\AutoMapper.xml
+M:\New folder\Entities\bin\Debug\System.ValueTuple.xml
+M:\New folder\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+M:\Project\server\Entities\bin\Debug\Entities.dll.config
+M:\Project\server\Entities\bin\Debug\Entities.dll
+M:\Project\server\Entities\bin\Debug\Entities.pdb
+M:\Project\server\Entities\bin\Debug\AutoMapper.dll
+M:\Project\server\Entities\bin\Debug\EntityFramework.dll
+M:\Project\server\Entities\bin\Debug\EntityFramework.SqlServer.dll
+M:\Project\server\Entities\bin\Debug\System.ValueTuple.dll
+M:\Project\server\Entities\bin\Debug\AutoMapper.pdb
+M:\Project\server\Entities\bin\Debug\AutoMapper.xml
+M:\Project\server\Entities\bin\Debug\EntityFramework.xml
+M:\Project\server\Entities\bin\Debug\EntityFramework.SqlServer.xml
+M:\Project\server\Entities\bin\Debug\System.ValueTuple.xml
+M:\Project\server\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+M:\Project\server\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+M:\Project\server\Entities\obj\Debug\Entities.csproj.CopyComplete
+M:\Project\server\Entities\obj\Debug\Entities.dll
+M:\Project\server\Entities\obj\Debug\Entities.pdb
+M:\Project\server&client\Entities\bin\Debug\Entities.dll.config
+M:\Project\server&client\Entities\bin\Debug\Entities.dll
+M:\Project\server&client\Entities\bin\Debug\Entities.pdb
+M:\Project\server&client\Entities\bin\Debug\AutoMapper.dll
+M:\Project\server&client\Entities\bin\Debug\EntityFramework.dll
+M:\Project\server&client\Entities\bin\Debug\EntityFramework.SqlServer.dll
+M:\Project\server&client\Entities\bin\Debug\System.ValueTuple.dll
+M:\Project\server&client\Entities\bin\Debug\AutoMapper.pdb
+M:\Project\server&client\Entities\bin\Debug\AutoMapper.xml
+M:\Project\server&client\Entities\bin\Debug\EntityFramework.xml
+M:\Project\server&client\Entities\bin\Debug\EntityFramework.SqlServer.xml
+M:\Project\server&client\Entities\bin\Debug\System.ValueTuple.xml
+M:\Project\server&client\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+M:\Project\server&client\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+M:\Project\server&client\Entities\obj\Debug\Entities.csproj.CopyComplete
+M:\Project\server&client\Entities\obj\Debug\Entities.dll
+M:\Project\server&client\Entities\obj\Debug\Entities.pdb
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\Entities.dll.config
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\Entities.dll
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\Entities.pdb
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\AutoMapper.dll
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\EntityFramework.dll
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\AutoMapper.pdb
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\AutoMapper.xml
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\EntityFramework.xml
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\207618935\Desktop\try\Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\207618935\Desktop\try\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\207618935\Desktop\try\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\207618935\Desktop\try\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\207618935\Desktop\try\Entities\obj\Debug\Entities.dll
+C:\Users\207618935\Desktop\try\Entities\obj\Debug\Entities.pdb
+C:\Users\207618935\project\Entities\bin\Debug\Entities.dll.config
+C:\Users\207618935\project\Entities\bin\Debug\Entities.dll
+C:\Users\207618935\project\Entities\bin\Debug\Entities.pdb
+C:\Users\207618935\project\Entities\bin\Debug\AutoMapper.dll
+C:\Users\207618935\project\Entities\bin\Debug\EntityFramework.dll
+C:\Users\207618935\project\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\207618935\project\Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\207618935\project\Entities\bin\Debug\AutoMapper.pdb
+C:\Users\207618935\project\Entities\bin\Debug\AutoMapper.xml
+C:\Users\207618935\project\Entities\bin\Debug\EntityFramework.xml
+C:\Users\207618935\project\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\207618935\project\Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\207618935\project\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\207618935\project\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\207618935\project\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\207618935\project\Entities\obj\Debug\Entities.dll
+C:\Users\207618935\project\Entities\obj\Debug\Entities.pdb
+C:\Users\207618935\server\Entities\bin\Debug\Entities.dll.config
+C:\Users\207618935\server\Entities\bin\Debug\Entities.dll
+C:\Users\207618935\server\Entities\bin\Debug\Entities.pdb
+C:\Users\207618935\server\Entities\bin\Debug\AutoMapper.dll
+C:\Users\207618935\server\Entities\bin\Debug\EntityFramework.dll
+C:\Users\207618935\server\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\207618935\server\Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\207618935\server\Entities\bin\Debug\AutoMapper.pdb
+C:\Users\207618935\server\Entities\bin\Debug\AutoMapper.xml
+C:\Users\207618935\server\Entities\bin\Debug\EntityFramework.xml
+C:\Users\207618935\server\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\207618935\server\Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\207618935\server\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\207618935\server\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\207618935\server\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\207618935\server\Entities\obj\Debug\Entities.dll
+C:\Users\207618935\server\Entities\obj\Debug\Entities.pdb

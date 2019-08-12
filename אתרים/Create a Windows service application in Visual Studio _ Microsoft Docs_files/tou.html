@@ -1,0 +1,43 @@
+
+<!-- saved from url=(0038)https://netfree.link/misc/tou.html?v=2 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./jquery.min.js.download"></script>
+<script type="text/javascript">
+(function(){
+    
+    function isIE () {
+        var myNav = navigator.userAgent.toLowerCase();
+        return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+    }
+    
+    if (isIE () && isIE () < 9) return;
+    
+    var timePopup = 30 * 60 * 1000; // 30min
+    var lastTime = +window.localStorage['last-popup-tou-netfree']  || 0;
+    
+    if( (Date.now() - lastTime) <  timePopup)
+        return;
+        
+    if(!window.localStorage) return;
+    
+    window.localStorage['last-popup-tou-netfree'] = Date.now();
+    
+    $.ajax({
+    	type: "GET",
+    	url: "/nf/user/0" ,
+        dataType: "json"
+    }).done(function(data,status){
+        
+        if(!data && !data.userId) return;
+        
+        $.ajax({
+        	type: "GET",
+        	url: "/user/ajax/is-not-agree-tou?user=" + data.userId ,
+            dataType: "json"
+        }).done(function(data,status){
+            if(data.status == "not"){
+                window.top.location = window.location.origin + "/go-terms-of-use";
+            }
+        });
+    });
+})();
+</script></head><body></body></html>

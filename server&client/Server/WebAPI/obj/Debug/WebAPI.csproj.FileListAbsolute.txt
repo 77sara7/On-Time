@@ -1,0 +1,574 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\ApplicationInsights.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\WebAPI.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\WebAPI.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\WebAPI.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Antlr3.Runtime.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.Web.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.ApplicationInsights.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Newtonsoft.Json.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Net.Http.Formatting.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Cors.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Helpers.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Http.Cors.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Http.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Http.WebHost.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Mvc.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Optimization.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Razor.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.WebPages.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\WebGrease.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Net.Http.Formatting.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Http.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Http.Cors.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Newtonsoft.Json.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Helpers.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Http.WebHost.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Mvc.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Optimization.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.Razor.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.WebPages.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Antlr3.Runtime.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.ApplicationInsights.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\Microsoft.AI.Web.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\bin\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\obj\Debug\WebAPI.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\WebAPI\obj\Debug\WebAPI.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\ApplicationInsights.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\WebAPI.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\WebAPI.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\WebAPI.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Antlr3.Runtime.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.Web.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.ApplicationInsights.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Newtonsoft.Json.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Net.Http.Formatting.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Cors.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Helpers.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Http.Cors.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Http.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Http.WebHost.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Mvc.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Optimization.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Razor.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.WebPages.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\WebGrease.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Net.Http.Formatting.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Http.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Http.Cors.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Newtonsoft.Json.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Helpers.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Http.WebHost.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Mvc.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Optimization.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.Razor.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.WebPages.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Antlr3.Runtime.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.ApplicationInsights.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\Microsoft.AI.Web.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\bin\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\obj\Debug\WebAPI.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\WebAPI\obj\Debug\WebAPI.pdb
+M:\New folder\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+M:\New folder\WebAPI\bin\ApplicationInsights.config
+M:\New folder\WebAPI\bin\WebAPI.dll.config
+M:\New folder\WebAPI\bin\WebAPI.dll
+M:\New folder\WebAPI\bin\WebAPI.pdb
+M:\New folder\WebAPI\bin\Antlr3.Runtime.dll
+M:\New folder\WebAPI\bin\BL.dll
+M:\New folder\WebAPI\bin\Common.dll
+M:\New folder\WebAPI\bin\Entities.dll
+M:\New folder\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+M:\New folder\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+M:\New folder\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+M:\New folder\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+M:\New folder\WebAPI\bin\Microsoft.AI.Web.dll
+M:\New folder\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+M:\New folder\WebAPI\bin\Microsoft.ApplicationInsights.dll
+M:\New folder\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\New folder\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+M:\New folder\WebAPI\bin\Newtonsoft.Json.dll
+M:\New folder\WebAPI\bin\System.Net.Http.Formatting.dll
+M:\New folder\WebAPI\bin\System.Web.Cors.dll
+M:\New folder\WebAPI\bin\System.Web.Helpers.dll
+M:\New folder\WebAPI\bin\System.Web.Http.Cors.dll
+M:\New folder\WebAPI\bin\System.Web.Http.dll
+M:\New folder\WebAPI\bin\System.Web.Http.WebHost.dll
+M:\New folder\WebAPI\bin\System.Web.Mvc.dll
+M:\New folder\WebAPI\bin\System.Web.Optimization.dll
+M:\New folder\WebAPI\bin\System.Web.Razor.dll
+M:\New folder\WebAPI\bin\System.Web.WebPages.Deployment.dll
+M:\New folder\WebAPI\bin\System.Web.WebPages.dll
+M:\New folder\WebAPI\bin\System.Web.WebPages.Razor.dll
+M:\New folder\WebAPI\bin\WebGrease.dll
+M:\New folder\WebAPI\bin\DAL.dll
+M:\New folder\WebAPI\bin\EntityFramework.dll
+M:\New folder\WebAPI\bin\AutoMapper.dll
+M:\New folder\WebAPI\bin\EntityFramework.SqlServer.dll
+M:\New folder\WebAPI\bin\BL.pdb
+M:\New folder\WebAPI\bin\Common.pdb
+M:\New folder\WebAPI\bin\Entities.pdb
+M:\New folder\WebAPI\bin\Entities.dll.config
+M:\New folder\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\New folder\WebAPI\bin\System.Net.Http.Formatting.xml
+M:\New folder\WebAPI\bin\System.Web.Http.xml
+M:\New folder\WebAPI\bin\System.Web.Http.Cors.xml
+M:\New folder\WebAPI\bin\Newtonsoft.Json.xml
+M:\New folder\WebAPI\bin\System.Web.Helpers.xml
+M:\New folder\WebAPI\bin\System.Web.Http.WebHost.xml
+M:\New folder\WebAPI\bin\System.Web.Mvc.xml
+M:\New folder\WebAPI\bin\System.Web.Optimization.xml
+M:\New folder\WebAPI\bin\System.Web.Razor.xml
+M:\New folder\WebAPI\bin\System.Web.WebPages.xml
+M:\New folder\WebAPI\bin\System.Web.WebPages.Deployment.xml
+M:\New folder\WebAPI\bin\System.Web.WebPages.Razor.xml
+M:\New folder\WebAPI\bin\Antlr3.Runtime.pdb
+M:\New folder\WebAPI\bin\Microsoft.ApplicationInsights.xml
+M:\New folder\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+M:\New folder\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+M:\New folder\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+M:\New folder\WebAPI\bin\Microsoft.AI.Web.xml
+M:\New folder\WebAPI\bin\DAL.pdb
+M:\New folder\WebAPI\bin\DAL.dll.config
+M:\New folder\WebAPI\bin\EntityFramework.xml
+M:\New folder\WebAPI\bin\AutoMapper.pdb
+M:\New folder\WebAPI\bin\AutoMapper.xml
+M:\New folder\WebAPI\bin\EntityFramework.SqlServer.xml
+M:\New folder\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+M:\New folder\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+M:\New folder\WebAPI\obj\Debug\WebAPI.dll
+M:\New folder\WebAPI\obj\Debug\WebAPI.pdb
+M:\New folder\WebAPI\bin\System.ValueTuple.dll
+M:\New folder\WebAPI\bin\System.ValueTuple.xml
+M:\Project\server\WebAPI\bin\ApplicationInsights.config
+M:\Project\server\WebAPI\bin\WebAPI.dll.config
+M:\Project\server\WebAPI\bin\WebAPI.dll
+M:\Project\server\WebAPI\bin\WebAPI.pdb
+M:\Project\server\WebAPI\bin\Antlr3.Runtime.dll
+M:\Project\server\WebAPI\bin\AutoMapper.dll
+M:\Project\server\WebAPI\bin\BL.dll
+M:\Project\server\WebAPI\bin\Common.dll
+M:\Project\server\WebAPI\bin\DAL.dll
+M:\Project\server\WebAPI\bin\Entities.dll
+M:\Project\server\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+M:\Project\server\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+M:\Project\server\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+M:\Project\server\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+M:\Project\server\WebAPI\bin\Microsoft.AI.Web.dll
+M:\Project\server\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+M:\Project\server\WebAPI\bin\Microsoft.ApplicationInsights.dll
+M:\Project\server\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\Project\server\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+M:\Project\server\WebAPI\bin\Newtonsoft.Json.dll
+M:\Project\server\WebAPI\bin\System.Net.Http.Formatting.dll
+M:\Project\server\WebAPI\bin\System.ValueTuple.dll
+M:\Project\server\WebAPI\bin\System.Web.Cors.dll
+M:\Project\server\WebAPI\bin\System.Web.Helpers.dll
+M:\Project\server\WebAPI\bin\System.Web.Http.Cors.dll
+M:\Project\server\WebAPI\bin\System.Web.Http.dll
+M:\Project\server\WebAPI\bin\System.Web.Http.WebHost.dll
+M:\Project\server\WebAPI\bin\System.Web.Mvc.dll
+M:\Project\server\WebAPI\bin\System.Web.Optimization.dll
+M:\Project\server\WebAPI\bin\System.Web.Razor.dll
+M:\Project\server\WebAPI\bin\System.Web.WebPages.Deployment.dll
+M:\Project\server\WebAPI\bin\System.Web.WebPages.dll
+M:\Project\server\WebAPI\bin\System.Web.WebPages.Razor.dll
+M:\Project\server\WebAPI\bin\WebGrease.dll
+M:\Project\server\WebAPI\bin\EntityFramework.dll
+M:\Project\server\WebAPI\bin\EntityFramework.SqlServer.dll
+M:\Project\server\WebAPI\bin\BL.pdb
+M:\Project\server\WebAPI\bin\Common.pdb
+M:\Project\server\WebAPI\bin\DAL.pdb
+M:\Project\server\WebAPI\bin\DAL.dll.config
+M:\Project\server\WebAPI\bin\Entities.pdb
+M:\Project\server\WebAPI\bin\Entities.dll.config
+M:\Project\server\WebAPI\bin\AutoMapper.pdb
+M:\Project\server\WebAPI\bin\AutoMapper.xml
+M:\Project\server\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\Project\server\WebAPI\bin\System.Net.Http.Formatting.xml
+M:\Project\server\WebAPI\bin\System.ValueTuple.xml
+M:\Project\server\WebAPI\bin\System.Web.Http.xml
+M:\Project\server\WebAPI\bin\System.Web.Http.Cors.xml
+M:\Project\server\WebAPI\bin\Newtonsoft.Json.xml
+M:\Project\server\WebAPI\bin\System.Web.Helpers.xml
+M:\Project\server\WebAPI\bin\System.Web.Http.WebHost.xml
+M:\Project\server\WebAPI\bin\System.Web.Mvc.xml
+M:\Project\server\WebAPI\bin\System.Web.Optimization.xml
+M:\Project\server\WebAPI\bin\System.Web.Razor.xml
+M:\Project\server\WebAPI\bin\System.Web.WebPages.xml
+M:\Project\server\WebAPI\bin\System.Web.WebPages.Deployment.xml
+M:\Project\server\WebAPI\bin\System.Web.WebPages.Razor.xml
+M:\Project\server\WebAPI\bin\Antlr3.Runtime.pdb
+M:\Project\server\WebAPI\bin\Microsoft.ApplicationInsights.xml
+M:\Project\server\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+M:\Project\server\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+M:\Project\server\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+M:\Project\server\WebAPI\bin\Microsoft.AI.Web.xml
+M:\Project\server\WebAPI\bin\EntityFramework.xml
+M:\Project\server\WebAPI\bin\EntityFramework.SqlServer.xml
+M:\Project\server\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+M:\Project\server\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+M:\Project\server\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+M:\Project\server\WebAPI\obj\Debug\WebAPI.dll
+M:\Project\server\WebAPI\obj\Debug\WebAPI.pdb
+M:\Project\server&client\WebAPI\bin\ApplicationInsights.config
+M:\Project\server&client\WebAPI\bin\WebAPI.dll.config
+M:\Project\server&client\WebAPI\bin\WebAPI.dll
+M:\Project\server&client\WebAPI\bin\WebAPI.pdb
+M:\Project\server&client\WebAPI\bin\Antlr3.Runtime.dll
+M:\Project\server&client\WebAPI\bin\AutoMapper.dll
+M:\Project\server&client\WebAPI\bin\BL.dll
+M:\Project\server&client\WebAPI\bin\Common.dll
+M:\Project\server&client\WebAPI\bin\DAL.dll
+M:\Project\server&client\WebAPI\bin\Entities.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.Web.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.ApplicationInsights.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\Project\server&client\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+M:\Project\server&client\WebAPI\bin\Newtonsoft.Json.dll
+M:\Project\server&client\WebAPI\bin\System.Net.Http.Formatting.dll
+M:\Project\server&client\WebAPI\bin\System.ValueTuple.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Cors.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Helpers.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Http.Cors.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Http.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Http.WebHost.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Mvc.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Optimization.dll
+M:\Project\server&client\WebAPI\bin\System.Web.Razor.dll
+M:\Project\server&client\WebAPI\bin\System.Web.WebPages.Deployment.dll
+M:\Project\server&client\WebAPI\bin\System.Web.WebPages.dll
+M:\Project\server&client\WebAPI\bin\System.Web.WebPages.Razor.dll
+M:\Project\server&client\WebAPI\bin\WebGrease.dll
+M:\Project\server&client\WebAPI\bin\EntityFramework.dll
+M:\Project\server&client\WebAPI\bin\EntityFramework.SqlServer.dll
+M:\Project\server&client\WebAPI\bin\BL.pdb
+M:\Project\server&client\WebAPI\bin\Common.pdb
+M:\Project\server&client\WebAPI\bin\DAL.pdb
+M:\Project\server&client\WebAPI\bin\DAL.dll.config
+M:\Project\server&client\WebAPI\bin\Entities.pdb
+M:\Project\server&client\WebAPI\bin\Entities.dll.config
+M:\Project\server&client\WebAPI\bin\AutoMapper.pdb
+M:\Project\server&client\WebAPI\bin\AutoMapper.xml
+M:\Project\server&client\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\Project\server&client\WebAPI\bin\System.Net.Http.Formatting.xml
+M:\Project\server&client\WebAPI\bin\System.ValueTuple.xml
+M:\Project\server&client\WebAPI\bin\System.Web.Http.xml
+M:\Project\server&client\WebAPI\bin\System.Web.Http.Cors.xml
+M:\Project\server&client\WebAPI\bin\Newtonsoft.Json.xml
+M:\Project\server&client\WebAPI\bin\System.Web.Helpers.xml
+M:\Project\server&client\WebAPI\bin\System.Web.Http.WebHost.xml
+M:\Project\server&client\WebAPI\bin\System.Web.Mvc.xml
+M:\Project\server&client\WebAPI\bin\System.Web.Optimization.xml
+M:\Project\server&client\WebAPI\bin\System.Web.Razor.xml
+M:\Project\server&client\WebAPI\bin\System.Web.WebPages.xml
+M:\Project\server&client\WebAPI\bin\System.Web.WebPages.Deployment.xml
+M:\Project\server&client\WebAPI\bin\System.Web.WebPages.Razor.xml
+M:\Project\server&client\WebAPI\bin\Antlr3.Runtime.pdb
+M:\Project\server&client\WebAPI\bin\Microsoft.ApplicationInsights.xml
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+M:\Project\server&client\WebAPI\bin\Microsoft.AI.Web.xml
+M:\Project\server&client\WebAPI\bin\EntityFramework.xml
+M:\Project\server&client\WebAPI\bin\EntityFramework.SqlServer.xml
+M:\Project\server&client\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+M:\Project\server&client\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+M:\Project\server&client\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+M:\Project\server&client\WebAPI\obj\Debug\WebAPI.dll
+M:\Project\server&client\WebAPI\obj\Debug\WebAPI.pdb
+M:\Project\server&client\WebAPI\bin\MonitorService.exe
+M:\Project\server&client\WebAPI\bin\MonitorService.pdb
+M:\Project\server&client\WebAPI\bin\MonitorService.exe.config
+C:\Users\207618935\Desktop\try\WebAPI\bin\ApplicationInsights.config
+C:\Users\207618935\Desktop\try\WebAPI\bin\WebAPI.dll.config
+C:\Users\207618935\Desktop\try\WebAPI\bin\WebAPI.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\WebAPI.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\AutoMapper.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\BL.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Common.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\DAL.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Entities.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\MonitorService.exe
+C:\Users\207618935\Desktop\try\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.ValueTuple.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Cors.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Http.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Razor.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\WebGrease.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\EntityFramework.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\207618935\Desktop\try\WebAPI\bin\BL.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\Common.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\DAL.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\DAL.dll.config
+C:\Users\207618935\Desktop\try\WebAPI\bin\Entities.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\Entities.dll.config
+C:\Users\207618935\Desktop\try\WebAPI\bin\MonitorService.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\MonitorService.exe.config
+C:\Users\207618935\Desktop\try\WebAPI\bin\AutoMapper.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\AutoMapper.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.ValueTuple.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Http.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Optimization.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.Razor.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\EntityFramework.xml
+C:\Users\207618935\Desktop\try\WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\207618935\Desktop\try\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+C:\Users\207618935\Desktop\try\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\207618935\Desktop\try\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+C:\Users\207618935\Desktop\try\WebAPI\obj\Debug\WebAPI.dll
+C:\Users\207618935\Desktop\try\WebAPI\obj\Debug\WebAPI.pdb
+C:\Users\207618935\project\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+C:\Users\207618935\project\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\207618935\project\WebAPI\bin\ApplicationInsights.config
+C:\Users\207618935\project\WebAPI\bin\WebAPI.dll.config
+C:\Users\207618935\project\WebAPI\bin\WebAPI.dll
+C:\Users\207618935\project\WebAPI\bin\WebAPI.pdb
+C:\Users\207618935\project\WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\207618935\project\WebAPI\bin\AutoMapper.dll
+C:\Users\207618935\project\WebAPI\bin\BL.dll
+C:\Users\207618935\project\WebAPI\bin\Common.dll
+C:\Users\207618935\project\WebAPI\bin\DAL.dll
+C:\Users\207618935\project\WebAPI\bin\Entities.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\207618935\project\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\207618935\project\WebAPI\bin\MonitorService.exe
+C:\Users\207618935\project\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\207618935\project\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\207618935\project\WebAPI\bin\System.ValueTuple.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Cors.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Http.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.Razor.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\207618935\project\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\207618935\project\WebAPI\bin\WebGrease.dll
+C:\Users\207618935\project\WebAPI\bin\dll.dll
+C:\Users\207618935\project\WebAPI\bin\EntityFramework.dll
+C:\Users\207618935\project\WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\207618935\project\WebAPI\bin\BL.pdb
+C:\Users\207618935\project\WebAPI\bin\Common.pdb
+C:\Users\207618935\project\WebAPI\bin\DAL.pdb
+C:\Users\207618935\project\WebAPI\bin\DAL.dll.config
+C:\Users\207618935\project\WebAPI\bin\Entities.pdb
+C:\Users\207618935\project\WebAPI\bin\Entities.dll.config
+C:\Users\207618935\project\WebAPI\bin\MonitorService.pdb
+C:\Users\207618935\project\WebAPI\bin\MonitorService.exe.config
+C:\Users\207618935\project\WebAPI\bin\AutoMapper.pdb
+C:\Users\207618935\project\WebAPI\bin\AutoMapper.xml
+C:\Users\207618935\project\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\207618935\project\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\207618935\project\WebAPI\bin\System.ValueTuple.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.Http.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\207618935\project\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.Optimization.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.Razor.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\207618935\project\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\207618935\project\WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\207618935\project\WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\207618935\project\WebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\207618935\project\WebAPI\bin\dll.pdb
+C:\Users\207618935\project\WebAPI\bin\EntityFramework.xml
+C:\Users\207618935\project\WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\207618935\project\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+C:\Users\207618935\project\WebAPI\obj\Debug\WebAPI.dll
+C:\Users\207618935\project\WebAPI\obj\Debug\WebAPI.pdb
+C:\Users\207618935\server\WebAPI\bin\ApplicationInsights.config
+C:\Users\207618935\server\WebAPI\bin\WebAPI.dll.config
+C:\Users\207618935\server\WebAPI\bin\WebAPI.dll
+C:\Users\207618935\server\WebAPI\bin\WebAPI.pdb
+C:\Users\207618935\server\WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\207618935\server\WebAPI\bin\AutoMapper.dll
+C:\Users\207618935\server\WebAPI\bin\BL.dll
+C:\Users\207618935\server\WebAPI\bin\Common.dll
+C:\Users\207618935\server\WebAPI\bin\DAL.dll
+C:\Users\207618935\server\WebAPI\bin\Entities.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\207618935\server\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\207618935\server\WebAPI\bin\MonitorService.exe
+C:\Users\207618935\server\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\207618935\server\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\207618935\server\WebAPI\bin\System.ValueTuple.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Cors.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Http.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.Razor.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\207618935\server\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\207618935\server\WebAPI\bin\WebGrease.dll
+C:\Users\207618935\server\WebAPI\bin\dll.dll
+C:\Users\207618935\server\WebAPI\bin\EntityFramework.dll
+C:\Users\207618935\server\WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\207618935\server\WebAPI\bin\BL.pdb
+C:\Users\207618935\server\WebAPI\bin\Common.pdb
+C:\Users\207618935\server\WebAPI\bin\DAL.pdb
+C:\Users\207618935\server\WebAPI\bin\DAL.dll.config
+C:\Users\207618935\server\WebAPI\bin\Entities.pdb
+C:\Users\207618935\server\WebAPI\bin\Entities.dll.config
+C:\Users\207618935\server\WebAPI\bin\MonitorService.pdb
+C:\Users\207618935\server\WebAPI\bin\MonitorService.exe.config
+C:\Users\207618935\server\WebAPI\bin\AutoMapper.pdb
+C:\Users\207618935\server\WebAPI\bin\AutoMapper.xml
+C:\Users\207618935\server\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\207618935\server\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\207618935\server\WebAPI\bin\System.ValueTuple.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.Http.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\207618935\server\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.Optimization.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.Razor.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\207618935\server\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\207618935\server\WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\207618935\server\WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\207618935\server\WebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\207618935\server\WebAPI\bin\dll.pdb
+C:\Users\207618935\server\WebAPI\bin\EntityFramework.xml
+C:\Users\207618935\server\WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\207618935\server\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+C:\Users\207618935\server\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\207618935\server\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+C:\Users\207618935\server\WebAPI\obj\Debug\WebAPI.dll
+C:\Users\207618935\server\WebAPI\obj\Debug\WebAPI.pdb

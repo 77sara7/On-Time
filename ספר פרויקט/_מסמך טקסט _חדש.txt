@@ -1,0 +1,49 @@
+using _16._03._17.Class;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Text;
+
+namespace _16._03._17
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string newHtml = "<div>hello to</div><br/><div>my world</div>";
+            string sorceHtml = "<div>hello</div><br/><div>world</div>";
+            string ret = MyComparer(sorceHtml, newHtml);
+            //class:myThread,EditHtml,Paint,Diff,DinamicPrograming
+        }
+
+        private static string MyComparer(string sorceHtml, string newHtml)
+        {
+            myThread<char> dinamicPrograming = new myThread<char>(null, new System.Threading.ManualResetEvent(false));
+            EditHtml editHtml;
+            Paint paintDiff;
+            Stopwatch sw = Stopwatch.StartNew();
+            editHtml = new EditHtml(sorceHtml, newHtml);
+            List<char> res = dinamicPrograming.Hirschberge(editHtml.EditeSourse.ToList(), editHtml.EditeNewHtml.ToList());
+            List<int> arr = Diff<char>.GetDiff(res, editHtml.EditeNewHtml.ToList());
+            int i = 0;
+            for (; i < arr.Count && (i == 0 || arr[i] != 0); i++)
+            {
+                arr[i] = editHtml.Arr[arr[i]];
+            }
+
+            if (arr.Count > 0)
+            {
+                paintDiff = new Paint(newHtml, arr.ToArray(), editHtml.Arr, i);
+                paintDiff.PaintYellow();
+                return paintDiff.Html;
+
+            }
+            else
+            {
+                return "";
+            }
+        }
+    }
+}

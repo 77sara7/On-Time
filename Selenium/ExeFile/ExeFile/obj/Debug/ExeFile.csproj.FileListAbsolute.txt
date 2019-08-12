@@ -1,0 +1,7 @@
+M:\Project\Selenium\ExeFile\ExeFile\bin\Debug\ExeFile.exe.config
+M:\Project\Selenium\ExeFile\ExeFile\bin\Debug\ExeFile.exe
+M:\Project\Selenium\ExeFile\ExeFile\bin\Debug\ExeFile.pdb
+M:\Project\Selenium\ExeFile\ExeFile\obj\Debug\ExeFile.csprojAssemblyReference.cache
+M:\Project\Selenium\ExeFile\ExeFile\obj\Debug\ExeFile.csproj.CoreCompileInputs.cache
+M:\Project\Selenium\ExeFile\ExeFile\obj\Debug\ExeFile.exe
+M:\Project\Selenium\ExeFile\ExeFile\obj\Debug\ExeFile.pdb

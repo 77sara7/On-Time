@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TasksModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Contents">
+    <Key>
+      <PropertyRef Name="requestId" />
+      <PropertyRef Name="ordinalNum" />
+    </Key>
+    <Property Name="requestId" Type="Int32" Nullable="false" />
+    <Property Name="ordinalNum" Type="Int32" Nullable="false" />
+    <Property Name="contens" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Request" Relationship="Self.FK_Contents_Request" FromRole="Contents" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="CreditCompeny">
+    <Key>
+      <PropertyRef Name="CreditCompenyId" />
+    </Key>
+    <Property Name="CreditCompenyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PaymentDetails" Relationship="Self.FK_PaymentDetails_CreditCompeny" FromRole="CreditCompeny" ToRole="PaymentDetails" />
+  </EntityType>
+  <EntityType Name="Frequency">
+    <Key>
+      <PropertyRef Name="frequencyId" />
+    </Key>
+    <Property Name="frequencyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="frequency1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="FrequencyToRequest" Relationship="Self.FK_FrequencyToRequest_Frequency" FromRole="Frequency" ToRole="FrequencyToRequest" />
+  </EntityType>
+  <EntityType Name="FrequencyToRequest">
+    <Key>
+      <PropertyRef Name="FrequencyToRequestId" />
+    </Key>
+    <Property Name="FrequencyToRequestId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="frequencyId" Type="Int32" />
+    <Property Name="requestId" Type="Int32" />
+    <Property Name="isComper" Type="Boolean" />
+    <NavigationProperty Name="Frequency" Relationship="Self.FK_FrequencyToRequest_Frequency" FromRole="FrequencyToRequest" ToRole="Frequency" />
+    <NavigationProperty Name="Request" Relationship="Self.FK_FrequencyToRequest_Request" FromRole="FrequencyToRequest" ToRole="Request" />
+    <NavigationProperty Name="FrequencyDays" Relationship="TasksModel.FK_FrequencyDays_FrequencyToRequest" FromRole="FrequencyToRequest" ToRole="FrequencyDays" />
+  </EntityType>
+  <EntityType Name="Path">
+    <Key>
+      <PropertyRef Name="requestId" />
+      <PropertyRef Name="ordinalNum" />
+    </Key>
+    <Property Name="requestId" Type="Int32" Nullable="false" />
+    <Property Name="ordinalNum" Type="Int32" Nullable="false" />
+    <Property Name="path1" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Request" Relationship="Self.FK_Path_Request" FromRole="Path" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="PaymentDetails">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreditCompenyId" Type="Int32" />
+    <Property Name="ownerName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="numCredit" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="validDate" Type="DateTime" Precision="0" />
+    <Property Name="cvc" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CreditCompeny" Relationship="Self.FK_PaymentDetails_CreditCompeny" FromRole="PaymentDetails" ToRole="CreditCompeny" />
+    <NavigationProperty Name="User" Relationship="Self.FK_PaymentDetails_User" FromRole="PaymentDetails" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="requestId" />
+    </Key>
+    <Property Name="requestId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Contents" Relationship="Self.FK_Contents_Request" FromRole="Request" ToRole="Contents" />
+    <NavigationProperty Name="FrequencyToRequest" Relationship="Self.FK_FrequencyToRequest_Request" FromRole="Request" ToRole="FrequencyToRequest" />
+    <NavigationProperty Name="Path" Relationship="Self.FK_Path_Request" FromRole="Request" ToRole="Path" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Request_User" FromRole="Request" ToRole="User" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="firstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PaymentDetails" Relationship="Self.FK_PaymentDetails_User" FromRole="User" ToRole="PaymentDetails" />
+    <NavigationProperty Name="Request" Relationship="Self.FK_Request_User" FromRole="User" ToRole="Request" />
+  </EntityType>
+  <Association Name="FK_Contents_Request">
+    <End Role="Request" Type="Self.Request" Multiplicity="1" />
+    <End Role="Contents" Type="Self.Contents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Request">
+        <PropertyRef Name="requestId" />
+      </Principal>
+      <Dependent Role="Contents">
+        <PropertyRef Name="requestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PaymentDetails_CreditCompeny">
+    <End Role="CreditCompeny" Type="Self.CreditCompeny" Multiplicity="0..1" />
+    <End Role="PaymentDetails" Type="Self.PaymentDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CreditCompeny">
+        <PropertyRef Name="CreditCompenyId" />
+      </Principal>
+      <Dependent Role="PaymentDetails">
+        <PropertyRef Name="CreditCompenyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FrequencyToRequest_Frequency">
+    <End Role="Frequency" Type="Self.Frequency" Multiplicity="0..1" />
+    <End Role="FrequencyToRequest" Type="Self.FrequencyToRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frequency">
+        <PropertyRef Name="frequencyId" />
+      </Principal>
+      <Dependent Role="FrequencyToRequest">
+        <PropertyRef Name="frequencyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FrequencyToRequest_Request">
+    <End Role="Request" Type="Self.Request" Multiplicity="0..1" />
+    <End Role="FrequencyToRequest" Type="Self.FrequencyToRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Request">
+        <PropertyRef Name="requestId" />
+      </Principal>
+      <Dependent Role="FrequencyToRequest">
+        <PropertyRef Name="requestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Request">
+    <End Role="Request" Type="Self.Request" Multiplicity="1" />
+    <End Role="Path" Type="Self.Path" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Request">
+        <PropertyRef Name="requestId" />
+      </Principal>
+      <Dependent Role="Path">
+        <PropertyRef Name="requestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PaymentDetails_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="PaymentDetails" Type="Self.PaymentDetails" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="PaymentDetails">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TasksEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Contents" EntityType="Self.Contents" />
+    <EntitySet Name="CreditCompeny" EntityType="Self.CreditCompeny" />
+    <EntitySet Name="Frequency" EntityType="Self.Frequency" />
+    <EntitySet Name="FrequencyToRequest" EntityType="Self.FrequencyToRequest" />
+    <EntitySet Name="Path" EntityType="Self.Path" />
+    <EntitySet Name="PaymentDetails" EntityType="Self.PaymentDetails" />
+    <EntitySet Name="Request" EntityType="Self.Request" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <AssociationSet Name="FK_Contents_Request" Association="Self.FK_Contents_Request">
+      <End Role="Request" EntitySet="Request" />
+      <End Role="Contents" EntitySet="Contents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PaymentDetails_CreditCompeny" Association="Self.FK_PaymentDetails_CreditCompeny">
+      <End Role="CreditCompeny" EntitySet="CreditCompeny" />
+      <End Role="PaymentDetails" EntitySet="PaymentDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FrequencyToRequest_Frequency" Association="Self.FK_FrequencyToRequest_Frequency">
+      <End Role="Frequency" EntitySet="Frequency" />
+      <End Role="FrequencyToRequest" EntitySet="FrequencyToRequest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FrequencyToRequest_Request" Association="Self.FK_FrequencyToRequest_Request">
+      <End Role="Request" EntitySet="Request" />
+      <End Role="FrequencyToRequest" EntitySet="FrequencyToRequest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Request" Association="Self.FK_Path_Request">
+      <End Role="Request" EntitySet="Request" />
+      <End Role="Path" EntitySet="Path" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PaymentDetails_User" Association="Self.FK_PaymentDetails_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="PaymentDetails" EntitySet="PaymentDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_User" Association="Self.FK_Request_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <EntitySet Name="FrequencyDays" EntityType="TasksModel.FrequencyDays" />
+    <AssociationSet Name="FK_FrequencyDays_FrequencyToRequest" Association="TasksModel.FK_FrequencyDays_FrequencyToRequest">
+      <End Role="FrequencyToRequest" EntitySet="FrequencyToRequest" />
+      <End Role="FrequencyDays" EntitySet="FrequencyDays" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="FrequencyDays">
+    <Key>
+      <PropertyRef Name="frequencyDaysId" />
+    </Key>
+    <Property Name="frequencyDaysId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FrequencyToRequestId" Type="Int32" />
+    <Property Name="day" Type="Int32" />
+    <NavigationProperty Name="FrequencyToRequest" Relationship="TasksModel.FK_FrequencyDays_FrequencyToRequest" FromRole="FrequencyDays" ToRole="FrequencyToRequest" />
+  </EntityType>
+  <Association Name="FK_FrequencyDays_FrequencyToRequest">
+    <End Type="TasksModel.FrequencyToRequest" Role="FrequencyToRequest" Multiplicity="0..1" />
+    <End Type="TasksModel.FrequencyDays" Role="FrequencyDays" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FrequencyToRequest">
+        <PropertyRef Name="FrequencyToRequestId" />
+      </Principal>
+      <Dependent Role="FrequencyDays">
+        <PropertyRef Name="FrequencyToRequestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

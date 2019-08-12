@@ -1,0 +1,12 @@
+M:\dll\dll\obj\Debug\dll.csprojAssemblyReference.cache
+M:\dll\dll\obj\Debug\dll.csproj.CoreCompileInputs.cache
+M:\dll\dll\bin\Debug\dll.dll
+M:\dll\dll\bin\Debug\dll.pdb
+M:\dll\dll\obj\Debug\dll.dll
+M:\dll\dll\obj\Debug\dll.pdb
+C:\Users\207618935\Desktop\dll\dll\bin\Debug\dll.dll
+C:\Users\207618935\Desktop\dll\dll\bin\Debug\dll.pdb
+C:\Users\207618935\Desktop\dll\dll\obj\Debug\dll.csprojAssemblyReference.cache
+C:\Users\207618935\Desktop\dll\dll\obj\Debug\dll.csproj.CoreCompileInputs.cache
+C:\Users\207618935\Desktop\dll\dll\obj\Debug\dll.dll
+C:\Users\207618935\Desktop\dll\dll\obj\Debug\dll.pdb

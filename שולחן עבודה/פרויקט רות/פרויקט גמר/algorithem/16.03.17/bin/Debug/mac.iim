@@ -1,0 +1,1 @@
+VERSION BUILD=1005 RECORDER=CR URL GOTO = https://stackoverflow.com/teams TAB OPEN TAB T = 2 URL GOTO = chrome://newtab/ URL GOTO = https://translate.google.co.il/ TAG POS = 1 TYPE = DIV ATTR = ID:ft - icon - img - svd

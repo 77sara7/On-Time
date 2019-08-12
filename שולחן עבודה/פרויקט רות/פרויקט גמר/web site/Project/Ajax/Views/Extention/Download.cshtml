@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Download";
+}
+
+
+<a id="ancDownloadFiles" href="@Html.AttributeEncode(Url.Action("DownloadFiles", "Extention"))">
+    <input type="button" value="Download ↓" style="background-color:#56AED4; width:150px;height:50px;font-size:20px;color:white" />
+</a>

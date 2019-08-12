@@ -1,0 +1,29 @@
+USE [ON_TIME_DB]
+GO
+
+/****** Object:  Table [dbo].[files]    Script Date: 29/04/2019 15:17:55 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ARITHABORT ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[files] AS FILETABLE ON [PRIMARY] FILESTREAM_ON [ourFiles]
+WITH
+(
+FILETABLE_DIRECTORY = N'files', FILETABLE_COLLATE_FILENAME = Hebrew_CI_AS
+)
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[Users] 
+   ADD CONSTRAINT myUniqueUser UNIQUE([password],mail)

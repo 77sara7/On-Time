@@ -1,0 +1,598 @@
+A:link
+{
+    BORDER-RIGHT: none;
+    BORDER-TOP: none;
+    BORDER-LEFT: none;
+    COLOR: #01478a;
+    BORDER-BOTTOM: none;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    BORDER-RIGHT: none;
+    BORDER-TOP: none;
+    BORDER-LEFT: none;
+    COLOR: #01478a;
+    BORDER-BOTTOM: none;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    BORDER-RIGHT: none;
+    BORDER-TOP: none;
+    BORDER-LEFT: none;
+    COLOR: #01478a;
+    BORDER-BOTTOM: none;
+    TEXT-DECORATION: none
+}
+#tdBorder
+{
+	border:solid 1px #eae9e4
+}
+.tdBorder
+{
+	border:solid 1px #eae9e4
+}
+
+#tdBgBorder
+{
+	border:solid 1px #eae9e4
+}
+#tdBottomBorder
+{
+	border:solid 1px #eae9e4
+}
+.sky_bg
+{
+    BACKGROUND-COLOR: #e6f0f7
+}
+
+.brown_bg
+{
+    BACKGROUND-COLOR: #eae9e4
+}
+
+.regularText
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: normal;
+	COLOR: #000000
+}
+
+.boldText
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+	COLOR: #000000
+}
+
+.blueTitle
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 18px;
+	FONT-WEIGHT: bold;
+	COLOR: #01478a
+}
+
+.blueText
+{
+	FONT-FAMILY: arial;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: normal;
+	COLOR: #01478a
+}
+
+.tableTitleText
+{
+	font-family: arial;
+	font-size: 12px;
+	color: #01478a;
+	font-weight:bold
+}
+
+.field
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-WEIGHT: normal;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px;
+	FONT-WEIGHT: normal;
+	COLOR: #000000
+}
+
+.firsttableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+.firsttableline_small
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+.secondtableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f5f5f5;
+}
+
+.thirdtableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #eeeeee;
+}
+
+.thirdtableline_small
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #eeeeee;
+}
+
+.bluetableline
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bbd4e4;
+}
+
+.bluetableline_small
+{
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    color:#01478A;
+    BACKGROUND-COLOR: #bbd4e4;
+}
+
+.CalcTotal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+    BORDER-LEFT-COLOR: #0099ff;
+    BORDER-BOTTOM-COLOR: #0099ff;
+    COLOR: #ffffff;
+    BORDER-TOP-COLOR: #0099ff;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #004b8c;
+    BORDER-RIGHT-COLOR: #0099ff
+}
+.errorMsg
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: red;
+    FONT-FAMILY: arial
+}
+.formText
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Arial
+}
+.formObj
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: white;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #004080;
+}
+.calclabel2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #003399;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7;
+}
+.calcheadline3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+	vertical-align : text-top;
+}
+.calclabel3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7;
+}
+.buttomline2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #004080;
+}
+.tableFooterLine
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: black;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #e6f0f7
+}
+.calcheadline2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    COLOR: #01478a;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #eae9e4;
+}
+.tableheadline1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #c6c5c5
+}
+.darkTableline3
+{
+   FONT-SIZE: 10pt;
+   COLOR: #000000;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   BACKGROUND-COLOR: #FFFBF0;
+}
+.calclabel
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #003399;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffdb
+}
+.calcbackground2
+{
+   FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7;
+}
+.buttomline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #C8AA00;
+}
+.calcheadline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #C8AA00;
+}
+
+.bodybg
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #ffffff;
+}
+
+.MenuText
+{
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+	COLOR: Black;
+}
+.popframe
+{
+	 BACKGROUND-COLOR: #e8cf73
+}
+.white
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #ffffff
+}
+.popheadline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #0230a0;
+	BORDER-BOTTOM: 3px solid #C8AA00;
+}
+.popbackground
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7
+}
+.poplabel
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7
+}
+.tableheadline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #01478a;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bbd4e4
+}
+.darkTableline
+{
+     FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f5f5f5
+}
+.darkTableline2
+{
+   FONT-SIZE: 12px;
+   COLOR: #000000;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   BACKGROUND-COLOR: #f5f5f5
+}
+.lightTableline
+{
+   FONT-SIZE: 12px;
+   COLOR: #000000;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   BACKGROUND-COLOR: #ffffff
+}
+.popfooter
+{
+     FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0f7
+}
+.popfooter2
+{
+     FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #c6c5c5
+}
+.popframe2
+{
+	background-color:#e8cf73;
+}
+.whitecell
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #ffffff
+}
+.compbackgroundzira
+{
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #e6f0f7;
+}
+.BorderTD
+{
+	border:solid 1px #ffffff;
+}
+.sizeTextForm
+{
+	font-size:10pt;
+}
+
+/*  sheari mischar - new style*/
+.mBody
+{
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-SIZE: 12px;
+}
+.grayTableline
+{
+   COLOR: #4F4F4F;
+   BACKGROUND-COLOR: #F6F6F6;
+   height:29px;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-SIZE: 12px;
+}
+.whiteTableline
+{
+   COLOR: #4F4F4F;
+   BACKGROUND-COLOR: #ffffff;
+   height:29px;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-SIZE: 12px;
+}
+.grayTablelineSh
+{
+   BACKGROUND-COLOR: #f2f4f4;
+}
+.whiteTablelineSh
+{
+   
+}
+.grayTablelineH
+{
+   COLOR: #1058ad;
+   font-weight:bold;
+   font-style:normal;
+   BACKGROUND-COLOR: #eff1f3;
+   height:29px;
+   border-left:1px solid #D5DADF;
+   border-right:1px solid #D5DADF;
+	width:150px;
+}
+.whiteTablelineH
+{
+   COLOR: #1058ad;
+   BACKGROUND-COLOR: #f4f8fb;
+   font-weight:bold;
+   height:29px;
+   border-left:1px solid #D5DADF;
+   border-right:1px solid #D5DADF;
+	width:150px;
+}
+.CurNameLink img
+{
+	
+   border:0px solid #000000
+}
+.CurNameLink
+{
+   font-weight:bold;
+   text-decoration:none;
+   color:#1058ad;
+
+}
+.CurNameLink:hover
+{
+   font-weight:bold;
+   text-decoration:none;
+}
+.CurNameLink:visited
+{
+   font-weight:bold;
+   text-decoration:none;
+}
+.tdBorderRight
+{
+   border-right:1px solid #D3DCE2;
+   text-align:center;
+}
+.tdBorderLeft
+{
+   border-left:1px solid #D3DCE2;
+   text-align:center;
+}
+.bottomShadow
+{
+	background-image:url(../images/shadow2.gif);
+	background-repeat:repeat-x;
+}
+.topShadow
+{
+	background-image:url(../images/shadow1.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	height:4px;
+	line-height:4px;
+	border-bottom:1px solid #c4c9ce;
+}
+.header3borderRight
+{
+	border-right:1px solid #D9D9D9;
+	font-size:11px;
+}
+.header3borderLeft
+{
+	border-left:1px solid #D9D9D9;
+}
+.header3
+{
+	border-bottom:1px solid #D9D9D9;
+	color:#273945;
+	height:22px;
+	line-height:22px;
+	background-color:#E5EEF4;
+	font-weight:bold;
+}
+.header22
+{
+	border-bottom:1px solid #D9D9D9;
+	color:#273945;
+	height:24px;
+	line-height:24px;
+	background-color:#EDF3F6;
+   FONT-SIZE: 12px;
+   font-weight:normal;
+}
+.header2
+{
+	border-top:1px solid #D9D9D9;
+	background-color:#F9F9F9;
+	color:#4B5359;
+	height:36px;
+   FONT-SIZE: 12px;
+   font-weight:normal;
+   vertical-align:bottom;
+   padding-bottom:3px;
+	text-align:center;
+}
+.heaWidth
+{
+}
+.header1
+{
+	border:1px solid #D9D9D9;
+	background-color:White;
+	font-size:16;
+	font-weight:bold;
+	color:#1058ad;
+	width:150px;
+	background-image:url(../images/Title_BG.jpg)
+}
+.header1LTR
+{background-image:url(../images/Title_BG_LTR.jpg)}
+.arrow
+{
+	width:20px;
+	height:17px;
+}
+.minusRate
+{
+	color:#8E1313;
+	width:8%;
+}
+.plusRate
+{
+	color:#0B7300;
+	width:8%;
+}
+.alignright
+{
+	text-align:right;
+}
+.alignleft
+{
+	text-align:left;
+}
+.imageCon
+{
+	vertical-align:middle;
+	width:4%;
+}
+.pageTitle
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#646464;
+		height:32px;
+	}
+.mainTbl
+{width:100%;}
+.outBorder
+{ border-left:1px solid #D5DADF;}	
+.outBorderRight
+{ border-right:1px solid #D5DADF;}
+
+.flag{vertical-align:middle;width:24px;height:24px}
